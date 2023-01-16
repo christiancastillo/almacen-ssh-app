@@ -9,7 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import mx.com.mundodafne.ssh.almacen.app.ui.databinding.FragmentSecondBinding;
+import mx.com.mundodafne.ssh.almacen.app.R;
+import mx.com.mundodafne.ssh.almacen.app.databinding.FragmentSecondBinding;
+
+//import mx.com.mundodafne.ssh.almacen.app.ui.databinding.FragmentSecondBinding;
 
 public class SecondFragment extends Fragment {
 

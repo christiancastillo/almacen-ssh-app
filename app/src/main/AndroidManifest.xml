@@ -14,11 +14,17 @@
         android:theme="@style/Theme.Almacensshapp"
         tools:targetApi="31">
         <activity
+            android:name=".ui.TerceraActivity"
+            android:exported="false"
+            android:label="@string/title_activity_tercera"
+            android:theme="@style/Theme.Almacensshapp.NoActionBar" />
+        <activity
             android:name=".ui.BuscarMedicamentoActivity"
             android:exported="false" />
         <activity
             android:name=".ui.BusquedaMedicamentoActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Almacensshapp.NoActionBar"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -13,7 +13,8 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import mx.com.mundodafne.ssh.almacen.app.ui.databinding.ActivityTerceraBinding;
+import mx.com.mundodafne.ssh.almacen.app.databinding.ActivityTerceraBinding;
+//import mx.com.mundodafne.ssh.almacen.app.ui.databinding.ActivityTerceraBinding;
 
 import mx.com.mundodafne.ssh.almacen.app.R;
 
