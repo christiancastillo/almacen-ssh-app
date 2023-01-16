@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/christian/AndroidStudioProjects/almacensshapp/app/src/main/res/layout/activity_busqueda_medicamento.xml" value="0.15897435897435896" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/almacensshapp/app/src/main/res/layout/activity_buscar_medicamento.xml" value="0.1" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/almacensshapp/app/src/main/res/layout/activity_busqueda_medicamento.xml" value="0.33" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/almacensshapp/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -1,11 +1,25 @@
-package mx.com.mundodafne.ssh.almacen.app.pojo;
-/**
- * Clase para parsear Json
- * */
-public class Medicamento {
+package mx.com.mundodafne.ssh.almacen.app.dto;
+
+import java.util.List;
+
+public class BuscarMedicamentoDTO {
     private String descripcionMedicamento;
     private String claveMedicamento;
     private String unidadDeMedida;
+    private List<String> mensajes;
+
+    public BuscarMedicamentoDTO() {
+    }
+
+    public List<String> getMensajes() {
+        return mensajes;
+    }
+
+    public void setMensajes(String mensaje) {
+        if (mensaje != null && !mensaje.equals("")) {
+            this.mensajes.add(mensaje);
+        }
+    }
 
     public String getDescripcionMedicamento() {
         return descripcionMedicamento;
