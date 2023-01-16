@@ -15,10 +15,10 @@ import mx.com.mundodafne.ssh.almacen.app.dto.BuscarMedicamentoDTO;
 
 public class BusquedaMedicamentoActivity extends AppCompatActivity {
 
-    private Button buttonBusquedaMedicamento = null;
+    private Button buttonBusquedaMedicamento;
     private BusquedaMedicamentoBusinessImpl busquedaMedicamentoBusiness = new BusquedaMedicamentoBusinessImpl();
     private BuscarMedicamentoDTO buscarMedicamentoDTO = null;
-    private Button cambiarActivity = null;
+    private Button cambiarActivity;
 
     protected void switchActivity(){
         Intent cambiaActivity = new Intent(this, BuscarMedicamentoActivity.class);
@@ -29,7 +29,6 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
         try {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_busqueda_medicamento);
-            BusquedaMedicamentoActivity.this.startActivity(new Intent(BusquedaMedicamentoActivity.this, BuscarMedicamentoActivity.class));
 
             buttonBusquedaMedicamento = (Button) findViewById(R.id.buscar_medicamento_button);
             cambiarActivity = (Button) findViewById(R.id.cambiar_activity_button);
@@ -44,7 +43,9 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
             });
 
             cambiarActivity.setOnClickListener((View v) -> {
-                BusquedaMedicamentoActivity.this.startActivity(new Intent(BusquedaMedicamentoActivity.this, TerceraActivity.class));
+                Intent tercerActivity = new Intent(this, TerceraActivity.class);
+                startActivity(tercerActivity);
+                //BusquedaMedicamentoActivity.this.startActivity(new Intent(BusquedaMedicamentoActivity.this, TerceraActivity.class));
             });
 
             //buscarMedicamentoDTO.setClaveMedicamento("valor recuperado de otra activity");
