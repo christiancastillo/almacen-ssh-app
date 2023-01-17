@@ -92,17 +92,18 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textinput_destino"
-        android:layout_width="225dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:hint="Destino"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textinput_cantidad"
         >
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textinput_et_destino"
-            android:layout_width="225dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ffffff"
             android:textSize="12sp" />
@@ -121,7 +122,7 @@
         app:layout_constraintEnd_toEndOf="parent">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textinput_et_recibe"
-            android:layout_width="225dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ffffff"
             android:textSize="12sp" />
@@ -139,7 +140,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textinput_recibe">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textinput_et_entrega"
-            android:layout_width="225dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ffffff"
             android:textSize="12sp" />
