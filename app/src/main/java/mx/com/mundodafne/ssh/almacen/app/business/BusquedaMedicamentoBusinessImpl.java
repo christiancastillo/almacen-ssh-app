@@ -9,7 +9,13 @@ import mx.com.mundodafne.ssh.almacen.app.exceptions.BusinessException;
 import mx.com.mundodafne.ssh.almacen.app.ui.BuscarMedicamentoActivity;
 import mx.com.mundodafne.ssh.almacen.app.ui.BusquedaMedicamentoActivity;
 
-public class BusquedaMedicamentoBusinessImpl implements BusquedaMedicamentoBusiness{
+public class BusquedaMedicamentoBusinessImpl implements BusquedaMedicamentoBusiness {
+
+    @Override
+    public void setupGUI() {
+//        EditText editText
+    }
+
     @Override
     public void cargaBusquedaMedicamentoActivity(BusquedaMedicamentoActivity activity) {
         try {
@@ -18,5 +24,10 @@ public class BusquedaMedicamentoBusinessImpl implements BusquedaMedicamentoBusin
             Log.e("Error_BI", "Error en metodo BusquedaMedicamentoBusinessImpl.cargaBusquedaMedicamentoActivity: ", e);
             //throw new BusinessException("Error en metodo BusquedaMedicamentoBusinessImpl.cargaBusquedaMedicamentoActivity: ", e);
         }
+    }
+
+    @Override
+    public void iniciaActividad(Object llama, Class clazz) {
+    //TODO: Buscar forma para realizar llamados de activities desde business
     }
 }

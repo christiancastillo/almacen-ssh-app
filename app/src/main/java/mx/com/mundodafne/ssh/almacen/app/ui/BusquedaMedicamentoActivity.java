@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.DigitsKeyListener;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+
+import com.google.android.material.textfield.TextInputEditText;
 
 import mx.com.mundodafne.ssh.almacen.app.R;
 import mx.com.mundodafne.ssh.almacen.app.business.BusquedaMedicamentoBusinessImpl;
@@ -18,41 +20,32 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
     private Button buttonBusquedaMedicamento;
     private BusquedaMedicamentoBusinessImpl busquedaMedicamentoBusiness = new BusquedaMedicamentoBusinessImpl();
     private BuscarMedicamentoDTO buscarMedicamentoDTO = null;
-    private Button cambiarActivity;
+    private TextInputEditText cantidadEditText;
 
     protected void switchActivity(){
         Intent cambiaActivity = new Intent(this, BuscarMedicamentoActivity.class);
         super.startActivity(cambiaActivity);
     }
+
+    protected void setupGUI(){
+        cantidadEditText = (TextInputEditText) findViewById(R.id.textinput_et_cantidad);
+        DigitsKeyListener dkll = DigitsKeyListener.getInstance("0123456789");
+        cantidadEditText.setKeyListener(dkll);//"0123456789,")
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        try {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_busqueda_medicamento);
 
             buttonBusquedaMedicamento = (Button) findViewById(R.id.buscar_medicamento_button);
-            cambiarActivity = (Button) findViewById(R.id.cambiar_activity_button);
+            setupGUI();
             buttonBusquedaMedicamento.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     Log.e("DEBUG_BUTTON","CLIC AL BOTON");
-                    //BusquedaMedicamentoActivity.this.startActivity(new Intent(BusquedaMedicamentoActivity.this, BuscarMedicamentoActivity.class));
-                    startActivity(new Intent(BusquedaMedicamentoActivity.this,BuscarMedicamentoActivity.class));
-                    //switchActivity();
+                    BusquedaMedicamentoActivity.this.startActivity(new Intent(BusquedaMedicamentoActivity.this, BuscarMedicamentoActivity.class));
                 }
             });
-
-            cambiarActivity.setOnClickListener((View v) -> {
-                Intent tercerActivity = new Intent(this, TerceraActivity.class);
-                startActivity(tercerActivity);
-                //BusquedaMedicamentoActivity.this.startActivity(new Intent(BusquedaMedicamentoActivity.this, TerceraActivity.class));
-            });
-
-            //buscarMedicamentoDTO.setClaveMedicamento("valor recuperado de otra activity");
-            //buscarMedicamentoDTO.getClaveMedicamento();
-        } catch (Exception e) {
-            Log.e("ERROR_TRY","Error en metodo onCreate: ",e);
-            Toast.makeText(getApplicationContext(),"ERROR GENERAL...",Toast.LENGTH_SHORT).show();
-        }
     }
 }
