@@ -1,0 +1,3287 @@
+[
+ {
+  "clave": "010.000.0101.00",
+  "descripcion": "Ácido acetilsalicílico. Tableta. Cada tableta contiene: Ácido acetilsalicílico 500 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.0103.00",
+  "descripcion": "Ácido acetilsalicílico. Tableta soluble. Cada tableta soluble contiene: Ácido acetilsalicílico 300 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas solubles o efervescentes."
+ },
+ {
+  "clave": "010.000.0104.00",
+  "descripcion": "Paracetamol. Tableta. Cada tableta contiene: Paracetamol 500 mg.",
+  "unidadDeMedida": "Envase con 10 tabletas."
+ },
+ {
+  "clave": "010.000.0105.00",
+  "descripcion": "Paracetamol. Supositorio. Cada supositorio contiene: Paracetamol 300 mg.",
+  "unidadDeMedida": "Envase con 3 supositorios."
+ },
+ {
+  "clave": "010.000.0106.00",
+  "descripcion": "Paracetamol. Solución oral. Cada ml contiene: Paracetamol 100 mg.",
+  "unidadDeMedida": "Envase con 15 ml, gotero calibrado a 0.5 y 1 ml, integrado o adjunto al envase que sirve de tapa."
+ },
+ {
+  "clave": "010.000.0108.00",
+  "descripcion": "Metamizol sódico. Comprimido. Cada Comprimido contiene: Metamizol sódico 500 mg.",
+  "unidadDeMedida": "Envase con 10 comprimidos."
+ },
+ {
+  "clave": "010.000.0109.00",
+  "descripcion": "Metamizol sódico. Solución inyectable. Cada ampolleta contiene: Metamizol sódico 1 g.",
+  "unidadDeMedida": "Envase con 3 ampolletas con 2 ml."
+ },
+ {
+  "clave": "010.000.0204.00",
+  "descripcion": "Atropina. Solución inyectable. Cada ampolleta contiene: Sulfato de atropina 1 mg.",
+  "unidadDeMedida": "Ampolleta "
+ },
+ {
+  "clave": "010.000.0260.02",
+  "descripcion": "Lidocaína gel. Cada ml contiene: Clorhidrato de lidocaína 20 mg.",
+  "unidadDeMedida": "Envase con 30 ml."
+ },
+ {
+  "clave": "010.000.0261.00",
+  "descripcion": "Lidocaína. Solución inyectable al 1%. Cada frasco ámpula contiene: Clorhidrato de lidocaína 500 mg.",
+  "unidadDeMedida": "Frasco ámpula de 50 ml."
+ },
+ {
+  "clave": "010.000.0262.00",
+  "descripcion": "Lidocaína. Solución inyectable al 2%. Cada frasco ámpula contiene: Clorhidrato de lidocaína 1 g.",
+  "unidadDeMedida": "Frasco ámpula de 50 ml."
+ },
+ {
+  "clave": "010.000.0264.00",
+  "descripcion": "Lidocaína. Solución al 10%. Cada 100 ml contiene: Lidocaína 10.0 g.",
+  "unidadDeMedida": "Envase con 115 ml con atomizador manual."
+ },
+ {
+  "clave": "010.000.0265.00",
+  "descripcion": "Lidocaína. Epinefrina. Solución inyectable al 2%. Cada frasco ámpula contiene: Clorhidrato de lidocaína 1 g, Epinefrina (1:200000) 0.25 mg. Debe decir en Prsenta: Frascos ámpula con 50 ml.",
+  "unidadDeMedida": "Frasco ámpula con 50 ml."
+ },
+ {
+  "clave": "010.000.0267.00",
+  "descripcion": "Lidocaína. Epinefrina. Solución inyectable al 2 %. Cada cartucho dental contiene: Clorhidrato de lidocaína 36 mg Epinefrina (1:100000) 0.018 mg.",
+  "unidadDeMedida": "Envase con 50 cartuchos dentales con 1.8 ml."
+ },
+ {
+  "clave": "010.000.0402.00",
+  "descripcion": "Clorfenamina. Tableta. Cada tableta contiene: Maleato de clorfenamina 4.0 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.0405.00",
+  "descripcion": "Difenhidramina. Jarabe. Cada 100 mililitros contienen: Clorhidrato de difenhidramina 250 mg.",
+  "unidadDeMedida": "Envase con 60 ml."
+ },
+ {
+  "clave": "010.000.0406.00",
+  "descripcion": "Difenhidramina. Solución inyectable. Cada frasco ámpula contiene: Clorhidrato de difenhidramina 100 mg.",
+  "unidadDeMedida": "Envase con frasco ámpula de 10 ml."
+ },
+ {
+  "clave": "010.000.0408.00",
+  "descripcion": "Clorfenamina. Jarabe. Cada mililitro contiene: Maleato de clorfenamina 0.5 mg.",
+  "unidadDeMedida": "Envase con 60 ml."
+ },
+ {
+  "clave": "010.000.0426.00",
+  "descripcion": "Aminofilina. Solución inyectable. Cada ampolleta contiene: Aminofilina 250 mg.",
+  "unidadDeMedida": "Envase con 5 ampolletas de 10 ml."
+ },
+ {
+  "clave": "010.000.0429.00",
+  "descripcion": "Salbutamol. Suspensión en aerosol. Cada inhalador contiene: Salbutamol 20 mg o Sulfato de salbutamol equivalente a 20 mg de salbutamol.",
+  "unidadDeMedida": "Envase con inhalador con 200 dosis de 100 µg."
+ },
+ {
+  "clave": "010.000.0431.00",
+  "descripcion": "Salbutamol. Jarabe. Cada 5 ml contienen: Sulfato de salbutamol equivalente a 2 mg de salbutamol.",
+  "unidadDeMedida": "Envase con 60 ml."
+ },
+ {
+  "clave": "010.000.0437.00",
+  "descripcion": "Teofilina. Tableta de liberación prolongada. Cada tableta contiene: Teofilina anhidra 100 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas de liberación prolongada."
+ },
+ {
+  "clave": "010.000.0439.00",
+  "descripcion": "Salbutamol. Solución para nebulizador. Cada 100 ml contienen: Sulfato de salbutamol 0.5 g.",
+  "unidadDeMedida": "Envase con 10 ml."
+ },
+ {
+  "clave": "010.000.0443.00",
+  "descripcion": "Salmeterol, fluticasona. Suspensión en aerosol. Cada dosis contiene: Xinafoato de salmeterol equivalente a 25 µg de salmeterol. Propionato de fluticasona 50 µg.",
+  "unidadDeMedida": "Envase con dispositivo inhalador para 120 dosis."
+ },
+ {
+  "clave": "010.000.0464.00",
+  "descripcion": "Cromoglicato de sodio. Suspensión aerosol. Cada inhalador contienen: Cromoglicato disódico 560 mg",
+  "unidadDeMedida": "Envase con espaciador para 112 dosis de 5 mg."
+ },
+ {
+  "clave": "010.000.0472.00",
+  "descripcion": "Prednisona. Tableta. Cada tableta contiene: Prednisona 5 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.0473.00",
+  "descripcion": "Prednisona. Tableta Cada Tableta contiene: Prednisona 50 mg ",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.0474.00",
+  "descripcion": "Hidrocortisona. Solución inyectable. Cada frasco ámpula contiene: Succinato sódico de hidrocortisona equivalente a 100 mg de hidrocortisona.",
+  "unidadDeMedida": "Ampolleta"
+ },
+ {
+  "clave": "010.000.0477.00",
+  "descripcion": "Beclometasona Dipropionato de. Suspensión en aerosol. Cada inhalación contiene: Dipropionato de Beclometasona 50 µg",
+  "unidadDeMedida": "Envase con inhalador con 200 dosis de 50 µg."
+ },
+ {
+  "clave": "010.000.0514.00",
+  "descripcion": "Paracetamol supositorio cada supositorio contiene: paracetamol 100 mg",
+  "unidadDeMedida": "Envase con 3 supositorios"
+ },
+ {
+  "clave": "010.000.0514.01",
+  "descripcion": "Paracetamol. Supositorio. Cada supositorio contiene: Paracetamol 100 mg.",
+  "unidadDeMedida": "Envase con 6 supositorios."
+ },
+ {
+  "clave": "010.000.0514.02",
+  "descripcion": "Paracetamol supositorio cada supositorio contiene: paracetamol 100 mg",
+  "unidadDeMedida": "Envase con 10 supositorios"
+ },
+ {
+  "clave": "010.000.0522.00",
+  "descripcion": "Lidocaína. Solución Inyectable Cada ampolleta contiene: Clorhidrato de lidocaína 100 mg ",
+  "unidadDeMedida": "Envase con 1 ampolleta de 5 ml."
+ },
+ {
+  "clave": "010.000.0525.00",
+  "descripcion": "Fenitoína Tableta.Cada tableta o cápsula contiene: Fenitoína sódica 100 mg Fenitoína sódica 100 mg.",
+  "unidadDeMedida": "Envase con 50 tabletas."
+ },
+ {
+  "clave": "010.000.0530.00",
+  "descripcion": "Propranolol. Tableta. Cada tableta contiene: Clorhidrato de propranolol 40 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.0561.00",
+  "descripcion": "Clortalidona. Tableta. Cada tableta contiene:Cada tableta contiene: Clortalidona 50 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.0566.00",
+  "descripcion": "Metildopa. Tableta. Cada tableta contiene: Metildopa 250 mg.",
+  "unidadDeMedida": "Envase 30 tabletas."
+ },
+ {
+  "clave": "010.000.0570.00",
+  "descripcion": "Hidralazina Tableta. Cada tableta contiene: Clorhidrato de hidralazina 10 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas"
+ },
+ {
+  "clave": "010.000.0572.00",
+  "descripcion": "Metoprolol. Tableta 100 mg. Cada tableta contiene: Tartrato de metoprolol 100 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.0574.00",
+  "descripcion": "Captopril. Tableta. Cada tableta contiene: Captopril 25 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.0591.00",
+  "descripcion": "Trinitrato de glicerilo. Cada tableta masticable contiene: Trinitrato de glicerol 0.8 mg.",
+  "unidadDeMedida": "Envase con 24 tabletas masticables."
+ },
+ {
+  "clave": "010.000.0592.00",
+  "descripcion": "Isosorbida. Tableta sublingual. Cada tableta contiene: Dinitrato de isosorbida 5 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas sublinguales."
+ },
+ {
+  "clave": "010.000.0596.00",
+  "descripcion": "Verapamilo. Tableta. Cada tableta recubierta contiene: Clorhidrato de verapamilo 80 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas recubiertas."
+ },
+ {
+  "clave": "010.000.0597.00",
+  "descripcion": "Nifedipino. Cápsula de gelatina blanda. Cada cápsula contiene: Nifedipino 10 mg",
+  "unidadDeMedida": "Envase con 20 cápsulas."
+ },
+ {
+  "clave": "010.000.0599.00",
+  "descripcion": "Nifedipino. Comprimido de liberación prolongada. Cada comprimido contiene: Nifedipino 30 mg",
+  "unidadDeMedida": "Envase con 30 comprimidos"
+ },
+ {
+  "clave": "010.000.0611.00",
+  "descripcion": "Epinefrina. Solución inyectable.Cada ampolleta contiene: Epinefrina 1 mg (1:1 000).",
+  "unidadDeMedida": "Ampolleta "
+ },
+ {
+  "clave": "010.000.0655.00",
+  "descripcion": "Bezafibrato. Tableta. Cada tableta contiene: Bezafibrato 200 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas"
+ },
+ {
+  "clave": "010.000.0657.00",
+  "descripcion": "Pravastatina. Tableta. Cada tableta contiene: Pravastatina sódica 10 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas"
+ },
+ {
+  "clave": "010.000.0801.01",
+  "descripcion": "Baño coloide polvo. Cada gramo contiene: Harina de soya 965 mg. (contenido proteico 45%) Polividona 20 mg.",
+  "unidadDeMedida": "Envase con dos sobres individuales de 90 g."
+ },
+ {
+  "clave": "010.000.0804.00",
+  "descripcion": "Óxido de zinc. Pasta. Cada 100 g contienen: Óxido de zinc 25. 0 g.",
+  "unidadDeMedida": "Envase con 30 g."
+ },
+ {
+  "clave": "010.000.0813.00",
+  "descripcion": "Hidrocortisona. Crema. Cada g contiene: 17 Butirato de hidrocortisona 1 mg.",
+  "unidadDeMedida": "Envase con 15 g."
+ },
+ {
+  "clave": "010.000.0822.00",
+  "descripcion": "Benzoilo. Loción dérmica. Cada 100 mililitros contienen: Peróxido de benzoilo 5 g.",
+  "unidadDeMedida": "Envase con 30 ml."
+ },
+ {
+  "clave": "010.000.0822.01",
+  "descripcion": "Benzoilo. Loción Dérmica o Gel Dérmico. Cada 100 mililitros o gramos contienen: Peróxido de benzoilo 5 g",
+  "unidadDeMedida": "Envase con 50 ml"
+ },
+ {
+  "clave": "010.000.0822.02",
+  "descripcion": "Benzoilo. Loción Dérmica o Gel Dérmico. Cada 100 mililitros o gramos contienen: Peróxido de benzoilo 5 g .",
+  "unidadDeMedida": "Envase con 60 g."
+ },
+ {
+  "clave": "010.000.0831.00",
+  "descripcion": "Alantoina y Alquitran de Hulla. Suspensión Dermica. Cada ml contiene: Alantoína 20.0 mg Alquitrán de hulla 9.4 mg.",
+  "unidadDeMedida": "Envase con 120 ml."
+ },
+ {
+  "clave": "010.000.0861.00",
+  "descripcion": "Bencilo. Emulsión dérmica. Cada ml contiene: Benzoato de bencilo 300 mg.",
+  "unidadDeMedida": "Envase con 120 ml."
+ },
+ {
+  "clave": "010.000.0865.00",
+  "descripcion": "Permetrina. Solución. Cada 100 ml contienen: Permetrina 1 g.",
+  "unidadDeMedida": "Envase con 110 ml."
+ },
+ {
+  "clave": "010.000.0871.00",
+  "descripcion": "Alibour. Polvo. Cada gramo contiene: Sulfato de Cobre 177.0 mg Sulfato de Zinc 619.5 mg, Alcanfor 26.5 mg .",
+  "unidadDeMedida": "Envase con 12 sobres con 2.2 g."
+ },
+ {
+  "clave": "010.000.0872.00",
+  "descripcion": "Clioquinol. Crema. Cada gramo contiene: Clioquinol 30 mg.",
+  "unidadDeMedida": "Envase con 20 g."
+ },
+ {
+  "clave": "010.000.0891.00",
+  "descripcion": "Miconazol. Crema. Cada gramo contiene: Nitrato de Miconazol 20 mg.",
+  "unidadDeMedida": "Envase con 20 g."
+ },
+ {
+  "clave": "010.000.0901.00",
+  "descripcion": "Podofilina. Solución dérmica. Cada ml contiene: Resina de podofilina 250 mg.",
+  "unidadDeMedida": "Envase con 5 ml."
+ },
+ {
+  "clave": "010.000.1007.00",
+  "descripcion": "Levotiroxina. Tableta. Cada tableta contiene: Levotiroxina sódica equivalente a 100 ?g de levotiroxina sódica anhidra.",
+  "unidadDeMedida": "Envase con 100 tabletas."
+ },
+ {
+  "clave": "010.000.1022.00",
+  "descripcion": "Tiamazol. Tableta Cada tableta contiene: Tiamazol 5 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.1042.00",
+  "descripcion": "Glibenclamida. Tableta. Cada tableta contiene: Glibenclamida 5 mg.",
+  "unidadDeMedida": "Envase con 50 tabletas."
+ },
+ {
+  "clave": "010.000.1050.00",
+  "descripcion": "Insulina humana. Suspensión Inyectable Acción Intermedia NPH Cada ml contiene: Insulina humana isófana (origen ADN recombinante) 100 UI ó Insulina zinc isófana humana (origen ADN recombinante) 100 UI ",
+  "unidadDeMedida": "Envase con un frasco ámpula con 5 ml."
+ },
+ {
+  "clave": "010.000.1050.01",
+  "descripcion": "Insulina humana acción intermedia NPH. Suspensión inyectable. Cada ml contiene: Insulina humana isófana (origen ADN recombinante) 100 UI.",
+  "unidadDeMedida": "Envase con un frasco ámpula con 10 ml."
+ },
+ {
+  "clave": "010.000.1051.00",
+  "descripcion": "Insulina humana. Solución Inyectable Acción Rápida Regular Cada ml contiene: Insulina humana (origen ADN recombinante) 100 UI ó Insulina zinc isófana humana (origen ADN recombinante) 100 UI ",
+  "unidadDeMedida": "Envase con un frasco ámpula con 5 ml."
+ },
+ {
+  "clave": "010.000.1051.01",
+  "descripcion": "Insulina humana acción rápida regular. Solución inyectable. Cada ml contiene: Insulina humana (origen ADN recombinante) 100 UI.",
+  "unidadDeMedida": "Envase con un frasco ámpula con 10 ml."
+ },
+ {
+  "clave": "010.000.1098.00",
+  "descripcion": "Vitaminas A C y D. Solución. Cada ml contiene: Palmitato de Retinol 7000 a 9000 UI, Ácido ascórbico 80 a 125 mg, Colecalciferol 1400 a 1800 UI.",
+  "unidadDeMedida": "Envase con 15 ml."
+ },
+ {
+  "clave": "010.000.1206.00",
+  "descripcion": "Butilhioscina. Gragea. Cada gragea contiene: Bromuro de butilhioscina 10 mg.",
+  "unidadDeMedida": "Envase con 10 grageas."
+ },
+ {
+  "clave": "010.000.1207.00",
+  "descripcion": "Butilhioscina. Solución inyectable. Cada ampolleta contiene: Bromuro de butilhioscina 20 mg.",
+  "unidadDeMedida": "Envase con 3 ampolletas de 1 ml."
+ },
+ {
+  "clave": "010.000.1223.00",
+  "descripcion": "Aluminio y Magnesio. Tableta masticable. Cada tableta masticable contiene: Hidróxido de aluminio 200 mg Hidróxido de magnesio 200 mg o trisilicato de magnesio: 447.3 mg.",
+  "unidadDeMedida": "Envase con 50 tabletas masticables."
+ },
+ {
+  "clave": "010.000.1224.00",
+  "descripcion": "Aluminio y Magnesio. Suspensión oral. Cada 100 ml contienen: Hidróxido de aluminio 3.7 g Hidróxido de magnesio 4.0 g o trisilicato de magnesio: 8.9 g.",
+  "unidadDeMedida": "Envase con 240 ml."
+ },
+ {
+  "clave": "010.000.1233.00",
+  "descripcion": "Ranitidina. Tableta. Cada tableta contiene: Clorhidrato de ranitidina equivalente a 150 mg de ranitidina.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.1234.00",
+  "descripcion": "Ranitidina. Solución inyectable. Cada ampolleta contiene: Clorhidrato de ranitidina equivalente a 50 mg de ranitidina.",
+  "unidadDeMedida": "Envase con 5 ampolletas de 2 ml."
+ },
+ {
+  "clave": "010.000.1241.00",
+  "descripcion": "Metoclopramida. Solución inyectable. Cada ampolleta contiene: Clorhidrato de metoclopramida 10 mg.",
+  "unidadDeMedida": "Envase con 6 ampolletas de 2 ml."
+ },
+ {
+  "clave": "010.000.1242.00",
+  "descripcion": "Metoclopramida. Tableta. Cada tableta contiene: Clorhidrato de metoclopramida 10 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.1243.00",
+  "descripcion": "Metoclopramida. Solución. Cada ml contiene: Clorhidrato de metoclopramida 4 mg.",
+  "unidadDeMedida": "Envase frasco gotero con 20 ml."
+ },
+ {
+  "clave": "010.000.1263.00",
+  "descripcion": "Bismuto. Suspensión oral. Cada 100 ml contienen: Subsalicilato de bismuto 1.750 g.",
+  "unidadDeMedida": "Envase con 240 ml."
+ },
+ {
+  "clave": "010.000.1270.00",
+  "descripcion": "Senósidos A-B. Solución oral. Cada 100 ml contienen: Concentrado de Sen desecados 4 g equivalente a 200 mg de senósidos A y B.",
+  "unidadDeMedida": "Envase con 75 ml."
+ },
+ {
+  "clave": "010.000.1271.00",
+  "descripcion": "Plántago psyllium. Polvo. Cada 100 g contienen: Polvo de cáscara de semilla de plántago psyllium 49.7 g.",
+  "unidadDeMedida": "Envase con 400 g."
+ },
+ {
+  "clave": "010.000.1272.00",
+  "descripcion": "Senósidos A-B. Tableta. Cada tableta contiene: Concentrados de Sen desecados 187 mg (normalizado a 8.6 mg de senósidos A-B).",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.1308.00",
+  "descripcion": "Metronidazol. Tableta Cada Tableta contiene: Metronidazol 500 mg ",
+  "unidadDeMedida": "Envase con 20 Tabletas."
+ },
+ {
+  "clave": "010.000.1308.01",
+  "descripcion": "Metronidazol. Tableta. Cada tableta contiene: Metronidazol 500 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.1310.00",
+  "descripcion": "Metronidazol. Suspensión oral. Cada 5 ml contienen: Benzoilo de metronidazol equivalente a 250 mg de metronidazol.",
+  "unidadDeMedida": "Envase con 120 ml."
+ },
+ {
+  "clave": "010.000.1344.00",
+  "descripcion": "Albendazol. Tableta.Cada tableta contiene: Albendazol 200 mg.",
+  "unidadDeMedida": "Envase con 2 tabletas."
+ },
+ {
+  "clave": "010.000.1345.00",
+  "descripcion": "Albendazol. Suspensión oral. Cada frasco contiene: Albendazol 400 mg.",
+  "unidadDeMedida": "Envase con 20 ml."
+ },
+ {
+  "clave": "010.000.1363.00",
+  "descripcion": "Lidocaína- Hidrocortisona. Ungüento. Cada 100 gramos contiene: Lidocaína 5 g Acetato de Hidrocortisona 0.25 g, Subacetato de Aluminio 3.50 g, Óxido de Zinc 18 g.",
+  "unidadDeMedida": "Envase con 20 g y aplicador"
+ },
+ {
+  "clave": "010.000.1364.00",
+  "descripcion": "Lidocaína-Hidrocortisona. Supositorio. Cada supositorio contiene: Lidocaína 60 mg Acetato de Hidrocortisona 5 mg, Óxido de Zinc 400 mg, Subacetato de Aluminio 50 mg.",
+  "unidadDeMedida": "Envase con 6 supositorios"
+ },
+ {
+  "clave": "010.000.1489.00",
+  "descripcion": "Estrógenos conjugados. Gragea o Tableta Cada Gragea o Tableta contiene: Estrógenos conjugados de origen Vegetal 0.625 mg",
+  "unidadDeMedida": "Envase con 42 grageas "
+ },
+ {
+  "clave": "010.000.1506.00",
+  "descripcion": "Estrógenos conjugados. Crema Vaginal Cada 100 g contiene: Estrógenos conjugados de origen equino 62.5 mg ",
+  "unidadDeMedida": "Envase con 43 g y aplicador."
+ },
+ {
+  "clave": "010.000.1542.00",
+  "descripcion": "Oxitocina. Solución inyectable. 5 UI\/ ml. ",
+  "unidadDeMedida": "Ampolleta "
+ },
+ {
+  "clave": "010.000.1561.00",
+  "descripcion": "Metronidazol. Óvulo. Cada óvulo contiene: Metronidazol 500 mg.",
+  "unidadDeMedida": "Envase con 10 óvulos."
+ },
+ {
+  "clave": "010.000.1562.00",
+  "descripcion": "Nitrofural. Óvulo. Cada óvulo contiene: Nitrofural 6 mg.",
+  "unidadDeMedida": "Envase con 6 óvulos."
+ },
+ {
+  "clave": "010.000.1566.00",
+  "descripcion": "Nistatina. Óvulo. Cada óvulo contiene: Nistatina 100 000 UI.",
+  "unidadDeMedida": "Envase con 12 óvulos."
+ },
+ {
+  "clave": "010.000.1700.00",
+  "descripcion": "Ácido fólico. Tableta. Cada tableta contiene: Acido fólico 4 mg ",
+  "unidadDeMedida": "Envase con 90 tabletas."
+ },
+ {
+  "clave": "010.000.1701.00",
+  "descripcion": "Fumarato ferroso. Tableta. Cada tableta contiene: Fumarato ferroso 200 mg equivalente a 65.74 mg de hierro elemental.",
+  "unidadDeMedida": "Envase con 50 tabletas."
+ },
+ {
+  "clave": "010.000.1702.00",
+  "descripcion": "Fumarato ferroso. Suspensión oral. Cada ml contiene: Fumarato ferroso 29 mg equivalente a 9.53 mg de hierro elemental.",
+  "unidadDeMedida": "Envase con 120 ml."
+ },
+ {
+  "clave": "010.000.1703.00",
+  "descripcion": "Sulfato ferroso. Tableta.Cada tableta contiene: Sulfato ferroso desecado aproximadamente 200 mg equivalente a 60.27 mg de hierro elemental.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.1704.00",
+  "descripcion": "Sulfato ferroso. Solución. Cada ml contiene: Sulfato ferroso heptahidratado 125 mg equivalente a 25 mg de hierro elemental.",
+  "unidadDeMedida": "Envase gotero con 15 ml."
+ },
+ {
+  "clave": "010.000.1706.00",
+  "descripcion": "Ácido fólico. Cada tableta contiene: Ácido fólico 5 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.1706.01",
+  "descripcion": "Ácido fólico. Tableta. Cada tableta contiene: Ácido fólico 5 mg",
+  "unidadDeMedida": "Envase con 92 tabletas."
+ },
+ {
+  "clave": "010.000.1708.00",
+  "descripcion": "Hidroxocobalamina. Solución inyectable. Cada ampolleta contiene: Hidroxocobalamina 100 µg\/2ml.",
+  "unidadDeMedida": "Envase con 3 ampolletas de 2 ml."
+ },
+ {
+  "clave": "010.000.1711.00",
+  "descripcion": "Ácido Fólico. Cada tableta contiene: Ácido fólico 0.4 mg.",
+  "unidadDeMedida": "Envase con 90 tabletas."
+ },
+ {
+  "clave": "010.000.1732.01",
+  "descripcion": "Fitomenadiona. Solución o Emulsión inyectable 2 mg.",
+  "unidadDeMedida": "Envase con 5 ampolletas de 0.2 ml"
+ },
+ {
+  "clave": "010.000.1903.00",
+  "descripcion": "Trimetoprima - Sulfametoxazol. Tableta. Cada tableta contiene: Trimetoprima 80 mg Sulfametoxazol 400 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.1904.00",
+  "descripcion": "Trimetoprima - Sulfametoxazol. Suspensión oral. Cada 5 ml contienen: Trimetoprima 40 mg Sulfametoxazol 200 mg.",
+  "unidadDeMedida": "Envase con 120 ml."
+ },
+ {
+  "clave": "010.000.1911.00",
+  "descripcion": "Nitrofurantoína. Cápsula. Cada cápsula contiene: Nitrofurantoína 100 mg.",
+  "unidadDeMedida": "Envase con 40 cápsulas."
+ },
+ {
+  "clave": "010.000.1923.00",
+  "descripcion": "Bencilpenicilina procaínica con bencilpenicilina cristalina. Suspensión inyectable. Cada frasco ámpula con polvo contiene: Bencilpenicilina procaínica equivalente a 300 000 UI de bencilpenicilina Bencilpenicilina cristalina equivalente a 100 000 UI de bencilpenicilina.",
+  "unidadDeMedida": "Envase con un frasco ámpula y 2 ml de diluyente."
+ },
+ {
+  "clave": "010.000.1924.00",
+  "descripcion": "Bencilpenicilina procaínica con bencilpenicilina cristalina. Suspensión inyectable. Cada frasco ámpula con polvo contiene: Bencilpenicilina procaínica equivalente a 600 000 UI de bencilpenicilina Bencilpenicilina cristalina equivalente a 200 000 UI de bencilpenicilina",
+  "unidadDeMedida": "Envase con un frasco ámpula y 2 ml de diluyente."
+ },
+ {
+  "clave": "010.000.1925.00",
+  "descripcion": "Benzatina bencilpenicilina. Suspensión inyectable.Cada frasco ámpula con polvo contiene: Benzatina bencilpenicilina equivalente a 1 200 000 UI de bencilpenicilina.",
+  "unidadDeMedida": "Envase con un frasco ámpula y 5 ml de diluyente."
+ },
+ {
+  "clave": "010.000.1926.00",
+  "descripcion": "Dicloxacilina. Cápsula. Cada cápsula contiene: Dicloxacilina sódica 500 mg.",
+  "unidadDeMedida": "Envase con 20 cápsulas."
+ },
+ {
+  "clave": "010.000.1927.00",
+  "descripcion": "Dicloxacilina. Suspensión oral. Cada 5 ml contienen: Dicloxacilina sódica 250 mg.",
+  "unidadDeMedida": "Envase con polvo para 60 ml."
+ },
+ {
+  "clave": "010.000.1929.00",
+  "descripcion": "Ampicilina. Cápsula. Cada cápsula contiene: Ampicilina anhidra o ampicilina trihidratada equivalente a 500 mg de ampicilina.",
+  "unidadDeMedida": "Envase con 20 cápsulas."
+ },
+ {
+  "clave": "010.000.1930.00",
+  "descripcion": "Ampicilina. Suspensión oral. Cada 5 ml contienen: Ampicilina trihidratada equivalente a 250 mg de ampicilina.",
+  "unidadDeMedida": "Envase con polvo para 60 ml."
+ },
+ {
+  "clave": "010.000.1933.00",
+  "descripcion": "Bencilpenicilina sódica cristalina. Solución Inyectable. Cada frasco ámpula con polvo contiene: Bencilpenicilina sódica cristalina equivalente a 5 000 000 UI de bencilpenicilina. ",
+  "unidadDeMedida": "Envase con un frasco ámpula."
+ },
+ {
+  "clave": "010.000.1935.00",
+  "descripcion": "Cefotaxima Solución Inyectable. Cada frasco ámpula con polvo contiene: Cefotaxima sódica equivalente a 1 g de cefotaxima.",
+  "unidadDeMedida": "Envase con un frasco ámpula y 4 ml de diluyente"
+ },
+ {
+  "clave": "010.000.1938.00",
+  "descripcion": "Bencilpenicilina benzatínica compuesta. Suspensión inyectable. Cada frasco ámpula con polvo contiene: Benzatina bencilpenicilina equivalente a 600 000 UI de bencilpenicilina Bencilpenicilina procaínica equivalente a 300 000 UI de bencilpenicilina Bencilpenicilina cristalina equivalente a 300 000 UI de bencilpenicilina.",
+  "unidadDeMedida": "Envase con un frasco ámpula y diluyente con 3 ml."
+ },
+ {
+  "clave": "010.000.1939.00",
+  "descripcion": "Cefalexina. Cápsula. Cada cápsula contiene: Cefalexina monohidratada equivalente a 500 mg de cefalexina.",
+  "unidadDeMedida": "Envase con 20 cápsulas."
+ },
+ {
+  "clave": "010.000.1940.00",
+  "descripcion": "Doxiciclina. Cápsula. Cada cápsula contiene: Hiclato de doxiciclina equivalente a 100 mg de doxicilina.",
+  "unidadDeMedida": "Envase con 10 cápsulas."
+ },
+ {
+  "clave": "010.000.1954.00",
+  "descripcion": "Gentamicina. Solución inyectable. Cada ampolleta contiene: Sulfato de gentamicina equivalente a 80 mg de gentamicina.",
+  "unidadDeMedida": "Envase con ampolleta con 2 ml."
+ },
+ {
+  "clave": "010.000.1956.00",
+  "descripcion": "Amikacina. Solución inyectable. Cada ampolleta contiene: Sulfato de amikacina equivalente a 500 mg de amikacina.",
+  "unidadDeMedida": "Envase con 1 ampolleta con 2 ml."
+ },
+ {
+  "clave": "010.000.1957.00",
+  "descripcion": "Amikacina. Solución inyectable. Cada ampolleta contiene: Sulfato de amikacina equivalente a 100 mg de amikacina.",
+  "unidadDeMedida": "Envase con 1 ampolleta con 2 ml."
+ },
+ {
+  "clave": "010.000.1969.01",
+  "descripcion": "Azitromicina. Tableta. Cada tableta contiene: Azitromicina dihidratada equivalente a 500 mg de azitromicina.",
+  "unidadDeMedida": "Envase con 4 tabletas."
+ },
+ {
+  "clave": "010.000.1971.00",
+  "descripcion": "Eritromicina. Cápsula. Cada cápsula contiene: Estearato de eritromicina equivalente a 500 mg de eritromicina.",
+  "unidadDeMedida": "Envase con 20 cápsulas."
+ },
+ {
+  "clave": "010.000.1972.00",
+  "descripcion": "Eritromicina. Suspensión oral. Cada 5 ml contienen: Etilsuccinato de eritromicina equivalente a 250 mg de eritromicina.",
+  "unidadDeMedida": "Envase con polvo para 100 ml."
+ },
+ {
+  "clave": "010.000.1973.00",
+  "descripcion": "Clindamicina. Solución inyectable. Cada ampolleta contiene: Fosfato de clindamicina equivalente a 300 mg de clindamicina.",
+  "unidadDeMedida": "Envase ampolleta con 2 ml."
+ },
+ {
+  "clave": "010.000.1976.00",
+  "descripcion": "Clindamicina. Solución inyectable. Cada ampolleta contiene: Fosfato de clindamicina equivalente a 900 mg de clindamicina.",
+  "unidadDeMedida": "Envase con 50 ml."
+ },
+ {
+  "clave": "010.000.2016.00",
+  "descripcion": "Ketoconazol. Tableta. Cada tableta contiene: Ketoconazol 200 mg.",
+  "unidadDeMedida": "Envase con 10 tabletas."
+ },
+ {
+  "clave": "010.000.2018.00",
+  "descripcion": "Itraconazol. Cápsula. Cada cápsula contiene: Itraconazol 100 mg.",
+  "unidadDeMedida": "Envase con 15 cápsulas."
+ },
+ {
+  "clave": "010.000.2024.00",
+  "descripcion": "Isoconazol. Crema. Cada 100 gramos contiene: Nitrato de Isoconazol 1 g.",
+  "unidadDeMedida": "Envase con 20 g."
+ },
+ {
+  "clave": "010.000.2111.01",
+  "descripcion": "Amlodipino tabletas. Cada tableta contiene: Besilato o Maleato de amlodipino equivalente a 5 mg de amlodipino.",
+  "unidadDeMedida": "Envase con 30 tabletas o cápsulas."
+ },
+ {
+  "clave": "010.000.2119.00",
+  "descripcion": "Betametasona. Ungüento Cada 100 gramos contiene: Dipropionato de betametasona 64 mg equivalente a 50 mg de betametasona.",
+  "unidadDeMedida": "Envase con 30 g."
+ },
+ {
+  "clave": "010.000.2127.00",
+  "descripcion": "Amoxicilina. Suspensión oral. Cada frasco con polvo contiene: Amoxicilina trihidratada equivalente a 7.5 g de amoxicilina",
+  "unidadDeMedida": "Envase con polvo para 75 ml (500 mg\/5 ml)."
+ },
+ {
+  "clave": "010.000.2128.00",
+  "descripcion": "Amoxicilina. Cápsula. Cada cápsula contiene: Amoxicilina trihidratada equivalente a 500 mg de amoxicilina.",
+  "unidadDeMedida": "Envase con 12 cápsulas."
+ },
+ {
+  "clave": "010.000.2129.00",
+  "descripcion": "Amoxicilina-Ácido clavulánico. Suspensión oral. Cada frasco con polvo contiene: Amoxicilina trihidratada equivalente a 1.5 g de amoxicilina. Clavulanato de potasio equivalente a 375 mg de ácido clavulánico.",
+  "unidadDeMedida": "Envase con 60 ml, cada 5 ml con 125 mg de amoxicilina y 31.25 mg ácido clavulánico."
+ },
+ {
+  "clave": "010.000.2130.00",
+  "descripcion": "Amoxicilina - Ácido clavulánico. Solución inyectable. Cada frasco ámpula con polvo contiene: Amoxicilina sódica equivalente a 500 mg de amoxicilina. Clavulanato de potasio equivalente a 100 mg de ácido clavulánico.",
+  "unidadDeMedida": "Envase con un frasco ámpula con 10 ml de diluyente"
+ },
+ {
+  "clave": "010.000.2132.00",
+  "descripcion": "Claritromicina. Tableta. Cada tableta contiene: Claritromicina 250 mg.",
+  "unidadDeMedida": "Envase con 10 tabletas."
+ },
+ {
+  "clave": "010.000.2133.00",
+  "descripcion": "Clindamicina. Cápsula. Cada cápsula contiene: Clorhidrato de clindamicina equivalente a 300 mg de clindamicina.",
+  "unidadDeMedida": "Envase con 16 cápsulas."
+ },
+ {
+  "clave": "010.000.2136.00",
+  "descripcion": "Mebendazol. Tableta. Cada tableta contiene: Mebendazol 100 mg.",
+  "unidadDeMedida": "Envase con 6 tabletas."
+ },
+ {
+  "clave": "010.000.2142.00",
+  "descripcion": "Clorfenamina. Solución inyectable. Cada ampolleta contiene: Maleato de clorfenamina 10 mg.",
+  "unidadDeMedida": "Envase con 5 ampolletas con 1 ml"
+ },
+ {
+  "clave": "010.000.2144.00",
+  "descripcion": "Loratadina. Tableta. Cada tableta contiene: Loratadina 10 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.2145.00",
+  "descripcion": "Loratadina. Jarabe. Cada 100 ml contienen: Loratadina 100 mg.",
+  "unidadDeMedida": "Envase con 60 ml."
+ },
+ {
+  "clave": "010.000.2146.00",
+  "descripcion": "Butilhioscina-metamizol. Solución Inyectable Cada ampolleta contiene: N butilbromuro de hioscina 20 mg Metamizol 2.5 g ",
+  "unidadDeMedida": "Envase con 5 ampolletas de 5 ml."
+ },
+ {
+  "clave": "010.000.2151.00",
+  "descripcion": "Ranitidina. Jarabe. Cada 10 ml contiene: Clorhidrato de ranitidina 150 mg.",
+  "unidadDeMedida": "Envase con 200 ml."
+ },
+ {
+  "clave": "010.000.2162.00",
+  "descripcion": "Ipratropio. Suspensión en aerosol. Cada gr. contiene: Bromuro de ipratropio 0.286 mg (20 ug por nebulización).",
+  "unidadDeMedida": "Envase con 15 ml (21.0 g) como aerosol."
+ },
+ {
+  "clave": "010.000.2162.01",
+  "descripcion": "Ipratropio. Suspensión en aerosol. Cada g contiene: Bromuro de ipratropio 0.374 mg (20 µg por nebulización)",
+  "unidadDeMedida": "Envase con 10 ml (11.22 g) como aerosol."
+ },
+ {
+  "clave": "010.000.2175.00",
+  "descripcion": "Cloramfenicol-Sulfacetamida Sódica Suspensión Oftálmica. Cada 100 ml contiene: Cloramfenicol levógiro 0.5 g. Sulfacetamida sódica 10 g.",
+  "unidadDeMedida": "Envase con gotero integral con 5 ml."
+ },
+ {
+  "clave": "010.000.2185.00",
+  "descripcion": "Prednisolona. Ungüento oftálmico. Cada gr. contiene: Acetato de prednisolona equivalente a 5 mg de prednisolona.",
+  "unidadDeMedida": "Envase con 3 gr."
+ },
+ {
+  "clave": "010.000.2186.00",
+  "descripcion": "Prednisolona - sulfacetamida. Solución oftálmica. Cada ml contiene: Acetato de prednisolona 5 mg Sulfacetamida sódica 100 mg.",
+  "unidadDeMedida": "Envase con gotero integrado con 5 ml."
+ },
+ {
+  "clave": "010.000.2187.00",
+  "descripcion": "Ipratropio. Solución. Cada 100 ml contienen: Bromuro de ipratropio monohidratado equivalente a 25 mg de bromuro de ipratropio.",
+  "unidadDeMedida": "Envase con frasco ámpula con 20 ml."
+ },
+ {
+  "clave": "010.000.2189.00",
+  "descripcion": "Tobramicina. Solución Oftálmica Cada ml contiene: Sulfato de tobramicina equivalente a 3.0 mg de tobramicina ó tobramicina 3.0 mg ",
+  "unidadDeMedida": "Envase con gotero integral con 5 ml"
+ },
+ {
+  "clave": "010.000.2190.01",
+  "descripcion": "Ipratropio-salbutamol. Solución Para Inhalación Cada disparo proporciona: Bromuro de ipratropio monohidratado equivalente a20 µg de bromuro de ipratropio Sulfato de salbutamol equivalente a100 µg de salbutamol ",
+  "unidadDeMedida": "Envase con 120 disparos (120 dosis)"
+ },
+ {
+  "clave": "010.000.2196.00",
+  "descripcion": "Dimenhidrinato. Solución inyectable. Cada ml contiene: Dimenhidrinato 50 mg.",
+  "unidadDeMedida": "Envase con una ampolleta con 1 ml"
+ },
+ {
+  "clave": "010.000.2208.00",
+  "descripcion": "Levonorgestrel. Polvo. El dispositivo con polvo contiene: Levonorgestrel (micronizado) 52 mg.",
+  "unidadDeMedida": "Envase con un dispositivo"
+ },
+ {
+  "clave": "010.000.2210.00",
+  "descripcion": "Levonorgestrel. Tableta. Cada tableta contiene: Levonorgestrel 0.750 mg.",
+  "unidadDeMedida": "Envase con 2 tabletas"
+ },
+ {
+  "clave": "010.000.2230.00",
+  "descripcion": "Amoxicilina-Ácido clavulánico. Tableta. Cada tableta contiene: Amoxicilina trihidratada equivalente a 500 mg de amoxilina. Clavulanato de potasio equivalente a 125 mg de ácido clavulánico.",
+  "unidadDeMedida": "Envase con 12 tabletas."
+ },
+ {
+  "clave": "010.000.2242.00",
+  "descripcion": "Carbón activado. Polvo. Cada envase contiene: Carbón activado 1 kg ",
+  "unidadDeMedida": "Envase con un kg. (para uso en seres humanos)."
+ },
+ {
+  "clave": "010.000.2301.00",
+  "descripcion": "Hidroclorotiazida. Tableta. Cada tableta contiene: Hidroclorotiazida 25 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.2304.00",
+  "descripcion": "Espironolactona. Tableta. Cada tableta contiene: Espironolactona 25 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.2307.00",
+  "descripcion": "Furosemida. Tableta. Cada tableta contiene: Furosemida 40 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.2308.00",
+  "descripcion": "Furosemida. Solución inyectable. Cada ampolleta contiene: Furosemida 20 mg.",
+  "unidadDeMedida": "Envase con 5 ampolletas de 2 ml."
+ },
+ {
+  "clave": "010.000.2409.01",
+  "descripcion": "Rifampicina. Cápsula, Comprimido o Tableta recubierta. Cada Cápsula, Comprimido o Tableta ReCubierta contiene: Rifampicina 300 mg \"",
+  "unidadDeMedida": "Envase con 120 cápsulas, comprimidos o tabletas recubiertas."
+ },
+ {
+  "clave": "010.000.2462.00",
+  "descripcion": "Ambroxol. Comprimido. Cada comprimido contiene: Clorhidrato de ambroxol 30 mg.",
+  "unidadDeMedida": "Envase con 20 comprimidos."
+ },
+ {
+  "clave": "010.000.2463.00",
+  "descripcion": "Ambroxol. Solución. Cada 100 ml contienen: Clorhidrato de ambroxol 300 mg.",
+  "unidadDeMedida": "Envase con 120 ml."
+ },
+ {
+  "clave": "010.000.2471.00",
+  "descripcion": "Clorfenamina compuesta. Tableta.Cada tableta contiene: Paracetamol 500 mg Cafeína 25 mg, Clorhidrato de fenilefrina 5 mg, Maleato de clorfenamina 4 mg.",
+  "unidadDeMedida": "Envase con 10 tabletas."
+ },
+ {
+  "clave": "010.000.2501.00",
+  "descripcion": "Enalapril. Cada tableta contiene: Maleato de enalapril 10 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas "
+ },
+ {
+  "clave": "010.000.2503.00",
+  "descripcion": "Alopurinol. Tableta. Cada tableta contiene: Alopurinol 100 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.2504.00",
+  "descripcion": "Ketoprofeno. Cápsula. Cada cápsula contiene: Ketoprofeno 100 mg.",
+  "unidadDeMedida": "Envase con 15 cápsulas."
+ },
+ {
+  "clave": "010.000.2508.00",
+  "descripcion": "Dipropionato de Beclometasona Suspensión en aerosol Cada inhalación contiene: Dipropionato de Beclometasona 250 µg.",
+  "unidadDeMedida": "Envase con dispositivo inhalador para 200 dosis"
+ },
+ {
+  "clave": "010.000.2510.00",
+  "descripcion": "Bencilpenicilina procaínica. Suspensión Inyectable Cada frasco ámpula con polvo contiene: Bencilpenicilina procaínica equivalente a 2 400 000 UI de bencilpenicilina. .",
+  "unidadDeMedida": "Envase con un frasco ámpula con diluyente."
+ },
+ {
+  "clave": "010.000.2520.00",
+  "descripcion": "Losartan. Gragea recubierto 50 mg. Cada gragea contiene: Losartán potásico 50 mg.",
+  "unidadDeMedida": "Envase con 30 grageas "
+ },
+ {
+  "clave": "010.000.2521.00",
+  "descripcion": "Losartán e Hidroclorotiazida comprimido recubierto. Cada comprimido recubierto contiene: Losartán potásico 50.0 mg, Hidroclorotiazida 12.5 mg",
+  "unidadDeMedida": "Envase con 30 comprimidos recubiertos."
+ },
+ {
+  "clave": "010.000.2540.00",
+  "descripcion": "Telmisartán. Tableta. Cada tableta contiene: Telmisartán 40 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.2542.00",
+  "descripcion": "Telmisartán, hidroclorotiazida. Tableta o cápsula. Cada Tableta o cápsula contiene: Telmisartán 80.0 mg Hidroclorotiazida 12.5 mg",
+  "unidadDeMedida": "Envase con 14 tabletas o cápsulas."
+ },
+ {
+  "clave": "010.000.2610.00",
+  "descripcion": "Fenitoína. Tableta Cada Tableta contiene: Fenitoína sódica 30 mg ",
+  "unidadDeMedida": "Envase con 50 tabletas."
+ },
+ {
+  "clave": "010.000.2611.00",
+  "descripcion": "Fenitoína. Suspensión oral. Cada 5 ml contienen: Fenitoína 37.5 mg.",
+  "unidadDeMedida": "Envase con 120 ml. y dosificador de 5 ml."
+ },
+ {
+  "clave": "010.000.2620.00",
+  "descripcion": "Ácido valproico. Cápsula. Cada cápsula contiene: Ácido valproico 250 mg.",
+  "unidadDeMedida": "Envase con 60 cápsulas"
+ },
+ {
+  "clave": "010.000.2623.00",
+  "descripcion": "Valproato de magnesio. Solución. Cada ml contiene: Valproato de magnesio equivalente a 186 mg de ácido valproico.",
+  "unidadDeMedida": "Envase con 40 ml."
+ },
+ {
+  "clave": "010.000.2624.00",
+  "descripcion": "Fenitoína. Solución inyectable. Cada ampolleta contiene: Fenitoína sódica 250 mg.",
+  "unidadDeMedida": "Envase con una ampolleta (250 mg\/5 ml)."
+ },
+ {
+  "clave": "010.000.2630.00",
+  "descripcion": "Valproato semisódico. Tableta de liberación prolongada. Cada tableta de liberación prolongada contiene: Valproato semisódico equivalente 500 mg de ácido valproico.",
+  "unidadDeMedida": "Envase con 30 tabletas de liberación prolongada."
+ },
+ {
+  "clave": "010.000.2707.00",
+  "descripcion": "Ácido ascórbico. Tableta.Cada tableta contiene: Ácido ascórbico 100 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.2714.00",
+  "descripcion": "Complejo B. Tableta. Cada tableta contiene: Mononitrato o clorhidrato de Tiamina 100 mg Clorhidrato de piridoxina 5 mg, Cianocobalamina 50 µg.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.2739.00",
+  "descripcion": "Dieta Polimerica A Base De Caseinato De Calcio O Proteinas, Grasas, Vitaminas, Minerales. Polvo Cada 100 gramos contiene: Densidad energética Unidad Kcal\/ml Mínimo 0.99 Máximo 1.06 Calorías Unidad Kcal Mínimo 412.5 Máximo 441.7 Hidratos de carbono Unidad g Mínimo 58.50 Máximo 68.00 Proteína: Unidad g Mínimo 15.80 Máximo 17.50 Histidina Unidad g Mínimo 0.40 Máximo 0.5600 Isoleucina Unidad g Mínimo 0.7035 Máximo 1.0135 Leucina Unidad g Mínimo 1.4050 Máximo 1.7670 Lisina Unidad g Mínimo 1.1080 Máximo 1.4525 Metionina Unidad g Mínimo 0.3925 Máximo 0.5256 Fenilalanina Unidad g Mínimo 0.7810 Máximo 0.9450 Treonina Unidad g Mínimo 0.6466 Máximo 0.8050 Triptofano Unidad g Mínimo 0.1833 Máximo 0.2450 Valina Unidad g Mínimo 0.8553 Máximo 1.2950 Argi",
+  "unidadDeMedida": "Envase con 400 - 454 gramos con o sin sabor."
+ },
+ {
+  "clave": "010.000.2804.00",
+  "descripcion": "Nafazolina. Solución oftálmica. Cada ml contiene: Clorhidrato de Nafazolina 1 mg.",
+  "unidadDeMedida": "Envase con gotero integral con 15 ml."
+ },
+ {
+  "clave": "010.000.2821.00",
+  "descripcion": "Cloranfenicol. Solución oftálmica. Cada ml contiene: Cloranfenicol levógiro 5 mg. Su conservacion no requiere refrigeración.",
+  "unidadDeMedida": "Envase con gotero integral con 15 ml."
+ },
+ {
+  "clave": "010.000.2822.00",
+  "descripcion": "Cloranfenicol. Ungüento oftálmico. Cada g contiene: Cloranfenicol levógiro 5 mg.",
+  "unidadDeMedida": "Envase con 5 g."
+ },
+ {
+  "clave": "010.000.2823.00",
+  "descripcion": "Neomicina Polimixina B y Gramicidina. Solución oftálmica. Cada ml contiene: Sulfato de Neomicina equivalente a 1.75 mg de Neomicina. Sulfato de Polimixina B equivalente a 5 000 U de Polimixina B. Gramicidina 25 µg.",
+  "unidadDeMedida": "Envase con gotero integral con 15 ml."
+ },
+ {
+  "clave": "010.000.2829.00",
+  "descripcion": "Sulfacetamida. Solución oftálmica. Cada ml contiene: Sulfacetamida sódica 0.1 g.",
+  "unidadDeMedida": "Envase con gotero integral con 15 ml."
+ },
+ {
+  "clave": "010.000.2830.00",
+  "descripcion": "Aciclovir ungüento oftálmico. Cada 100 gramos contienen Aciclovir 3 g. ",
+  "unidadDeMedida": " Envase con 4.5 g."
+ },
+ {
+  "clave": "010.000.2841.00",
+  "descripcion": "Prednisolona. Solución Oftálmica. Cada ml contiene fosfato disódico de prednisolona equivalente a 5 mg de fosfato de prednisolona.",
+  "unidadDeMedida": "Envase con gotero integral de 5 ml."
+ },
+ {
+  "clave": "010.000.2899.00",
+  "descripcion": "Cloruro de sodio. Pomada o Solución Oftálmica Cada gramo o ml contiene: Cloruro de sodio 50 mg ",
+  "unidadDeMedida": "Envase con 7 g o con gotero integral con 10 ml."
+ },
+ {
+  "clave": "010.000.3045.00",
+  "descripcion": "Medroxiprogesterona. Suspensión Inyectable Cada frasco ámpula o jeringa prellenada contiene: Acetato de Medroxiprogesterona 150 mg ",
+  "unidadDeMedida": "Envase con una frasco ámpula o jeringa prellenada de 1 ml."
+ },
+ {
+  "clave": "010.000.3111.00",
+  "descripcion": "Difenidol. Tableta. Cada tableta contiene: Clorhidrato de difenidol equivalente a 25 mg de difenidol.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.3112.00",
+  "descripcion": "Difenidol. Solución inyectable. Cada ampolleta contiene: Clorhidrato de difenidol equivalente a 40 mg de difenidol.",
+  "unidadDeMedida": "Envase con 2 ampolletas de 2 ml."
+ },
+ {
+  "clave": "010.000.3307.00",
+  "descripcion": "Atomoxetina. Capsula. Cada cápsula contiene: Clorhidrato de atomoxetina equivalente a 10 mg de atomoxetina.",
+  "unidadDeMedida": "Envase con 14 cápsulas."
+ },
+ {
+  "clave": "010.000.3308.00",
+  "descripcion": "Atomoxetina. Capsula. Cada cápsula contiene: Clorhidrato de atomoxetina equivalente a 40 mg de atomoxetina.",
+  "unidadDeMedida": "Envase con 14 cápsulas."
+ },
+ {
+  "clave": "010.000.3309.00",
+  "descripcion": "Atomoxetina. Capsula. Cada cápsula contiene: Clorhidrato de atomoxetina equivalente a 60 mg de atomoxetina.",
+  "unidadDeMedida": "Envase con 14 cápsulas."
+ },
+ {
+  "clave": "010.000.3407.00",
+  "descripcion": "Naproxeno. Tableta. Cada tableta contiene: Naproxeno 250 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.3409.00",
+  "descripcion": "Colchicina. Tableta. Cada tableta contiene: Colchicina 1 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.3412.00",
+  "descripcion": "Indometacina. Supositorio. Cada supositorio contiene: Indometacina 100 mg.",
+  "unidadDeMedida": "Envase con 6 supositorios."
+ },
+ {
+  "clave": "010.000.3413.00",
+  "descripcion": "Indometacina. Cápsula. Cada cápsula contiene: Indometacina 25 mg.",
+  "unidadDeMedida": "Envase con 30 cápsulas."
+ },
+ {
+  "clave": "010.000.3417.00",
+  "descripcion": "Diclofenaco sodico. Gragea de liberación prolongada. Cada gragea contiene: Diclofenaco sódico 100 mg.",
+  "unidadDeMedida": "Envase con 20 grageas."
+ },
+ {
+  "clave": "010.000.3419.00",
+  "descripcion": "Naproxeno. Suspensión oral. Cada 5 ml contienen: Naproxeno 125 mg.",
+  "unidadDeMedida": "Envase con 100 ml."
+ },
+ {
+  "clave": "010.000.3422.00",
+  "descripcion": "Ketorolaco. Solución inyectable. Cada ampolleta contiene: Ketorolaco-trometamina 30 mg.",
+  "unidadDeMedida": "Envase con 3 frascos ámpula o 3 ampolletas de 1 ml."
+ },
+ {
+  "clave": "010.000.3423.00",
+  "descripcion": "Meloxicam tabletas. Cada tableta contiene: Meloxicam 15 mg",
+  "unidadDeMedida": "Envase con 10 tabletas."
+ },
+ {
+  "clave": "010.000.3432.00",
+  "descripcion": "Dexametasona. Tableta. Cada tableta contiene Dexametasona 0.5 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.3433.00",
+  "descripcion": "Metilprednisolona. Suspensión inyectable. Cada ml contiene: Acetato de Metilprednisolona 40 mg.",
+  "unidadDeMedida": "Un frasco ámpula con 2 ml."
+ },
+ {
+  "clave": "010.000.3444.00",
+  "descripcion": "Metocarbamol. Tableta.  Cada tableta contiene: Metocarbamol 400 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.3451.00",
+  "descripcion": "Alopurinol. Tableta. Cada tableta contiene: Alopurinol 300 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "010.000.3503.00",
+  "descripcion": "Noretisterona Solución inyectable oleosa cada ampolleta contiene : enantato de norestisterona 200 mg\/ ml.",
+  "unidadDeMedida": "Envase con jeringa prellenada de 1 ml"
+ },
+ {
+  "clave": "010.000.3504.00",
+  "descripcion": "Levonorgestrel y etinilestradiol. Gragea. Cada gragea contiene: Levonorgestrel 0.15 mg Etinilestradiol 0.03 mg",
+  "unidadDeMedida": "Envase con 21 grageas"
+ },
+ {
+  "clave": "010.000.3505.00",
+  "descripcion": "Desogestrel y etinilestradiol. Tableta. Cada tableta contiene: desogestrel 0.15 mg Etinilestradiol 0.03 mg",
+  "unidadDeMedida": "Envase con 21 tabletas"
+ },
+ {
+  "clave": "010.000.3506.00",
+  "descripcion": "Noretisterona y etinilestradiol. Gragea. Cada gragea contiene: Norestisterona 0.400 mg Etinilestradiol 0.035 mg.",
+  "unidadDeMedida": "Envase con 28 grageas (21 con hormonales y 7 sin hormonales)."
+ },
+ {
+  "clave": "010.000.3507.00",
+  "descripcion": "Levonorgestrel y Etinilestradiol. Gragea Cada gragea contiene: Levonorgestrel 0.15 mg Etinilestradiol 0.03 mg.",
+  "unidadDeMedida": "Envase con 28 grageas (21 con hormonales y 7 sin hormonales)."
+ },
+ {
+  "clave": "010.000.3508.00",
+  "descripcion": "Desogestrel y etinilestradiol . Desogestrel 0.15 mg Etinilestradiol 0.03 mg .",
+  "unidadDeMedida": "Envase con 28 tabletas (21 con hormonales y 7 sin hormonales)"
+ },
+ {
+  "clave": "010.000.3509.00",
+  "descripcion": "Medroxiprogesterona y Cipionato de estradiol. Suspensión Inyectable. Cada ampolleta o jeringa contiene: Acetato de Medroxiprogesterona 25 mg Cipionato de estradiol 5 mg.",
+  "unidadDeMedida": "Envase con una ampolleta con 0.5 ml"
+ },
+ {
+  "clave": "010.000.3510.00",
+  "descripcion": "Etonogestrel. Implante. El implante contiene: etonogestrel 68.0 mg.",
+  "unidadDeMedida": "Envase con un implante y aplicador"
+ },
+ {
+  "clave": "010.000.3511.00",
+  "descripcion": "Norelgestromina etinilestradiol. Parche. Cada parche contiene: Norelgestromina 6.00 mg Etinilestradiol 0.60 mg.",
+  "unidadDeMedida": "Envase con 3 parches"
+ },
+ {
+  "clave": "010.000.3515.00",
+  "descripcion": "Noretisterona y estradiol. Solución Inyectable. Cada ampolleta contiene: Enantato de noretisterona 50 mg Valerato de estradiol 5 mg.",
+  "unidadDeMedida": "Envase con una ampolleta con 1 ml."
+ },
+ {
+  "clave": "010.000.3601.00",
+  "descripcion": "Glucosa. Solución inyectable al 5%. Cada 100 ml contienen: Glucosa anhidra o glucosa 5 g ó Glucosa monohidratada equivalente a 5.0 g de glucosa. ",
+  "unidadDeMedida": "Envase con 250 ml."
+ },
+ {
+  "clave": "010.000.3603.00",
+  "descripcion": "Glucosa. Solución inyectable al 5%. Cada 100 ml contienen: Glucosa anhidra o glucosa 5 g ó glucosa monohidratada equivalente a 5.0 g de glucosa.",
+  "unidadDeMedida": "Envase con 1 000 ml."
+ },
+ {
+  "clave": "010.000.3604.00",
+  "descripcion": "Glucosa. Solución inyectable al 10%. Cada 100 ml contienen: Glucosa anhidra o glucosa 10 g ó Glucosa monohidratada equivalente a 10.0 g de glucosa",
+  "unidadDeMedida": "Envase con 500 ml."
+ },
+ {
+  "clave": "010.000.3605.00",
+  "descripcion": "Glucosa. Solución inyectable al 10%. Cada 100 ml contienen: Glucosa anhidra o glucosa 10 g ó Glucosa monohidratada equivalente a 10.0 g de glucosa.",
+  "unidadDeMedida": "Envase con 1 000 ml."
+ },
+ {
+  "clave": "010.000.3607.00",
+  "descripcion": "Glucosa. Solución inyectable al 50%. Cada 100 ml contienen: Glucosa anhidra o glucosa 50 g ó Glucosa monohidratada equivalente a 50.0 g de glucosa.",
+  "unidadDeMedida": "Envase con 50 ml."
+ },
+ {
+  "clave": "010.000.3609.00",
+  "descripcion": "Cloruro de sodio. Solución inyectable al 0.9%. Cada 100 ml contienen: Cloruro de sodio 0.9 g Agua inyectable 100 ml Contiene: Sodio 77 mEq. Cloruro 77 mEq.",
+  "unidadDeMedida": "Envase con 500 ml. Contiene Sodio 77 mEq. Cloruro 77 mEq."
+ },
+ {
+  "clave": "010.000.3615.00",
+  "descripcion": "Solución Hartmann. Solución inyectable. Cada 100 ml contienen: Cloruro de sodio 0.600 g Cloruro de potasio 0.030 g Cloruro de calcio dihidratado 0.020 g Lactato de sodio 0.310 g.",
+  "unidadDeMedida": "Envase con 500 ml. Miliequivalentes por litro: Sodio 130 Potasio 4 Calcio 2.72.-3 Cloruro 109 Lactato 28"
+ },
+ {
+  "clave": "010.000.3616.00",
+  "descripcion": "Solución Hartmann. Solución inyectable. Cada 100 ml contienen: Cloruro de sodio 0.600 g Cloruro de potasio 0.030 g Cloruro de calcio dihidratado 0.020 g Lactato de sodio 0.310 g.",
+  "unidadDeMedida": "Envase con 1000 ml. Miliequivalentes por litro: Sodio 130 Potasio 4 Calcio 2.72.-3 Cloruro 109 Lactato 28"
+ },
+ {
+  "clave": "010.000.3618.00",
+  "descripcion": "Bicarbonato de sodio. Solución inyectable al 7.5%. Cada frasco ámpula contiene: Bicarbonato de sodio 3.75 g.",
+  "unidadDeMedida": "Envase con frasco ámpula de 50 ml."
+ },
+ {
+  "clave": "010.000.3619.00",
+  "descripcion": "Bicarbonato de sodio. Solución inyectable al 7.5%. Cada ampolleta contiene: Bicarbonato de sodio 0.75 g\/10 ml. Cada ampolleta con 10 ml contiene: Bicarbonato de sodio 8.9 mEq",
+  "unidadDeMedida": "Ampolleta "
+ },
+ {
+  "clave": "010.000.3620.00",
+  "descripcion": "Gluconato de calcio. Solución inyectable. Cada ampolleta contiene: Gluconato de calcio 1 g equivalente a 0.093 g de calcio ionizable.",
+  "unidadDeMedida": "Ampolleta "
+ },
+ {
+  "clave": "010.000.3622.00",
+  "descripcion": "Electrolitos orales. Polvo  (Fórmula de osmolaridad baja). Cada sobre con polvo contiene: Glucosa anhidra 13.5 g. Cloruro de potasio 1.5 g. Cloruro de sodio 2.6 g Citrato trisódico dihidratado 2.9 g.",
+  "unidadDeMedida": "Envase con 20.5 g."
+ },
+ {
+  "clave": "010.000.3629.00",
+  "descripcion": "Sulfato de Magnesio. Solución inyectable. Cada ampolleta contiene: Sulfato de magnesio 1g (Magnesio 8.1 mEq sulfato 8.1 mEq)",
+  "unidadDeMedida": "Ampolleta "
+ },
+ {
+  "clave": "010.000.3663.01",
+  "descripcion": "Almidón. Solución inyectable al 10%. Cada 100 ml contiene: Poli (o-2 hidroxietil) almidón o pentalmidón o hidroxietil almidón (200\/0.5) 10 g",
+  "unidadDeMedida": "Envase con 500 ml."
+ },
+ {
+  "clave": "010.000.3664.00",
+  "descripcion": "Poligelina. Solución inyectable. Cada 100 ml contienen: Polimerizado de gelatina succinilada degradada 4.0 g.",
+  "unidadDeMedida": "Envase con 500 ml."
+ },
+ {
+  "clave": "010.000.3675.00",
+  "descripcion": "Agua inyectable. Solución inyectable. Cada envase contiene: Agua inyectable 500 ml.",
+  "unidadDeMedida": "Envase con 500 ml."
+ },
+ {
+  "clave": "010.000.4028.00",
+  "descripcion": "Clonixinato de lisina. Solución inyectable. Cada ampolleta contiene: Clonixinato de Lisina 100 mg.",
+  "unidadDeMedida": "Envase con 5 ampolletas de 2 ml."
+ },
+ {
+  "clave": "010.000.4058.01",
+  "descripcion": "Prilocaína felipresina. Solución inyectable. Cada cartucho dental contiene: Clorhidrato de Prilocaína 54 mg Felipresina 0.054 UI.",
+  "unidadDeMedida": "Envase con 50 cartuchos de 1.8 ml."
+ },
+ {
+  "clave": "010.000.4095.00",
+  "descripcion": "Irbesartán tableta. Cada tableta contiene: Irbesartan 150 mg.",
+  "unidadDeMedida": "Envase con 28 tabletas"
+ },
+ {
+  "clave": "010.000.4096.00",
+  "descripcion": "Irbesartan. Tableta. Cada tableta contiene: Irbesartán 300 mg.",
+  "unidadDeMedida": "Envase con 28 tabletas."
+ },
+ {
+  "clave": "010.000.4124.00",
+  "descripcion": "Simvastatina. Tableta Cada Tableta contiene: Simvastatina 20 mg",
+  "unidadDeMedida": "Envase con 14 tabletas."
+ },
+ {
+  "clave": "010.000.4124.01",
+  "descripcion": "Simvastatina. Tableta. Cada tableta contiene: Simvastatina 20 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.4126.00",
+  "descripcion": "Sulfadiazina de plata. Crema. Cada 100 gramos contiene: Sulfadiazina de plata micronizada 1 g.",
+  "unidadDeMedida": "Envase con 375 g."
+ },
+ {
+  "clave": "010.000.4136.00",
+  "descripcion": "Clindamicina gel. Cada 100 gramos contienen: Fosfato de clindamicina equivalente a 1 g de clindamicina.",
+  "unidadDeMedida": "Envase con 30 g"
+ },
+ {
+  "clave": "010.000.4148.00",
+  "descripcion": "Insulina lispro. Lispro protamina. Suspensión inyectable. Cada ml. Contiene: Insulina Lispro (Origen ADN Recombinante) 25 UI Insulina lispro protamina (Origen ADN Recombinante) 75 UI.",
+  "unidadDeMedida": "Envase con dos cartuchos con 3 ml"
+ },
+ {
+  "clave": "010.000.4148.01",
+  "descripcion": "Insulina lispro, lispro protamina. Suspensión Inyectable Cada ml contiene: Insulina lispro (origen ADN recombinante) 25 UI Insulina lispro protamina (origen ADN recombinante) 75 UI. \"",
+  "unidadDeMedida": "Envase con un frasco ámpula con 10 ml."
+ },
+ {
+  "clave": "010.000.4152.00",
+  "descripcion": "Sitagliptina. Comprimido Cada Comprimido contiene: Fosfato de sitagliptina monohidratada equivalente a 100 mg de sitagliptina ",
+  "unidadDeMedida": "Envase con 14 comprimidos."
+ },
+ {
+  "clave": "010.000.4156.00",
+  "descripcion": "Insulina Asparta. Solución Inyectable. Cada ml contiene: Insulina aspártica (origen ADN recombinante) 100 U. ",
+  "unidadDeMedida": "Envase con un frasco ámpula con 10 ml."
+ },
+ {
+  "clave": "010.000.4157.00",
+  "descripcion": "Insulina humana. Suspensión Inyectable Acción Intermedia Lenta. Cada ml contiene: Insulina zinc compuesta humana (origen ADN recombinante) 100 UI",
+  "unidadDeMedida": "Envase con un frasco ámpula con 10 ml."
+ },
+ {
+  "clave": "010.000.4158.00",
+  "descripcion": "Insulina Glargina. Solución inyectable. Cada ml de solución contienen. Insulina Glargina 3.64mg equivalente a 100 UI de Insulina Humana.",
+  "unidadDeMedida": "Envase con un frasco ámpula con 10 ml."
+ },
+ {
+  "clave": "010.000.4158.01",
+  "descripcion": "Insulina glargina. Solución Inyectable Cada ml de Solución contiene: Insulina glargina 3.64 mg equivalente a 100.0 UI de insulina humana.",
+  "unidadDeMedida": "Envase con 5 cartuchos de vidrio con 3 ml en dispositivo desechable."
+ },
+ {
+  "clave": "010.000.4162.00",
+  "descripcion": "Insulina lispro. Solución Inyectable. Cada ml contiene: Insulina lispro (origen ADN recombinante) 100 UI ",
+  "unidadDeMedida": "Envase con un frasco ámpula con 10 ml."
+ },
+ {
+  "clave": "010.000.4165.00",
+  "descripcion": "Insulina Detemir. Solución Inyectable. Cada ml contiene: Insulina detemir (ADN recombinante) 100 U equivalente a 14.20 mg. ",
+  "unidadDeMedida": "Envase con 1 pluma prellenada con 3 ml (100 U\/ml)."
+ },
+ {
+  "clave": "010.000.4165.01",
+  "descripcion": "Insulina Detemir. Solución Inyectable. Cada ml contiene: Insulina detemir (ADN recombinante) 100 U equivalente a 14.20 mg. ",
+  "unidadDeMedida": "Envase con 5 plumas prellenadas con 3 ml (100 U\/ml)."
+ },
+ {
+  "clave": "010.000.4184.00",
+  "descripcion": "Loperamida. Tableta. Cada tableta contiene: Clorhidrato de loperamida 2 mg.",
+  "unidadDeMedida": "Envase con 12 tabletas."
+ },
+ {
+  "clave": "010.000.4201.00",
+  "descripcion": "Hidralazina. Solución inyectable. Cada ampolleta contiene: Clorhidrato de hidralazina 20 mg.",
+  "unidadDeMedida": "Envase con 5 ampolletas con 1.0 ml."
+ },
+ {
+  "clave": "010.000.4241.00",
+  "descripcion": "Dexametasona. Solución inyectable. Cada ampolleta contiene: Fosfato sódico de dexametasona equivalente a 8 mg de fosfato de dexametasona.",
+  "unidadDeMedida": "Envase con una ampolleta con 2 ml."
+ },
+ {
+  "clave": "010.000.4249.00",
+  "descripcion": "Levofloxacino Solución Inyectable. Cada envase contiene: Levofloxacino hemihidratado equivalente a 500 mg de levofloxacino.",
+  "unidadDeMedida": "Envase con 100 ml."
+ },
+ {
+  "clave": "010.000.4255.00",
+  "descripcion": "Ciprofloxacino. Tableta. Cada tableta contiene: Clorhidrato de ciprofloxacino monohidratado equivalente a 250 mg de ciprofloxacino.",
+  "unidadDeMedida": "Envase con 8 tabletas."
+ },
+ {
+  "clave": "010.000.4260.00",
+  "descripcion": "Nistatina. Suspensión oral. Cada frasco con polvo contiene: Nistatina 2 400 000 UI.",
+  "unidadDeMedida": "Envase para 24 ml."
+ },
+ {
+  "clave": "010.000.4263.00",
+  "descripcion": "Aciclovir. Comprimido. Cada comprimido contiene: Aciclovir 200 mg.",
+  "unidadDeMedida": "Envase con 25 comprimidos."
+ },
+ {
+  "clave": "010.000.4299.00",
+  "descripcion": "Levofloxacino. Tabletas. Cada tableta contiene: Levofloxacino hemihidratado equivalente a 500 mg de levofloxacino.",
+  "unidadDeMedida": "Envase con 7 tabletas."
+ },
+ {
+  "clave": "010.000.4300.00",
+  "descripcion": "Levofloxacino. Tableta. Cada tableta contiene: Levofloxacino hemihidratado equivalente a 750 mg de levofloxacino.",
+  "unidadDeMedida": "Envase con 7 tabletas."
+ },
+ {
+  "clave": "010.000.4302.00",
+  "descripcion": "Finasterida.Tableta Recubierta. Cada tableta recubierta contiene: Finasterida 5 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas recubiertas."
+ },
+ {
+  "clave": "010.000.4372.00",
+  "descripcion": "Valaciclovir. Comprimido Recubierto Cada Comprimido Recubierto contiene: Clorhidrato de valaciclovir equivalente a 500 mg de valaciclovir ",
+  "unidadDeMedida": "Envase con 10 comprimidos recubiertos"
+ },
+ {
+  "clave": "010.000.4372.01",
+  "descripcion": "Valaciclovir. Comprimido Recubierto Cada Comprimido Recubierto contiene: Clorhidrato de valaciclovir equivalente a 500 mg de valaciclovir ",
+  "unidadDeMedida": "Envase con 42 comprimidos recubiertos"
+ },
+ {
+  "clave": "010.000.4376.00",
+  "descripcion": "Multivitaminas (Polivitaminas) y minerales. Cápsula. Cada cápsula contiene: Clorhidrato de tiamina (vitamina B1) 5.0 a 10.0 mg Riboflavina (vitamina B2) 2.5 a 10.0 mg Clorhidrato de piridoxina (vitamina B6) 2.0 a 5.0 mg Nicotinamida (niacinamida) 10.0 a 100.0 mg Cianocobalamina (vitamina B12) 3.0 a 5.0 µg Acetato de alfatocoferol (vitamina E) 3.0 a 20.0 mg Retinol (vitamina A) 2000.0 a 10000.0 UI Colecalciferol (vitamina D3) 200.0 a 1000.0 UI Acido pantoténico 2.0 a 7.0 mg Sulfato ferroso 15.0 a 60.0 mg Sulfato de cobre 1.0 a 4.0 mg Yoduro o fosfato de potasio 0.15 a 4.0 mg Glicerofosfato sulfato o hiposulfito de magnesio 1.0 a 8.00 mg Fosfato de magnesio 5.0 a 133.0 mg Cloruro, fosfato o sulfato de zinc 3.0 a 25.0 mg",
+  "unidadDeMedida": "Envase con 30 cápsulas."
+ },
+ {
+  "clave": "010.000.4407.00",
+  "descripcion": "Tetracaína. Solución oftálmica. Cada ml contiene: Clorhidrato de Tetracaína 5.0 mg.",
+  "unidadDeMedida": "Envase con gotero integral de 10 ml."
+ },
+ {
+  "clave": "010.000.4483.01",
+  "descripcion": "Fluoxetina. Cápsula. Cada cápsula contiene: Clorhidrato de fluoxetina equivalente a 20 mg de fluoxetina.",
+  "unidadDeMedida": "Envase con 28 cápsulas."
+ },
+ {
+  "clave": "010.000.4488.00",
+  "descripcion": "Venlafaxina. Cápsula o Gragea de Liberación Prolongada Cada Cápsula o Gragea de Liberación Prolongada contiene: Clorhidrato de venlafaxina equivalente a 75 mg de venlafaxina. ",
+  "unidadDeMedida": "Envase con 10 cápsulas o grageas de liberación prolongada."
+ },
+ {
+  "clave": "010.000.4504.00",
+  "descripcion": "Sulfasalazina. Tableta con capa entérica. Cada Tableta con Capa Entérica contiene: Sulfasalazina 500 mg",
+  "unidadDeMedida": "Envase con 60 tabletas con capa entérica."
+ },
+ {
+  "clave": "010.000.4526.00",
+  "descripcion": "Levonorgestrel. Gragea. Cada gragea contiene: Levonorgestrel 0.03 mg",
+  "unidadDeMedida": "Envase con 35 grageas."
+ },
+ {
+  "clave": "010.000.4582.00",
+  "descripcion": "Oseltamivir cápsula. Cada cápsula contiene: 75.0 mg.",
+  "unidadDeMedida": "Envase con 10 cápsulas."
+ },
+ {
+  "clave": "010.000.5075.00",
+  "descripcion": "Teofilina. Elixir. Cada 100 ml contienen: Teofilina anhidra 533 mg.",
+  "unidadDeMedida": "Envase con 450 ml y dosificador."
+ },
+ {
+  "clave": "010.000.5106.00",
+  "descripcion": "Atorvastatina. Tableta. Cada tableta contiene: Atorvastatina cálcica trihidratada equivalente a 20 mg de atorvastatina.",
+  "unidadDeMedida": "Envase con 10 tabletas."
+ },
+ {
+  "clave": "010.000.5165.00",
+  "descripcion": "Metformina. Tableta. Cada tableta contiene: Clorhidrato de metformina 850 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.5176.00",
+  "descripcion": "Sucralfato. Tableta. Cada tableta contiene: Sucralfato 1 g.",
+  "unidadDeMedida": "Envase con 40 tabletas."
+ },
+ {
+  "clave": "010.000.5186.00",
+  "descripcion": "Omeprazol. Cápsula. Cada cápsula contiene: Omeprazol 20 mg.",
+  "unidadDeMedida": "Envase con 7 cápsulas."
+ },
+ {
+  "clave": "010.000.5186.01",
+  "descripcion": "Omeprazol. Cápsula. Cada cápsula contiene: Omeprazol 20 mg",
+  "unidadDeMedida": "Envase con 14 cápsulas."
+ },
+ {
+  "clave": "010.000.5187.00",
+  "descripcion": "Omeprazol. Solución inyectable. Cada frasco ámpula con liofilizado contiene: Omeprazol sódico equivalente a 40 mg de omeprazol.",
+  "unidadDeMedida": "Envase con un frasco ámpula con liofilizado y ampolleta con 10 ml de diluyente."
+ },
+ {
+  "clave": "010.000.5267.00",
+  "descripcion": "Fluconazol. Tableta. Cada tableta contiene: Fluconazol 100 mg.",
+  "unidadDeMedida": "Envase con 10 tabletas."
+ },
+ {
+  "clave": "010.000.5302.00",
+  "descripcion": "Nitrofurantoína. Suspensión oral. Cada 100 ml contienen: Nitrofurantoina 500 mg.",
+  "unidadDeMedida": "Envase con 120 ml (25 mg\/5 ml)."
+ },
+ {
+  "clave": "010.000.5309.02",
+  "descripcion": "Tamsulosina Tabletas de Liberación Prolongada . Cada Tabletas de Liberación Prolongada contiene: Clorhidrato de Tamsulosina 0.4 mg",
+  "unidadDeMedida": "Envase con 30 tabletas de liberación prolongada "
+ },
+ {
+  "clave": "010.000.5319.00",
+  "descripcion": "Dutasterida. Cápsula. Cada cápsula contiene: Dutasterida 0.5 mg.",
+  "unidadDeMedida": "Envase con 30 cápsulas."
+ },
+ {
+  "clave": "010.000.5359.00",
+  "descripcion": "Valproato de magnesio. Tableta de liberación prolongada. Cada tableta contiene: Valproato de magnesio 600 mg",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.5365.00",
+  "descripcion": "Topiramato. Tableta Cada Tableta contiene:Topiramato 25 mg",
+  "unidadDeMedida": "Envase con 60 tabletas."
+ },
+ {
+  "clave": "010.000.5383.00",
+  "descripcion": "Multivitaminas (Polivitaminas) y minerales. Jarabe. Cada 5 ml contienen: Vitamina A 2 500 UI Vitamina D2 200 UI Vitamina E 15.0 mg Vitamina C 60.0 mg Tiamina 1.05 mg Riboflavina 1.2 mg Piridoxina 1.05 mg Cianocobalamina 4.5 µg Nicotinamida 13.5 mg Hierro elemental 10.0 mg.",
+  "unidadDeMedida": "Envase con 240 ml."
+ },
+ {
+  "clave": "010.000.5395.00",
+  "descripcion": "Tiamina. Solución inyectable. Cada frasco ámpula con liofilizado contiene: Clorhidrato de tiamina 500 mg.",
+  "unidadDeMedida": "Envase con 3 frascos ámpula."
+ },
+ {
+  "clave": "010.000.5451.00",
+  "descripcion": "Cinarizina. Tableta. Cada tableta contiene: Cinarizina 75 mg.",
+  "unidadDeMedida": "Envase con 60 tabletas."
+ },
+ {
+  "clave": "010.000.5481.00",
+  "descripcion": "Paroxetina. Tableta. Cada tableta contiene: Clorhidrato de paroxetina equivalente a 20 mg de paroxetina.",
+  "unidadDeMedida": "Envase con 10 tabletas."
+ },
+ {
+  "clave": "010.000.5483.00",
+  "descripcion": "Zuclopentixol. Solución inyectable. Cada ampolleta contiene: Decanoato de zuclopentixol 200 mg",
+  "unidadDeMedida": "Envase con una ampolleta."
+ },
+ {
+  "clave": "010.000.5486.01",
+  "descripcion": "Olanzapina tableta. Cada tableta contiene: Olanzapina 10 mg",
+  "unidadDeMedida": "Envase con 28 tabletas "
+ },
+ {
+  "clave": "010.000.5487.00",
+  "descripcion": "Citalopram. Tabletas. Cada tableta contiene: Bromhidrato de citalopram equivalente a 20 mg de citalopram.",
+  "unidadDeMedida": "Envase con 14 tabletas."
+ },
+ {
+  "clave": "010.000.5489.00",
+  "descripcion": "Quetiapina. Tableta. Cada tableta contiene: Fumarato de quetiapina equivalente a 100 mg de quetiapina",
+  "unidadDeMedida": "Envase con 60 tabletas."
+ },
+ {
+  "clave": "010.000.5501.00",
+  "descripcion": "Diclofenaco sódico. Solución inyectable. Cada ampolleta contiene: Diclofenaco sódico 75 mg.",
+  "unidadDeMedida": "Envase con 2 ampolletas con 3 ml."
+ },
+ {
+  "clave": "010.000.5544.01",
+  "descripcion": "Rivaroxabán comprimido. Cada comprimido contiene: Rivaroxabán 10 mg",
+  "unidadDeMedida": "Envase con 30 comprimidos "
+ },
+ {
+  "clave": "010.000.5620.00",
+  "descripcion": "Vildagliptina comprimido de  50 mg",
+  "unidadDeMedida": "Envase con 28 comprimidos."
+ },
+ {
+  "clave": "010.000.5621.00",
+  "descripcion": "Linagliptina. Tabletas. Cada tableta contiene: Linagliptina 5mg",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.5640.00",
+  "descripcion": "Efavirenz, Emtricitabina, Tenofovir Fumarato de Disoproxilo tabletas. Cada tableta contiene: Efavirenz 600 mg. Emtricitabina 200 mg. Fumarato de disoproxilo de tenofovir 300 mg equivalente a 245 mg Tenofovir disoproxil.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "010.000.5731.01",
+  "descripcion": "Apixabán tableta. Cada tableta contiene: Apixabán 2.5 mg.",
+  "unidadDeMedida": "Envase con 60 tabletas."
+ },
+ {
+  "clave": "010.000.5943.00",
+  "descripcion": "Ibuprofeno. Suspensión Oral Cada 100 ml contienen: Ibuprofeno 2 g",
+  "unidadDeMedida": "Envase con 120 ml y medida dosificadora."
+ },
+ {
+  "clave": "010.000.6075.00",
+  "descripcion": "Levonorgestrel. Implante cada implante contiene: Levonorgestrel 75.0 mg ",
+  "unidadDeMedida": "Envase con 2 implantes."
+ },
+ {
+  "clave": "010.000.6117.00",
+  "descripcion": "Insulina Aspartica (30% de Insulina Asparta Soluble y 70% Insulina Asparta Cristalina con Protamina). Suspension Inyectable. Cada ml contiene: Insulina asparta de origen ADN recombinante (30% de insulina asparta soluble y 70% de insulina asparta cristalina con protamina) 100 U.",
+  "unidadDeMedida": "Envase con una pluma prellenada con 3 ml (100 U\/ml)."
+ },
+ {
+  "clave": "020.000.3835.00",
+  "descripcion": "Vitamina A. Solución. Cada dosis contiene: Palmitato de vitamina A (retinol) 200 000 UI. ",
+  "unidadDeMedida": " Envase con 25 dosis."
+ },
+ {
+  "clave": "020.000.3835.01",
+  "descripcion": "Vitamina A. Solución. Cada dosis contiene: Palmitato de vitamina A (retinol) 200 000 UI.",
+  "unidadDeMedida": "Envase con 50 dosis."
+ },
+ {
+  "clave": "020.000.3847.00",
+  "descripcion": "Faboterápico. Faboterápico Polivalente Antialacrán Solución Inyectable Cada frasco ámpula con liofilizado contiene: Faboterápico Polivalente Antialacrán modificado por digestión enzimática para neutralizar 150 DL50 (1.8 mg) de veneno de alacrán del género Centruroides. ",
+  "unidadDeMedida": "Envase con un frasco ámpula con liofilizado y ampolleta con diluyente de 5 ml."
+ },
+ {
+  "clave": "020.000.3848.00",
+  "descripcion": "Faboterápico Polivalente Antiarácnido Solución Inyectable. Cada frasco ámpula con liofilizado contiene: Faboterapico polivalente antiarácnido modificado por digestión enzimátia para neutralizar 6000 DL 50 (180 glándulas de veneno arácnido). ",
+  "unidadDeMedida": "Envase con un frasco ámpula con liofilizado y ampolleta con diluyente de 5 ml."
+ },
+ {
+  "clave": "020.000.3849.00",
+  "descripcion": "Faboterápico. Faboterápico Polivalente Antiviperino Solución Inyectable Cada frasco ámpula con liofilizado contiene: Faboterápico Polivalente Antiviperino modificado por digestión enzimática para neutralizar no menos de 790 DL50 de veneno de Crotalus bassiliscus y no menos de 780 DL50 de veneno de Bothrops asper.",
+  "unidadDeMedida": "Envase con un frasco ámpula con liofilizado y ampolleta con diluyente de 10 ml."
+ },
+ {
+  "clave": "020.000.3850.00",
+  "descripcion": "Faboterápico Polivalente Anticoralillo Solución Inyectable.Cada frasco ámpula con liofilizado contiene: Faboterápico polivalente anticoralillo modificado por digestión enzimática para neutralizar 450 DL50 (5 mg) de veneno de Micrurus sp.",
+  "unidadDeMedida": "Envase con un frasco ámpula con liofilizado y ampolleta con diluyente de 5 ml"
+ },
+ {
+  "clave": "030.000.0003.00",
+  "descripcion": "Sucedaneo De Leche Humana De Pretermino. Polvo Contenido en: Kilocalorías Unidad kcal 100g Mín. 400 Máx 525 100kcal Mín 100.0 Máx 100.0 100ml Mín 64 Máx 85 Lípidos Unidad g 100g Mín. 19.2 Máx 31.5 100kcal Mín4.80 Máx 6.00 100ml Mín 3.072 Máx 5.1 Acido linoleico Unidad mg 100g Mín. 1200 Máx 7350 100kcal Mín300.00 Máx 1400.00 100ml Mín 192 Máx 1190 Ac alfa Linolénico Unidad mg 100g Mín. 200 Máx SE* 100kcal Mín50.00 Máx SE* 100ml Mín 32 Máx SE* Relac A. Linoleico\/ A. á Linolenico 100g Mín. 5:1 Máx 15:1 100kcal Mín5:1 Máx 15:1 100ml Mín 5:1 Máx 15:1 Acido araquidónico Unidad % 100g Mín. 1.60 Máx 3.675 100kcal Mín0.40 Máx 0.70 100ml Mín 0.256 Máx 0.595 Acido DHA** Unidad % 100g Mín. 1.40 Máx 2.625 100kcal Mín 0.35 Máx 0.50 100ml Mín 0.224 Máx 0",
+  "unidadDeMedida": "Envase con 450 a 454 g y medida de 4.40 a 5.37 g. * Aunque no existe un nivel superior de recomendación siempre deberá conservar la relación de ácido linoleico\/ácido linolenico. **DHA: Acido Docosahexanoico. *** La lactosa y polímeros de glucosa deben ser los hidratos de carbono preferidos, sólo podrán añadirse almidones naturalmente exentos de gluten precocidos y\/o gelatinizados hasta un máximo de 30% del contenido total de hidratos de carbono y hasta un máximo de 2 g\/100ml."
+ },
+ {
+  "clave": "030.000.0011.00",
+  "descripcion": "Fórmula para lactantes (Sucedáneo de Leche Humana de Termino). Polvo o líquido. Energía - Mínimo \/100 mL: 60 kcal Máximo \/100 mL: 70 kcal. Energía - Mínimo \/100 mL: 250 kcal Máximo \/100 mL: 295 kcal. Vitaminas. Vitamina A (expresados en retinol): Mínimo\/100 kca: 200 U.I. o 60 µg, Máximo\/100 kcal: 600 U.I. o 180 g. NSR\/100 kcal En caso de productos en polvo debería procurarse conseguir NSR más bajo Vitamina D: Mínimo\/100 kcal: 1 µg o 40 U.I., Máximo\/100 kcal: 2,5 µg o 100 U.I. En caso de productos en polvo debería procurarse conseguir NSR más bajo. Vitamina C (Ac. ascórbico): Mínimo\/100 kcal: 10 mg, Máximo\/100 kcal: S. E., NSR\/100 kcal: 70 mg. Vitamina B Tiamina (B1) Mínimo\/100 kcal: 60 µg Máximo\/100 kcal: S. E. NSR\/100 kcal: 300 µg. Ribofl\"",
+  "unidadDeMedida": "Envase desde 360 g hasta 454 g polvo y medida dosificadora."
+ },
+ {
+  "clave": "030.000.0012.00",
+  "descripcion": "Sucedaneo de leche humana de término sin lactosa. Polvo. Contenido En Nutrimentos: Kilocalorías 100G Mín. 502.0 Máx. 522.00 100Kcal Mín. 100.00 Máx. 100.00 100Ml Mín. 66.66 Máx. 68.00 Lípidos Unidad g 100G Mín. 25.0 Máx. 28.0 100Kcal Mín. 4.40 Máx. 5.40 3.33 Máx. 3.65 Acido docosa-hexaenoico (DHA) Unidad mg 100Kcal Mín. 9.0 Máx. 22.0 Acido docosa-hexaenoico (DHA) Unidad % 100Kcal Mín. 0.220 Máx. 0.270 Acido araquidónico (ARA) Unidad mg 100Kcal Mín. 9.0 Máx. 22.0 Acido araquidónico (ARA) Unidad % 100Kcal Mín. 0.220 Máx. 0.270 Relación DHA\/ARA 100Kcal Mín. 1:1 Máx. 1:1 Acido linoléico Unidad g 100Kcal Mín. 0.3 Máx. 1.4 Acido linoléico Unidad % 100Kcal Mín. 0 Máx. 3 Acido alfa linolénico Unidad g 100Kcal Mín. 50 Máx. SE Acido alfa linolénico ",
+  "unidadDeMedida": "Envase con 400 a 454 g y medida de 4.3 a 4.5 g."
+ },
+ {
+  "clave": "040.000.0202.00",
+  "descripcion": "Diazepam. Solución inyectable. Cada ampolleta contiene: Diazepam 10 mg.",
+  "unidadDeMedida": "Ampolleta "
+ },
+ {
+  "clave": "040.000.1544.00",
+  "descripcion": "Ergometrina (ergonovina). Solución inyectable Cada ampolleta contiene: Maleato de ergometrina 0.2 mg",
+  "unidadDeMedida": "Ampolleta "
+ },
+ {
+  "clave": "040.000.2096.00",
+  "descripcion": "Tramadol-paracetamol. Tableta. Cada tableta contiene: Clorhidrato de Tramadol 37.5 mg Paracetamol 325.0 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "040.000.2106.00",
+  "descripcion": "Tramadol. Solución Inyectable Cada ampolleta contiene: Clorhidrato de Tramadol 100 mg ",
+  "unidadDeMedida": "Envase con 5 ampolletas de 2 ml."
+ },
+ {
+  "clave": "040.000.2164.00",
+  "descripcion": "Carbamazepina. Tableta. Cada tableta contiene: Carbamazepina 400 mg ",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "040.000.2499.00",
+  "descripcion": "Alprazolam. Tableta. Cada tableta contiene: Alprazolam 2.0 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "040.000.2601.00",
+  "descripcion": "Fenobarbital. Tableta. Cada tableta contiene: Fenobarbital 100 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "040.000.2608.00",
+  "descripcion": "Carbamazepina. Tableta. Cada tableta contiene: Carbamazepina 200 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "040.000.2609.00",
+  "descripcion": "Carbamazepina. Suspensión oral. Cada 5 ml contienen: Carbamazepina 100 mg.",
+  "unidadDeMedida": "Envase con 120 ml y dosificador de 5 ml."
+ },
+ {
+  "clave": "040.000.2612.00",
+  "descripcion": "Clonazepam. Tableta. Cada tableta contiene: Clonazepam 2 mg",
+  "unidadDeMedida": "Envase con 30 tabletas"
+ },
+ {
+  "clave": "040.000.2613.00",
+  "descripcion": "Clonazepam Solución. Cada ml contiene: Clonazepam 2.5 mg",
+  "unidadDeMedida": "Envase con 10 ml y gotero integral."
+ },
+ {
+  "clave": "040.000.2614.00",
+  "descripcion": "Clonazepam  Solución inyectable. Cada ml contiene: Clonazepam 1 mg",
+  "unidadDeMedida": "Envase con 5 ampolletas con un ml."
+ },
+ {
+  "clave": "040.000.2619.00",
+  "descripcion": "Fenobarbital. Elíxir. Cada 5 ml contienen: Fenobarbital 20 mg",
+  "unidadDeMedida": "Envase con 60 ml y dosificador de 5 ml."
+ },
+ {
+  "clave": "040.000.2651.00",
+  "descripcion": "Trihexifenidilo. Tableta. Cada tableta contiene: Clorhidrato de trihexifenidilo 5 mg",
+  "unidadDeMedida": "Envase con 50 tabletas."
+ },
+ {
+  "clave": "040.000.2652.00",
+  "descripcion": "Biperideno. Tableta. Cada tableta contiene: Clorhidrato de biperideno 2 mg.",
+  "unidadDeMedida": "Envase con 50 tabletas."
+ },
+ {
+  "clave": "040.000.2653.00",
+  "descripcion": "Biperideno. Solución inyectable. Cada ampolleta contiene: Lactato de biperideno 5 mg",
+  "unidadDeMedida": "Envase con 5 ampolletas con un ml."
+ },
+ {
+  "clave": "040.000.3204.00",
+  "descripcion": "Levomepromazina. Tableta. Cada tableta contiene: Maleato de levomepromazina equivalente a 25 mg de levomepromazina",
+  "unidadDeMedida": "Envase con 20 tabletas"
+ },
+ {
+  "clave": "040.000.3215.00",
+  "descripcion": "Diazepam. Tableta. Cada tableta contiene: Diazepam 10 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas"
+ },
+ {
+  "clave": "040.000.3241.00",
+  "descripcion": "Trifluoperazina. Tableta. Cada tableta contiene: Clorhidrato de trifluoperazina equivalente a 5 mg de trifluoperazina.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "040.000.3241.01",
+  "descripcion": "Trifluoperazina. Gragea o Tableta Cada Gragea o Tableta contiene: Clorhidrato de trifluoperazina equivalente a 5 mg de trifluoperazina ",
+  "unidadDeMedida": "Envase con 30 grageas o tabletas."
+ },
+ {
+  "clave": "040.000.3251.00",
+  "descripcion": "Haloperidol Tableta. Cada tableta contiene: Haloperidol 5 mg",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "040.000.3253.00",
+  "descripcion": "Haloperidol Solución inyectable. Cada ampolleta contiene: Haloperidol 5 mg",
+  "unidadDeMedida": "Envase de 6 ampolletas (5mg\/ml)"
+ },
+ {
+  "clave": "040.000.3255.00",
+  "descripcion": "Litio Tableta. Cada tableta contiene: Carbonato de Litio 300 mg",
+  "unidadDeMedida": "Envase con 50 tabletas."
+ },
+ {
+  "clave": "040.000.3258.00",
+  "descripcion": "Risperidona. Tableta. Cada tableta contiene: Risperidona 2 mg.",
+  "unidadDeMedida": "Envase con 40 tabletas."
+ },
+ {
+  "clave": "040.000.3262.00",
+  "descripcion": "Risperidona. Solución oral. Cada mililitro contiene: Risperidona 1 mg.",
+  "unidadDeMedida": "Envase con 60 ml y gotero dosificador."
+ },
+ {
+  "clave": "040.000.3302.00",
+  "descripcion": "Imipramina. Tableta. Cada tableta contiene: Clorhidrato de Imipramina 25 mg.",
+  "unidadDeMedida": "Envase con 20 tabletas."
+ },
+ {
+  "clave": "040.000.4054.00",
+  "descripcion": "Flumazenil. Solución inyectable. Cada ampolleta contiene: Flumazenil 0.5 mg.",
+  "unidadDeMedida": "Envase con una ampolleta con 5 ml (0.1 mg\/ml)."
+ },
+ {
+  "clave": "040.000.4470.01",
+  "descripcion": "Metilfenidato. Liberacion prolongada. Cada tableta de liberación prolongada contiene: Clorhidrato de metilfenidato 18 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas de liberacion prolongada"
+ },
+ {
+  "clave": "040.000.4471.01",
+  "descripcion": "Metilfenidato. Tabletas de liberacion prolongada. Cada tableta de liberación prolongada contiene: Clorhidrato de metilfenidato 27 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas de liberacion prolongada"
+ },
+ {
+  "clave": "040.000.4472.01",
+  "descripcion": "Metilfenidato. Tabletas de liberacion prolongada. Cada tableta de liberación prolongada contiene: Clorhidrato de metilfenidato 36 mg.",
+  "unidadDeMedida": "Envase con 30 tabletas de liberacion prolongada"
+ },
+ {
+  "clave": "040.000.4481.00",
+  "descripcion": "Haloperidol. Solución inyectable. Cada ampolleta contiene: Decanoato de haloperidol equivalente a 50 mg de haloperidol",
+  "unidadDeMedida": "Envase con 1 ampolleta con 1 ml"
+ },
+ {
+  "clave": "040.000.4484.00",
+  "descripcion": "Sertralina. Cada cápsula contiene: Clorhidrato de sertralina equivalente a 50 mg de sertralina.",
+  "unidadDeMedida": "Envase con 14 cápsulas."
+ },
+ {
+  "clave": "040.000.5351.00",
+  "descripcion": "Metilfenidato. Comprimido. Cada comprimido contiene: Clorhidrato de metilfenidato 10 mg",
+  "unidadDeMedida": "Envase con 30 comprimidos."
+ },
+ {
+  "clave": "040.000.5478.00",
+  "descripcion": "Lorazepam. Tableta. Cada tableta contiene: Lorazepam 1 mg",
+  "unidadDeMedida": "Envase con 40 tabletas."
+ },
+ {
+  "clave": "060.004.0109",
+  "descripcion": "Abatelenguas de madera  desechables largo: 142.0 mm ancho 18.0 mm.",
+  "unidadDeMedida": "Envase con 500 piezas."
+ },
+ {
+  "clave": "060.016.0204",
+  "descripcion": "Aceite. Lubricante para pieza de mano de baja velocidad.",
+  "unidadDeMedida": "Envase con aplicador con 120 ml."
+ },
+ {
+  "clave": "060.031.0072",
+  "descripcion": "Adhesivo. Adhesivo dental para resinas directas autopolimerizable o fotopolimerizable.",
+  "unidadDeMedida": "Frasco de 5 ml."
+ },
+ {
+  "clave": "060.034.0103",
+  "descripcion": "Agua oxigenada en concentración del 2.5 a 3.5%. ",
+  "unidadDeMedida": "Envase con 480 ml."
+ },
+ {
+  "clave": "060.040.3760",
+  "descripcion": "Agujas Hipodérmicas. Hipodérmicas con pabellón luer-lock hembra de plástico, desechables. Longitud: 16 mm. Calibre: 25 G. \"",
+  "unidadDeMedida": "Envase con 100 piezas."
+ },
+ {
+  "clave": "060.040.8041",
+  "descripcion": "Aguja dental. Tipo Carpule. Desechables. Longitud: 20-25 mm Calibre: 30 G Tamaño: Corta.",
+  "unidadDeMedida": "Envase con 100 piezas."
+ },
+ {
+  "clave": "060.058.0153",
+  "descripcion": "Algodon. En láminas Enrollado o plisado.",
+  "unidadDeMedida": "Envase con 300 g."
+ },
+ {
+  "clave": "060.064.0114",
+  "descripcion": "Amalgama dental. Polvo de aleación y mercurio. Las instituciones podrán elegir la concentración de los componentes. ",
+  "unidadDeMedida": "Envase con 50 cápsulas de 400 mg"
+ },
+ {
+  "clave": "060.066.0039",
+  "descripcion": "Alcohol desnaturalizado.",
+  "unidadDeMedida": "Envase con 1 L."
+ },
+ {
+  "clave": "060.066.0054",
+  "descripcion": "Jabón Neutro adicionado con glicerina pastilla 100 g.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.066.0062",
+  "descripcion": "Jabón. Para uso prequirúrgico. Líquido y neutro (pH 7).",
+  "unidadDeMedida": "Envase con 3.850 L"
+ },
+ {
+  "clave": "060.066.0500",
+  "descripcion": "Fluoruro de sodio. Para prevención de caries. Acidulado al 2%. En gel de sabor.",
+  "unidadDeMedida": "Envase con 480 ml."
+ },
+ {
+  "clave": "060.066.0658",
+  "descripcion": "Iodopovidona espuma. Cada 100 ml. contienen: Iodopovidona 8 g. Equivalente a 0.8 g de yodo.",
+  "unidadDeMedida": "Envase con 3.5 L."
+ },
+ {
+  "clave": "060.066.0666",
+  "descripcion": "Iodopovidona solución. Cada 100 ml contienen: Iodopovidona 11 g. Equivalente a 1.1 g de yodo.",
+  "unidadDeMedida": "Envase con 3.5 L."
+ },
+ {
+  "clave": "060.066.0757",
+  "descripcion": "Cloruro de benzalconio al 12%. Cada 100 ml contienen: Cloruro e benzalconio 12 G. Nitrito de sodio (antioxidante) 5 g.",
+  "unidadDeMedida": "Envase con 500 ml."
+ },
+ {
+  "clave": "060.066.0765",
+  "descripcion": "Glutaraldehído al 2%. Con actividor en polvo (color verde al activarse) con efectividad de 14 días.",
+  "unidadDeMedida": "Envase de plástico con 4 litros."
+ },
+ {
+  "clave": "060.066.0773",
+  "descripcion": "Alcohol desnaturalizado.",
+  "unidadDeMedida": "Envase con 20 L."
+ },
+ {
+  "clave": "060.066.0898",
+  "descripcion": "Antisépticos. Líquido antiséptico para lavado pre y postquirúrgico de manos y piel, formulado a base de yodo polivinil pirrolidona equivalente a 1.0% mínimo de yodo disponible, 10% mínimo de detergentes no iónicos y estabilizadores. De amplio espectro antimicrobiano.",
+  "unidadDeMedida": "Envase 4L"
+ },
+ {
+  "clave": "060.066.0906",
+  "descripcion": "Gel antiséptico para manos que no requiere enjuague. Formulado a base de alcohol etílico de 60-80% w\/w; adicionado con humectantes y emolientes; hipoalergénico.",
+  "unidadDeMedida": "Envase con 500 ml."
+ },
+ {
+  "clave": "060.066.0914",
+  "descripcion": "Antisépticos. Líquido antiséptico para lavado pre y postquirúrgico de manos y piel, formulado a base de 0.75% mínimo de triclosan, 1.1% mínimo de ortofenilfenol con 10% mínimo de jabón anhidro de coco en base seca, humectantes y suavizantes. De amplio espectro antimicrobiano.",
+  "unidadDeMedida": "Envase con 4L"
+ },
+ {
+  "clave": "060.066.0989",
+  "descripcion": "Antiséptico y germicida. Glutaraldehído al 2% activado de color  verde , listo para su uso, con efectividad de 30 días con o sin tiras reactivas como testigo de concentración para validar su efectividad.  ",
+  "unidadDeMedida": "Envase con 1 a 5 lts"
+ },
+ {
+  "clave": "060.066.1011",
+  "descripcion": "Antisépticos. Solución antiséptica con gluconato de clorhexidina de 0.5 al 1%, alcohol etílico o isopropílico entre 60-80%, y agentes emolientes. Como complemento para el lavado quirúrgico y médico; no requiere de enjuague, cepillado, ni secado. Con dispensador reusable que evita el contacto con la piel una vez recibido el antiséptico y proporcionado por el fabricante cuando se deteriore.\"",
+  "unidadDeMedida": "Envase con 500 ml."
+ },
+ {
+  "clave": "060.066.1078",
+  "descripcion": "Barniz de fluoruro de sodio al 5% en una concentración de 22600 ppm autopolimerizable, en un vehículo de resina modificada.",
+  "unidadDeMedida": "Unidosis."
+ },
+ {
+  "clave": "060.082.0054",
+  "descripcion": "Aplicadores. Sin algodón. De madera.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.088.0025",
+  "descripcion": "Apósito transparente, microporoso, autoadherible, estéril y desechable. Medidas:10.0 a 10.16 x 12.0 a 14.0 cm.\nMédicas y quirúrgicas.\nTransparente estéril de poliuretano con adhesivo.\nhipoalergénico libre de látex con tecnología de confort;\nel film integra una almohadilla de gel transparente y\nabsorbente impregnada con gluconato de clorhexidina al\n2%, con bordes reforzados de tela suave no tejida,\nmarco de aplicación, dos cintas estériles y una etiqueta\nde registro.",
+  "unidadDeMedida": "Envase con 50 piezas."
+ },
+ {
+  "clave": "060.100.0011",
+  "descripcion": "Babero de tela no tejida de rayón. Anatómico autoajustable, desechable. Tamaño: adulto.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.111.0208",
+  "descripcion": "Barnices De copal. Para revestimiento de cavidades. Frasco con 15 ml y frasco con disolvente de 15 ml. Juego.",
+  "unidadDeMedida": "Juego."
+ },
+ {
+  "clave": "060.125.0228",
+  "descripcion": "Bolsas. Para urocultivo (niño). Estéril, de plástico grado médico, forma rectangular, con capacidad de 50 ml y escala de 10, 20, 30 y 50 ml, con orificio redondo de 30 mm, área adhesiva. De 45 x 60 mm. \"",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.125.0244",
+  "descripcion": "Bolsas. Para urocultivo (niña). Estéril, de plástico grado médico, forma rectangular, con capacidad de 50 ml y escala de 10, 20, 30 y 50 ml. Con orificio en forma de pera, 2.5 cm en su lado más ancho y 1 cm en el más angosto. Área adhesiva de 45 x 60 mm. \"",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.125.1879",
+  "descripcion": "Bolsa. Para recolección de orina. Rectangular elaborada a base de cloruro de polivinilo, con graduaciones cada 100 ml. y lectura cada 200 ml. Sistema cerrado. Capacidad: 2000 ml.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.125.2679",
+  "descripcion": "Bolsa de papel grado médico. Para esterilizar con gas o vapor. Con o sin tratamiento antibacteriano; con reactivo químico impreso y sistema de apertura. Medidas: 12.0 X 26.0 X 4.0 cm",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.125.2695",
+  "descripcion": "Bolsa de papel grado médico. Para esterilizar con gas o vapor. Con o sin tratamiento antibacteriano; con reactivo químico impreso y sistema de apertura.  Medidas: 14.0 x 33.0 x 4.5 cm (con cartera integrada de 25 x 30 cm).",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.125.3958",
+  "descripcion": "Bolsas de polietileno color rojo traslúcido, impermeable,\nmarcada con la leyenda: “Residuos Peligrosos\nBiológico-Infecciosos” y con el símbolo universal de:\nRiesgo Biológico. Calibre mínimo 200. Tamaño de: 50 x 65 cm\n",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.125.3966",
+  "descripcion": "Bolsas. De polietileno color rojo traslúcido impermeable, marcada con la leyenda: Residuos Peligrosos Biológico-Infecciosos y con el símbolo universal de: Riesgo Biológico. Calibre mínimo 200. Tamaño de: 60 x 90 cm.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.125.4022",
+  "descripcion": "Bolsa. De polietileno color amarillo traslúcido impermeable, marcada con la leyenda: Residuos Peligrosos Biológico-Infecciosos y con el símbolo universal de: Riesgo Biológico. Calibre mínimo 300. Tamaño de: 90 x 120 cm.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.130.0015",
+  "descripcion": "Bota quirúrgica de tela no tejida 100% de polipropileno tipo SMS, de 35 g\/m mínimo, impermeable a la penetración de líquidos y fluidos, antiestática, con dos cintas de sujeción. Desechable.",
+  "unidadDeMedida": "Par"
+ },
+ {
+  "clave": "060.167.5010",
+  "descripcion": "Catéter para suministro de oxígeno con tubo de conexión y cánula nasal de plástico, con diámetro interno de 2.0 mm. Longitud 180 cm.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.167.8121",
+  "descripcion": "Sonda Para drenaje urinario de permanencia prolongada. De elastómero de silicón con globo de autorretención de 5 ml. Estéril y desechable. Tipo: Foley de dos vías. Calibre: 14 Fr.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.167.8139",
+  "descripcion": "Sonda. Para drenaje urinario de elastómero de silicón con globo de autorretención de 5 ml con válvula para jeringa. Estéril y desechable. Tipo: Foley de tres vías. Calibre:16 Fr.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.168.4277",
+  "descripcion": "Sonda. Gastrointestinales Desechables y con marca opaca a los rayos X. Tipo: Levin. Calibre: 12 Fr.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.168.4418",
+  "descripcion": "Sonda. Gastrointestinales Desechables y con marca opaca a los rayos X. Tipo: Levin. Calibre: 18 Fr.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.168.5647",
+  "descripcion": "Cateter. Para venoclisis. De plastico no radiopaco esteril, desechable, con aguja y conector para jeringa. Longitud 19mm y calibre: 19 G.",
+  "unidadDeMedida": "#N\/A"
+ },
+ {
+  "clave": "060.168.6629",
+  "descripcion": "Catéter para venoclisis de fluoropolímeros (politetrafluoretileno, fluoretilenpropileno y etilentrifluoretileno) o poliuretano, radiopaco, con aguja. Longitud:  46-52 mm. Calibre: 16 G.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.168.6645",
+  "descripcion": "Catéter Para venoclisis. De fluoropolimeros (politetrafluoretileno fluoretilenpropileno y etilentrifluoretileno) o poliuretano radiopaco con aguja Longitud: Calibre: 28-34 mm 18 G.",
+  "unidadDeMedida": "#N\/A"
+ },
+ {
+  "clave": "060.168.6660",
+  "descripcion": "Catéter para venoclisis de fluoropolímeros (politetrafluoretileno, fluoretilenpropileno y etilentrifluoretileno) o poliuretano, radiopaco, con aguja. Longitud:  28-34 mm. Calibre: 20 G.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.168.6686",
+  "descripcion": "Catéter. Para venoclisis. De Fluoropolímeros (Politetrafluoretileno Fluoretilenpropileno y Etilentrifluoretileno) o poliuretano, radiopaco, con aguja. Longitud 23-27mm. y calibre: 22 G.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.168.9896",
+  "descripcion": "Sonda gastrointestinales Desechable y con marca opaca a los rayos X. Tipo: Levin.Calibre: 14 Fr.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.168.9904",
+  "descripcion": "Sonda. Gastrointestinales Desechables y con marca opaca a los rayos X. Tipo: Levin. Calibre: 16 Fr.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.182.0160",
+  "descripcion": "Cementos. Ionómero de vidrio I. Para cementaciones definitivas. Polvo 35 g.\nSilicato de aluminio 95% -97%. Acido\npoliacrílico 3% - 5%. Líquido 25 g 20 ml.\nAcido poliacrílico 75%. Acido polibásico 10-\n15%. ",
+  "unidadDeMedida": "Juego."
+ },
+ {
+  "clave": "060.182.0178",
+  "descripcion": "Ionómero de vidrio restaurativo II.\nColor No. 21. Polvo 15 g. Silicato de aluminio 95% -97%. Ácido poliacrílico 3% - 5%. Líquido 10 g 8 ml. Ácido poliacrílico 75%. Ácido tartárico 10% -15%. Barniz compatible líquido 10 g.",
+  "unidadDeMedida": "Estuche."
+ },
+ {
+  "clave": "060.182.0186",
+  "descripcion": "Ionómero de vidrio restaurativo II.\nColor No. 22. Polvo 15 g. Silicato de aluminio 95% -97%. Ácido poliacrílico 3% -5%. Líquido 10 g 8 ml. Ácido poliacrílico 75%. Ácido tartárico 10% - 15%. Barniz compatible líquido 10 g.",
+  "unidadDeMedida": "Estuche."
+ },
+ {
+  "clave": "060.182.0228",
+  "descripcion": "Cementos. Ionómero de vidrio. Para tratamiento restaurativo atraumático. Polvo 10 g. silicato de alumino. De 89-95% 8 ml. ácido poliacrílico 0-10%, líquido 6 g, 4.8 ml agua destilada. Ácido poliacrílico 40-50%, barniz 5 g, cloruro de polivinil 10-20%, acetáto etílico 75-85%.",
+  "unidadDeMedida": "Estuche."
+ },
+ {
+  "clave": "060.182.0236",
+  "descripcion": "Cemento dental para uso quirúrgico. Polvo óxido de zinc. Polvo rosa. Talco. Líquido: Eugenol. Alcohol isopropílico al 10%. Resina de pino. Aceite de pino. Aceite de clavo. Aceite de cacahuate.",
+  "unidadDeMedida": "Estuche."
+ },
+ {
+  "clave": "060.182.1150",
+  "descripcion": "Protector pulpar. Para sellar cavidades dentales. De hidróxido de calcio compuesto autopolimerizable, dos pastas semilíquidas, base 13 g y catalizador 11 g con bloque de papel para mezclar.",
+  "unidadDeMedida": "Estuche con un juego y aplicador desechable."
+ },
+ {
+  "clave": "060.182.1176",
+  "descripcion": "Cementos. Dentales. De oxifosfato de zinc. Polvo y líquido. Caja con 32 g de polvo y 15 ml de solvente.",
+  "unidadDeMedida": "Estuche."
+ },
+ {
+  "clave": "060.182.1275",
+  "descripcion": "Cemento dental. Para restauración intermedia. De óxido de zinc (polvo) 38 g y eugenol (líquido) 14 ml. Con gotero de plástico.",
+  "unidadDeMedida": "Juego."
+ },
+ {
+  "clave": "060.182.1440",
+  "descripcion": "Cemento Ionómero de vidrio restaurativo tipo II. Para Tratamiento Restaurativo Atraumático (TRA). Para restauraciones intermedias. Para bases. Para odontología mínimamente invasiva (OMI). Tono A3 . Polvo granulado radiopaco: 12.5 g. Vidrio de fluorosilicato de calcio lantano. Aluminio recubierto 90% . Ácido Poliacrílico. 10% Ácido Benzóico <0.1% Pigmentos <0.1% Líquido\nde 8.5 ml (10gr).\nAgua 55%-65% Copolímero de ácido Acrílico y ácido\nMaléico.\n25-35% Ácido Tartárico.\n9.1% Ácido Benzóico.\n0.1% Loseta de papel encerado, cucharilla\ndispensadora, guía de aplicación e instructivo.\n\n",
+  "unidadDeMedida": "Estuche "
+ },
+ {
+  "clave": "060.189.0015",
+  "descripcion": "Cepillo dental, para adulto, con mango de plástico y cerdas rectas de nylon 6.12, 100% virgen o poliéster P.B.T. 100% virgen, de puntas redondeadas en 4 hileras, cabeza corta, consistencia mediana.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.189.0031",
+  "descripcion": "Cepillo de cerdas negras en forma de brocha. Para contra-ángulo.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.189.0049",
+  "descripcion": "Cepillo para estudio citológico toma de muestra del canal endocervical a base de colector celular, con cerdas suaves fijadas a un mango aristado. Estéril y desechable.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.189.0056",
+  "descripcion": "Cepillo Para lavado de instrumental. Con cerdas de fibra vegetal lechuguilla.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.189.0106",
+  "descripcion": "Cepillo   dental infantil, con mango de plástico y cerdas rectas de nylon 6.12, 100% virgen o poliéster P.B.T. 100% virgen, de puntas redondeadas en 3 hileras, cabeza corta, consistencia mediana.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.189.0304",
+  "descripcion": "Cepillo Para uso quirúrgico. De plástico de forma rectangular, con dos agarraderas laterales simétricas y cerdas de nylon.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.203.0058",
+  "descripcion": "Cinta para portamatriz. De amalgama metálica de 5 mm de longitud.",
+  "unidadDeMedida": "Envase con 12 piezas."
+ },
+ {
+  "clave": "060.203.0108",
+  "descripcion": "Cinta. Métrica. Ahulada graduada en centímetros y milímetros. Longitud: 1.50 M.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.203.0165",
+  "descripcion": "Cinta. Umbilicales. De algodón tejido plano (trenzado de 21 hilos), estériles. Longitud: 41 cm. Ancho: 4 mm.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.203.0207",
+  "descripcion": "Cinta testigo Para esterilización en vapor a presión. Tamaño: 18 mm x 50 M.",
+  "unidadDeMedida": "Rollo."
+ },
+ {
+  "clave": "060.203.0363",
+  "descripcion": "Cinta Microporosa. De tela no tejida unidireccional, de color blanco, con recubrimientos adhesivos, en una de sus caras. Longitud 10m y ancho 5cm.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.203.0397",
+  "descripcion": "Cinta Microporosa. De tela no tejida unidireccional, de color blanco, con recubrimientos adehesivos en una de sus caras. Longitud 10m y ancho 2.5 cm.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.203.0405",
+  "descripcion": "Cinta Microporosa de tela no tejida, unidireccional, de color blanco, con recubrimientos adhesivos en una de sus caras. Longitud: 10 m. Ancho: 7.50 cm.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.218.0093",
+  "descripcion": "Contenedor Desechable de punzo-cortantes de polipropileno, esterilizable, incinerable y no contaminante, resistente a la perforación, al impacto y a la pérdida del contenido al caerse, con separador de agujas y abertura para el depósito de otros punzo-cortantes, con tapas de seguridad para las aberturas, de color rojo, etiquetado con la leyenda ?peligro residuos punzo-cortantes biológico-infeccios y marcado con el símbolo Universal de Riesgo Biológico. Capacidad de 3.70 a 4.75 litros.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.219.0068",
+  "descripcion": "Colorantes reveladores de placas dentobacterianas. Tabletas sin sabor.",
+  "unidadDeMedida": "Envase con 100 piezas."
+ },
+ {
+  "clave": "060.231.0609",
+  "descripcion": "Ropa quirúrgica paquete para parto. Tela no tejida de polipropileno impermeable a la penetración de liquidos y fluidos, color antirreflejante, no transparente, antiestática y resistente a la tensión en uso normal. Estéril y desechable. Contiene: - Dos batas quirúrgicas para cirujano, puños justables, refuerzo en mangas y pecho, tamaño grande. - Cuatro campos sencillos de 90 ±10 cm x 90 ±10 cm. - Dos pierneras de 100 ±10 cm. - Una cubierta para mesa de riñón de 240 ±10 cm x 150 ±10 cm. Dos toallas absorbentes de 40 ±5 cm x 40 ±5 cm.",
+  "unidadDeMedida": "Paquete"
+ },
+ {
+  "clave": "060.231.0641",
+  "descripcion": "Bata quirúrgica con puños ajustables y refuerzo en mangas y pecho. Tela no tejida de polipropileno impermeable a la penetración de líquidos y fluidos; antiestática y resistente a la tensión. Estéril y desechable. Tamaño grande.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.231.0666",
+  "descripcion": "Bata quirúrgica con puños ajustables y refuerzo en mangas y pecho. Tela no tejida de polipropileno impermeable a la penetración de líquidos y fluidos; antiestática y resistente a la tensión. Estéril y desechable. Tamaño: Mediano.\",",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.234.0051",
+  "descripcion": "Contenedor Desechable para líquidos de polipropileno, esterilizable, incinerable y no contaminante, resistente a la perforación, al impacto y a la pérdida del contenido al caerse, con separador de agujas y abertura para el depósito de otros punzo-cortantes, con tapas de seguridad para las aberturas, de color amarillo, etiquetado con la leyenda ?peligro residuos punzo-cortantes biológico-infecciosos? y marcado con el símbolo Universal de Riesgo Biológico. Capacidad de 7.50 a 9.40 L.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.235.0019",
+  "descripcion": "Copas para pieza de mano. De hule suave blanco, en forma de cono",
+  "unidadDeMedida": "Envase con 12 piezas."
+ },
+ {
+  "clave": "060.272.0013",
+  "descripcion": "Cucharillas. Para aplicación tópica de flúor en gel de vinil atóxico, desechables. Estuche que consta de: 1 par para niños de 2 a 3 años.",
+  "unidadDeMedida": "Bolsa con 50 juegos."
+ },
+ {
+  "clave": "060.272.0021",
+  "descripcion": "Cucharillas. Para aplicación tópica de flúor en gel de vinil atóxico, desechables. Estuche que consta de: 1 par para niños de 4 a 7 años.",
+  "unidadDeMedida": "Bolsa con 50 juegos."
+ },
+ {
+  "clave": "060.272.0039",
+  "descripcion": "Cucharillas. Para aplicación tópica de flúor en gel de vinil atóxico, desechables. Estuche que consta de: 1 par para adolescentes.",
+  "unidadDeMedida": "Bolsa con 50 juegos."
+ },
+ {
+  "clave": "060.272.0047",
+  "descripcion": "Cucharillas. Para aplicación tópica de flúor en gel de vinil atóxico desechables.Estuche que consta de: 1 par para adultos.",
+  "unidadDeMedida": "Bolsa con 50 juegos."
+ },
+ {
+  "clave": "060.276.0050",
+  "descripcion": "Cuña de madera. Para espacios interdentarios.",
+  "unidadDeMedida": "Envase con 100 piezas."
+ },
+ {
+  "clave": "060.286.0132",
+  "descripcion": "Desinfectantes. Cloruro de benzalconio al 12 %. Cada 100 ml contienen: Cloruro de benzalconio 12 g. Nitrito de sodio (antioxidante) 5 g. ",
+  "unidadDeMedida": "Envase con 500 ml."
+ },
+ {
+  "clave": "060.308.0029",
+  "descripcion": "Dispositivo Intrauterino T de cobre 380, anticonceptivo estéril con 380 mm2, de cobre, plástico grado médico 77% y sulfato de bario USP 23%, con filamento largo de 30 cm con tubo insertor, tope y émbolo insertor.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.308.0177",
+  "descripcion": "Condón masculino de hule látex.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.308.0193",
+  "descripcion": "Dispositivo Intrauterino T de cobre para nulíparas estéril, con 380 mm.2 de cobre enrollado con bordes redondos, con longitud horizontal de 22.20 a 23.20 mm., longitud vertical de 28.0 a 30.0 mm., filamento de 20 a 25 cm, bastidor con una mezcla del 77 al 85% de plástico grado médico y del 15 al 23% de sulfato de bario, con tubo insertor y aplicador montable con tope cervical.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.308.0227",
+  "descripcion": "Condón femenino de poliuretano con dos anillos flexibles en los extremos",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.345.4265",
+  "descripcion": "Equipo para venoclisis con regulador de infusión.Consta de: Bayoneta con protector conector Luer lock rosca con protector, filtro de aire, cámara de goteo, regulador de flujo con mecanismo para ajustar el flujo a velocidades calibradas o estandarizadas, tubo transportador y obturador del tubo transportador; dispositivo para aplicación de medicamentos en “Y”. Estéril y desechable.Longitud total: 210 cm. Regulación del flujo: 50 o menor a 250 ml.\/h. 60 gotas\/ml.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.354.0014",
+  "descripcion": "Espátula de Ayre modificada, de madera inastillable. Instrumento alargado con dos diferentes extremos. Dimensiones: Largo total 170.0 mm. Ancho 7.0 mm. Grosor 1.5 mm. Ginecología. Extremo 1: forma bifurcada en forma de hueso, donde la cresta A es de mayor tamaño que la cresta B. Largo de la cresta A: 25 mm. Largo de la cresta B: 22 mm. Apertura máxima: 17 mm. Extremo 2 forma cónica terminado en punta: Largo total 35 mm. Apertura máxima o ancho 12.0 mm. Largo de cono 35 mm. Ancho de cuello 6.0 mm. Ancho de vértice 3.0 mm.",
+  "unidadDeMedida": "Envase con 500 Piezas."
+ },
+ {
+  "clave": "060.360.0032",
+  "descripcion": "Espejo vaginal desechable mediano, valva superior de 10.7 cm, valva inferior de 12.0 cm, orificio central de 3.4 cm.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.436.0057",
+  "descripcion": "Gasa seca cortada de algodón 100%. Tejida. Doblada en 12 capas. No estéril. Tipo de tejido VII. De 20 x 12 Título de hilo de 28 a 32 m\/g tanto en urdimbre como en trama. Peso mínimo por m² 19g\/m² largo 7.5 cms. Ancho 5 cm. Área 432 cm",
+  "unidadDeMedida": "Envase con 200 piezas."
+ },
+ {
+  "clave": "060.436.0107",
+  "descripcion": "Gasa seca cortada de algodón 100%. Tejida. Doblada en 12 capas. No estéril. Tipo de tejido VII. De 20 x 12 Título de hilo de 28 a 32 m\/g tanto en urdimbre como en trama. Peso mínimo por m²   19g\/ m Largo: 10 cm  Ancho:  10 cm. Area  1552 cm²",
+  "unidadDeMedida": "Envase con 200 piezas."
+ },
+ {
+  "clave": "060.436.0677",
+  "descripcion": "Gasa seca cortada, de tela no tejida, no estéril. 7.5 cm x 7.5 cm.",
+  "unidadDeMedida": "Envase con 200 piezas."
+ },
+ {
+  "clave": "060.436.0685",
+  "descripcion": "Gasa seca. Cortada de tela no tejida, no estéril.10 cm x 10 cm.",
+  "unidadDeMedida": "Envase con 200 piezas."
+ },
+ {
+  "clave": "060.436.0693",
+  "descripcion": "Gasa seca cortada. De algodón con marca opaca a los rayos X. Estéril. Medidas 10x10cm.",
+  "unidadDeMedida": "Envase con 10 Piezas."
+ },
+ {
+  "clave": "060.436.0707",
+  "descripcion": "Gasas. Seca cortada de algodón 100%. Tejida. Doblada en 8 capas. No estéril. Tipo de tejido VII. De 20 x 12 Título de hilo de 28 a 32 m\/g tanto en urdimbre como en trama. Peso mínimo por m2 19g\/ m2 Largo: 10 cm  Ancho: 10 cm. Area 768 cm2",
+  "unidadDeMedida": "Envase con 200 piezas."
+ },
+ {
+  "clave": "060.439.0039",
+  "descripcion": "Gorro de tela no tejida de polipropileno desechable. Impermeable a la penetración de líquidos y fluidos; antiestática y resistente a la tensión. cintas de ajuste en el extremo distal. Tamaño estándar. Desechable.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.439.0054",
+  "descripcion": "Gorro redondo con elastico ajustable al contorno de la cara de tela no tejida de polipropileno desechable impermeable a la penetracion de liquidos y fluidos antiestatico y resistente a la tensión. Mediano",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.439.0070",
+  "descripcion": "Gorro redondo con elástico ajustable al contorno de la cara de tela no tejida de polipropileno, desechable impermeable a la penetración de líquidos y fluidos; antiestática y resistente a la tensión. Tamaño: Mediano desechable.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.439.0088",
+  "descripcion": "Gorro redondo con elástico ajustable al contorno de la cara, de tela no tejida de polipropileno, desechable. Impermeable a la penetración de líquidos y fluidos; antiestática y resistente a la tensión. Desechable. Tamaño: Grande.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.456.0300",
+  "descripcion": "Guantes para cirugía de látex natural estériles y desechables. Talla: 6 1\/2.",
+  "unidadDeMedida": "Par"
+ },
+ {
+  "clave": "060.456.0334",
+  "descripcion": "Guantes para cirugía de látex natural estériles y desechables. Talla: 7 1\/2.\"",
+  "unidadDeMedida": "Par"
+ },
+ {
+  "clave": "060.456.0383",
+  "descripcion": "Guantes para exploración ambidiestro, estériles de látex, desechables. Tamaño: chico",
+  "unidadDeMedida": "Envase con 100 piezas."
+ },
+ {
+  "clave": "060.456.0391",
+  "descripcion": "Guantes Para exploración ambidiestro, estériles de látex, desechables Tamaño: Mediano.",
+  "unidadDeMedida": "Envase con 100 piezas."
+ },
+ {
+  "clave": "060.456.0409",
+  "descripcion": "Guantes para exploración ambidiestro, estériles de látex, desechables. Tamaño: Grande.",
+  "unidadDeMedida": "Envase con 100 piezas."
+ },
+ {
+  "clave": "060.456.0623",
+  "descripcion": "Guantes de nitrilo o polibutadine-acrylonitrilo, libre de látex, ambidiestro, desechable, estéril. Tamaño: Chico",
+  "unidadDeMedida": "Par"
+ },
+ {
+  "clave": "060.456.0631",
+  "descripcion": "Guantes. de nitrilo o polibutadine-acrylonitrilo, libre de látex, ambidiestro, desechable, estéril. Tamaño: Mediano",
+  "unidadDeMedida": "Par"
+ },
+ {
+  "clave": "060.456.0649",
+  "descripcion": "Guantes de nitrilo o polibutadine-acrylonitrilo, libre de látex, ambidiestro, desechable, estéril. Tamaño: Grande",
+  "unidadDeMedida": "Par"
+ },
+ {
+  "clave": "060.461.0154",
+  "descripcion": "Guata. De tela no tejida de algodón 100% o mezclas de fibras de algodón y fibras artificiales y\/o síntéticas. Longitud: 5m ancho: 10 cm",
+  "unidadDeMedida": "Envase con 24 piezas."
+ },
+ {
+  "clave": "060.483.0091",
+  "descripcion": "Hoja de bisturí. De acero inoxidable. Empaque individual. Estériles y desechables. Para cortar. No. 10",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.483.0133",
+  "descripcion": "Hoja para bisturí de acero inoxidable empaque individual estéril y desechable del No. 20",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.483.0141",
+  "descripcion": "Hoja para bisturí de acero inoxidable. Empaque individual. Estériles y desechables para cortar. No 15.",
+  "unidadDeMedida": "Block con 15 hojas."
+ },
+ {
+  "clave": "060.491.0018",
+  "descripcion": "Papeles Indicador de contacto oclusal. En tiras con pegamento en ambas caras.",
+  "unidadDeMedida": "Block con 15 hojas."
+ },
+ {
+  "clave": "060.532.0084",
+  "descripcion": "Equipo para venoclisis sin aguja estériles, desechables. Microgotero",
+  "unidadDeMedida": "Equipo."
+ },
+ {
+  "clave": "060.532.0167",
+  "descripcion": "Equipo para venoclisis sin aguja estériles, desechables. Normogotero.",
+  "unidadDeMedida": "Equipo."
+ },
+ {
+  "clave": "060.543.0115",
+  "descripcion": "Jalea Lubricante. Aséptica.",
+  "unidadDeMedida": "Envase con 135 g."
+ },
+ {
+  "clave": "060.550.0438",
+  "descripcion": "Jeringa de plástico. Sin aguja con pivote tipo luer lock estériles y desechables. Capacidad: 5 ml. Escala graduada en ml.: Divisiones de 1 y subdivisiones de 0.2.",
+  "unidadDeMedida": "Envase con 100 piezas."
+ },
+ {
+  "clave": "060.550.0677",
+  "descripcion": "Jeringas de plástico con pivote tipo luer lock, con aguja, estériles y desechables capacidad 10 ml, escala graduada en ml, divisiones de 1.0 y subdivisiones de 0.2 con aguja de: Longitud: 32 mm Calibre: 21 G.",
+  "unidadDeMedida": "Pieza "
+ },
+ {
+  "clave": "060.550.1279",
+  "descripcion": "Jeringa de plástico grado médico con pivote tipo luer lock, capacidad de 3 ml, escala graduada en ml con divisiones de 0.5 ml y subdivisiones de 0.1 ml, con aguja calibre 22 G y 32 mm de longitud. Estéril y desechable.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.550.2517",
+  "descripcion": "Jeringa de plástico grado médico con pivote tipo luer lock, capacidad de 10 ml, escala graduada en ml con divisiones de 1.0 ml y subdivisiones de 0.2 ml, con aguja calibre 20 G y 36 mm de longitud. Estéril y desechable.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.550.2608",
+  "descripcion": "Jeringa de plástico grado médico de 5 ml de capacidad, escala graduada en ml, con divisiones de 1.0 ml y subdivisiones de 0.2 y aguja de 20 G y 38 mm de longitud, estéril y desechable.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.593.0106",
+  "descripcion": "Loseta para batir cemento. De vidrio. Tamaño: 8 x 12 x 0.5 cm.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.597.0037",
+  "descripcion": "Resinas. Autopolimerizables. Para restauración de dientes anteriores. Epóxicas a base de cuarzo y aglutinantes.",
+  "unidadDeMedida": "Estuche con base y catalizador."
+ },
+ {
+  "clave": "060.621.0524",
+  "descripcion": "Cubreboca de dos capas de tela no tejida resistente a fluidos, antiestático, hipo alergénico, con bandas o ajuste elástico a la cabeza. Desechable.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.621.0656",
+  "descripcion": "Cubreboca quirúrgico elaborado con dos capas externas de tela no tejida un filtro intermedio de polipropileno; plano o plisado; con ajuste nasal moldeable. Resistente a fluidos, antiestático, hipoalergénico. Con bandas o ajuste elástico entorchado a la cabeza o retroauricular. Desechable.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.622.0143",
+  "descripcion": "Formocresol. Para momificación y desvitalización de la pulpa dentaria. De Buckley.",
+  "unidadDeMedida": "Envase con 30 ml."
+ },
+ {
+  "clave": "060.623.0886",
+  "descripcion": "Espaciadores de volumen. De plástico rígido, resistente, que se adapte a los diferentes medicamentos broncodilatadores en aerosol. Puede tener o no ensamblada una mascarilla o una boquilla. Vida útil: tres meses. Adulto.\"",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.683.0057",
+  "descripcion": "Paños para exprimir amalgama de algodón, forma circular.",
+  "unidadDeMedida": "Envase con 100 piezas."
+ },
+ {
+  "clave": "060.701.0360",
+  "descripcion": "Perillas para aspiración de secreciones. De hule No. 2.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.701.0378",
+  "descripcion": "Perillas para aspiración de secreciones. De hule No. 4",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.749.0703",
+  "descripcion": "Pasta para profilaxis dental. Abrasiva. Con abrasivos blandos.",
+  "unidadDeMedida": "Envase con 200 g."
+ },
+ {
+  "clave": "060.771.0068",
+  "descripcion": "Rastrillo de cabeza fija rectangular. De 1 a 1.5 cm de ancho y de 3.5 a 4.5 cm de longitud. Con borde liso, banda lubricante, doble hoja de afeitar, sobrepuestas, unidas cada 3 a 5 mm. Mango rígido, reforzado, resistente de 7.5 a 10 cm de longuitud y curvatura o angulación a la unión de la cabeza. Desechables.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.791.0114",
+  "descripcion": "Resina. Fotopolimerizable para restauración de dientes anteriores y posteriores. ",
+  "unidadDeMedida": "Jeringa 4g. "
+ },
+ {
+  "clave": "060.797.0019",
+  "descripcion": "Algodones para uso dental. Medida: 3.8 x 0.8 cm.",
+  "unidadDeMedida": "Envase con 500 rollos."
+ },
+ {
+  "clave": "060.811.0060",
+  "descripcion": "Hilo. Seda dental sin cera.",
+  "unidadDeMedida": "Envase con rollo de 50 m."
+ },
+ {
+  "clave": "060.815.0058",
+  "descripcion": "Selladores. De fisuras y fosetas. Envase con 3 ml de Bond base. Envase con 3 ml de sellador de fisuras. 2 envases con 3 ml cada uno con Bond catalizador. Jeringa con 2 ml de gel grabador. 2 portapinceles. 10 cánulas. 1 block de mezcla. 5 pozos de mezcla. 30 pinceles. 1 instructivo.",
+  "unidadDeMedida": "Estuche."
+ },
+ {
+  "clave": "060.841.0460",
+  "descripcion": "Suturas sintéticas no absorbibles monofilamento de nylon con aguja. Longitud de la hebra: 45 cm Calibre de la sutura: 4-0 Características de la aguja: 3\/8 de círculo, reverso cortante (12-13 mm).",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.841.0478",
+  "descripcion": "Suturas sintéticas no absorbibles monofilamento de nylon con aguja. Longitud de la hebra: 45 cm Calibre de la sutura: 3-0 Características de la aguja: 3\/8 de círculo, cortante (19-26 mm).",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.841.0486",
+  "descripcion": "Suturas sintéticas no absorbibles monofilamento de nylon con aguja. Longitud de la hebra: 45 cm Calibre de la sutura: 2-0 Características de la aguja: 3\/8 de círculo, cortante (19-26 mm).",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.841.0619",
+  "descripcion": "Sutura seda negra trenzada con aguja longitud de la hebra 75 cm.calibre de la sutura 3-0 características de la aguja ½ ahusada (25-26 mm)",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.841.0882",
+  "descripcion": "Sutura. Sintéticas absorbibles polímero de ácido glicólico, trenzado, con aguja. Longitud de la hebra 67-70cm, calibre de la sutura 1 , características de la aguja: 1\/2 círculo ahusada (35-37mm.).",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.841.1393",
+  "descripcion": "Sutura catgut simple con aguja. Longitud de la hebra: 68 a 75 cm Calibre de la sutura: 2-0 Características de la aguja. 1\/2 circulo.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.841.4264",
+  "descripcion": "Sutura Catgut simple con aguja. Longitud de la hebra: 68 a 75 cm Calibre de la sutura: 3-0 Características de la aguja. Ahusada. (25-27 mm).",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.841.4371",
+  "descripcion": "Sutura catgut crómico con aguja. Longitud de la hebra: 68 a 75 cm. Calibre de la sutura: 2-0. Características de la aguja: 1\/2 circulo ahusada (25-27 mm).",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.841.4447",
+  "descripcion": "Sutura catgut crómico con aguja. Longitud de la hebra: 68 a 75 cm. Calibre de la sutura: 0. Características de la aguja: 1\/2 circulo ahusada (25-27 mm).",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.841.4462",
+  "descripcion": "Sutura catgut crómico con aguja. Longitud de la hebra: 68 a 75 cm. Calibre de la sutura: 3-0. Características de la aguja: 1\/2 circulo ahusada (25-27 mm).",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.869.0152",
+  "descripcion": "Tela adhesiva de acetato con adhesivo en una de sus caras. Longitud: 10 m Ancho: 2.50 cm",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.869.0202",
+  "descripcion": "Tela Adhesiva de acetato con adhesivo en una de sus caras. Longitud: 10 M Ancho: 5.00 cm",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "060.889.0158",
+  "descripcion": "Tiras de celuloide para conformar restauraciones de resina. Ancho 8-10mm. Calibre fino",
+  "unidadDeMedida": "Envase con 50 piezas"
+ },
+ {
+  "clave": "060.889.0208",
+  "descripcion": "Tiras de lija para pulir restauraciones de resina. grueso y mediano.",
+  "unidadDeMedida": "Envase con 150 piezas, tiras dobles."
+ },
+ {
+  "clave": "060.894.0052",
+  "descripcion": "Toallas para gineco-obstetricia.Rectangulares constituidas por cuatro capas de material absorbente. Desechables.",
+  "unidadDeMedida": "Paquete con 10 piezas "
+ },
+ {
+  "clave": "060.904.0100",
+  "descripcion": "Algodón torundas.",
+  "unidadDeMedida": "Envase con 500 g."
+ },
+ {
+  "clave": "060.910.0011",
+  "descripcion": "Eyector para saliva de plastico, desechables.",
+  "unidadDeMedida": "Envase con 100 piezas."
+ },
+ {
+  "clave": "060.946.0035",
+  "descripcion": "Vasos para medicamentos. De plástico Capacidad: 30 ml. (1 onza).",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.953.0555",
+  "descripcion": "Vendas. Enyesada de gasa de algodón, recubiertas de una capa uniforme de yeso grado médico. Longitud: 2.75 m Ancho: 10 cm",
+  "unidadDeMedida": "Envase con 12 piezas."
+ },
+ {
+  "clave": "060.953.2825",
+  "descripcion": "Vendas elásticas de tejido plano De algodón con fibras sintéticas. Longitud: 5 m y ancho: 30cm.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.953.2858",
+  "descripcion": "Vendas elásticas de tejido plano; de algodón con fibras sintéticas. Longitud: 5 m Ancho: 5 cm.",
+  "unidadDeMedida": "Envase con 12 piezas."
+ },
+ {
+  "clave": "060.953.2866",
+  "descripcion": "Vendas elásticas de tejido plano; de algodón con fibras sintéticas. Longitud: 5 m Ancho: 10 cm.",
+  "unidadDeMedida": "Envase con 12 piezas."
+ },
+ {
+  "clave": "060.953.2874",
+  "descripcion": "Vendas elásticas de tejido plano; de algodón con fibras sintéticas. Longitud: 5 m Ancho: 15 cm.",
+  "unidadDeMedida": "Envase con 12 piezas."
+ },
+ {
+  "clave": "070.426.0371",
+  "descripcion": "Solucion para revelado y fijado. Solución para fijado para sistema manual de fijador concentrado (La marca de este producto debe ser la misma de la clave 070.817.0568).",
+  "unidadDeMedida": "Envase 1 lts."
+ },
+ {
+  "clave": "070.707.0496",
+  "descripcion": "Películas Radiográfica sensible al azul dental convencional de 3.2 x 4.1 cm.",
+  "unidadDeMedida": "Envase con 150 películas"
+ },
+ {
+  "clave": "070.707.0587",
+  "descripcion": "Películas. Infantil sencilla periapical, de 2.2 X 3.5 cm.",
+  "unidadDeMedida": "Envase con 100 peliculas"
+ },
+ {
+  "clave": "070.817.0568",
+  "descripcion": "Soluciones para revelado y fijado. Solución para revelado para sistema manual de revelador concentrado.(La marca de este producto debe ser la misma de la clave 070.426.0371).",
+  "unidadDeMedida": "Envase 1 lts."
+ },
+ {
+  "clave": "080.074.0078",
+  "descripcion": "Sustancias Biológicas Tuberculina PPD. Derivado proteico purificado RT 23 para intradermorreacción. Contiene dos unidades de tuberculina en cada décima de mililitro RTC. ",
+  "unidadDeMedida": "Frasco ámpula de 1 ml con 10 dosis. "
+ },
+ {
+  "clave": "080.235.1106",
+  "descripcion": "Hisopos de rayón con mango de plástico de 15 cm de largo, estériles. Envoltura individual.",
+  "unidadDeMedida": "Caja con 100 piezas."
+ },
+ {
+  "clave": "080.574.0032",
+  "descripcion": "Lanceta de retracción automática y permanente. Incisión de 1.8 a 2.0 mm, integrada a un disparador de plástico; con dispositivo plástico removible que asegure la esterilidad. Estéril y desechable.",
+  "unidadDeMedida": " Caja con 100 y sus múltiplos."
+ },
+ {
+  "clave": "080.601.0013",
+  "descripcion": "Mascarilla Mascarilla quirúrgica de rayón con filtro de polipropileno, resistente a fluidos. Con careta protectora con recubrimiento antiempañante y antireflejante. Desechable. \"",
+  "unidadDeMedida": "Caja con mínimo 25 piezas."
+ },
+ {
+  "clave": "080.610.2398",
+  "descripcion": "Medio de transporte Cary y Blair. Tubos preparados con hisopo. RTC.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "080.729.0010",
+  "descripcion": "Portaobjetos de vidrio rectangulares, de grosor uniforme, de 75 x 25 x 0.8 a 1.1 mm. Lisos.",
+  "unidadDeMedida": "Envase con 50 piezas."
+ },
+ {
+  "clave": "080.729.0051",
+  "descripcion": "Portaobjetos de vidrio rectangulares, de grosor uniforme, de 75 x 25 x 0.8 a 1.1 mm. Con esquinas y un extremo esmerilado.",
+  "unidadDeMedida": "Envase con 50 piezas."
+ },
+ {
+  "clave": "080.784.8007",
+  "descripcion": "Pruebas Rápidas. Reactivo para la determinación cromatográfica, cualitativa de anticuerpos contra VIH tipo 1 y 2 y Treponema pallidum. Cada sobre contiene: · Cartucho de prueba. · Un bulbo de plástico con regulador de corrimiento. · Un bulbo de plástico vacío (pipeta para toma de muestra). · Una lanceta retráctil con 3 niveles de punción. \"",
+  "unidadDeMedida": "Caja con 25 sobres."
+ },
+ {
+  "clave": "080.830.4646",
+  "descripcion": "Reactivos Químicos. Alcohol etílico absoluto (etanol). RA. ACS.",
+  "unidadDeMedida": "Frasco con 1000 ml. TA."
+ },
+ {
+  "clave": "080.855.0164",
+  "descripcion": "Pomadera de polietileno de alta densidad (60003) natural. Con tapón tipo rosca. Cierre hermético.",
+  "unidadDeMedida": "Envase, tarro de 60 ml."
+ },
+ {
+  "clave": "080.889.0099",
+  "descripcion": "Tiras reactivas para determinar como mínimo 10 parámetros en orina: glucosa, bilirrubinas, cetonas, gravedad específica, sangre, pH, proteínas, urobilinógeno, nitritos, leucocitos.",
+  "unidadDeMedida": "Frasco con 100 tiras. TATC."
+ },
+ {
+  "clave": "311.685.5119",
+  "descripcion": "Papeles. Para envoltura Kraft de 70 Kg. y 45 cm de ancho.",
+  "unidadDeMedida": "Rollo."
+ },
+ {
+  "clave": "527.164.0269",
+  "descripcion": "Careta Protectora. Tipo ligera transparente, rígida.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "531.048.0297",
+  "descripcion": "Tiras reactivas para determinación cuantitativa de perfil de lípidos (para ser utilizadas en equipo portátil para la determinación cuantitativa de colesterol total colesterol HDL, creatinina,  triglicéridos) presentación.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "531.667.0065",
+  "descripcion": "Oxímetro de pulso portátil",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "533.342.1518",
+  "descripcion": "Tiras reactivas para determinación cuantitativa de Hemoglobina Glucosilada por fotometría. Caja con 20 pruebas",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "S\/C-001",
+  "descripcion": "Agua bidestilada. Cuenta total en placa menor de 100 UFC\/ml., conductividad menor de 2 U SIEMENS\/cm a 25°C, cloro libre residual no detectable, pH entre 5.5-7.5 y libre de metales pesados.",
+  "unidadDeMedida": "Envase con 1 lt"
+ },
+ {
+  "clave": "S\/C-005",
+  "descripcion": "Aleaciones de amalgama en cápsulas auto-activable de fase dispersa con alto contenido de cobre (68%) y plata (40%). Que funcione con cualquier amalgamador. Cápsulas de una o dos porciones selladas e impermeables.",
+  "unidadDeMedida": "Envase con 500 unidades"
+ },
+ {
+  "clave": "S\/C-006",
+  "descripcion": "Almohadillas alcoholadas. Almohadillas impregnadas de alcohol isopropilico al 70 % Pieza",
+  "unidadDeMedida": "Caja con 100 piezas."
+ },
+ {
+  "clave": "S\/C-008",
+  "descripcion": "Aplicador. Microaplicadores para uso Odontologico. Tamaño regular.",
+  "unidadDeMedida": "Envase con 100 microaplicadores, tamaño regular."
+ },
+ {
+  "clave": "S\/C-009",
+  "descripcion": "Bolsas recolectoras para orina de niños",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "S\/C-010",
+  "descripcion": "Campo con dos hojas de papel rayón y una de hule. Desechable para adulto. Color blanco rosa y\/o melón Medidas: 45.5 cm X 30 cm.",
+  "unidadDeMedida": "Bolsa con 200 piezas."
+ },
+ {
+  "clave": "S\/C-011",
+  "descripcion": "Catéter para suministro de oxigeno tamaño adulto. Con tubo de conexión y canula nasal de plastico con diametro interno de 4.00 mm y longitud de 180 cm.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-012",
+  "descripcion": "Catéter para suministro de oxigeno tamaño pediátrico. Con tubo de conexión y canula nasal de plastico con diametro interno de 2.00 mm y longitud de 180 cm.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-016",
+  "descripcion": "Cepillo Cervex brush cepillo recto con punta en forma de escoba.",
+  "unidadDeMedida": "Pieza "
+ },
+ {
+  "clave": "S\/C-018",
+  "descripcion": "Dique Fabricado en hule látex natural. Color azul. Medidas de 1525 x 15,25 cm. (6 x 6 plg), grosor de 0.25mm.",
+  "unidadDeMedida": "Envase con 36 piezas."
+ },
+ {
+  "clave": "S\/C-028",
+  "descripcion": "Enjuague bucal De gluconato de Clorhexidina al 0.12% Solución al 0.12%",
+  "unidadDeMedida": "Envase con 250 ml."
+ },
+ {
+  "clave": "S\/C-030",
+  "descripcion": "Fluoruro de sodio para prevención de caries. En polvo al 0.2%",
+  "unidadDeMedida": "Sobre con 4 gr."
+ },
+ {
+  "clave": "S\/C-033",
+  "descripcion": "Fresa de carburo de alta velocidad No. 701",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-034",
+  "descripcion": "Fresa de carburo para alta velocidad en forma de Bola núm. internacional 801014 grano mediano. Banda azul con vástago de acero",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-035",
+  "descripcion": "Fresa de Carburo para Alta Velocidad En Forma de pera núm. 330 Con Vástago de Acero",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-036",
+  "descripcion": "Fresa de Carburo para Alta Velocidad En Forma de pera núm. 331L Con Vástago de Acero",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-037",
+  "descripcion": "Fresa de carburo para fisurotomía micro STF con punta rasa",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-038",
+  "descripcion": "Fresa de carburo Para pieza de baja velocidad tallo largo No. 703",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-039",
+  "descripcion": "Fresa de carburo troncocónica Para Alta Velocidad num. 117",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-040",
+  "descripcion": "Fresa de diamante Para alta velocidad en forma de Bola núm. internacional 801012 grano mediano. Banda azul con vástago de acero",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-041",
+  "descripcion": "Fresa de diamante Para alta velocidad en forma de Bola núm. internacional 801013 grano mediano. Banda azul con vástago de acero",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-042",
+  "descripcion": "Fresa profiláctica Para alta velocidad CFT de carburo de alta resistencia con vástago amarillo No. 3",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-043",
+  "descripcion": "Fresa quirúrgica de tungsteno.De tungsteno para pieza de mano de alta velocidad Punta de tungsteno s\/n.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-044",
+  "descripcion": "Gancho de sostén para placas de 3.5 mm.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-045",
+  "descripcion": "Godete de Vidrio.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-048",
+  "descripcion": "Hidroxido de calcio fotopolimerizable",
+  "unidadDeMedida": "Jeringa con 3 grs"
+ },
+ {
+  "clave": "S\/C-049",
+  "descripcion": "Hidróxido De Calcio químicamente Puro. Polvo. Para uso dental.",
+  "unidadDeMedida": "Frasco de 250 g."
+ },
+ {
+  "clave": "S\/C-053",
+  "descripcion": "Hoja para bisturí de acero inoxidable empaque individual estéril y desechable del No. 22",
+  "unidadDeMedida": "Pieza "
+ },
+ {
+  "clave": "S\/C-054",
+  "descripcion": "Hoja para bisturí de acero inoxidable empaque individual estéril y desechable del No. 24",
+  "unidadDeMedida": "Pieza "
+ },
+ {
+  "clave": "S\/C-055",
+  "descripcion": "Hojas para afeitar.",
+  "unidadDeMedida": "Envase con 5 piezas en empaque individual"
+ },
+ {
+  "clave": "S\/C-056",
+  "descripcion": "Ionómero de vidrio Para base\/forro cavitario fotopolimerizable con liberación de flúor y alta fuerza de adhesión.",
+  "unidadDeMedida": "Frasco polvo 9g. con frasco líquido de 5.5 ml."
+ },
+ {
+  "clave": "S\/C-057",
+  "descripcion": "Jabón líquido para manos.",
+  "unidadDeMedida": "Frasco con 500 ml"
+ },
+ {
+  "clave": "S\/C-058",
+  "descripcion": "Jeringa para insulina de plástico grado médico; graduada de 0 a 50 unidades, con capacidad de 0.5 ml. Con aguja fija insertada, longitud 13 mm, calibre 27 G. Estéril y desechable.",
+  "unidadDeMedida": "Caja con 100 piezas."
+ },
+ {
+  "clave": "S\/C-059",
+  "descripcion": "Kit Restaurativo con 5 jeringas de nanoresina fotocurable que contiene: 3 jeringas tono A2 de 4 gr 2 jeringas tono A3 de 4 gr Relleno: combinación de nanosílice de Zirconio de 4 -11 nm. y Sílice de 20 nm. Nanogluster de DBE 0.6 - 10 nm. (78.5% por peso) y T 0.6 - 20 nm. (72.5% por peso) 2 Adhesivos de 3 gr con 10% de nanorrelleno de sílice de 5 nanómetros 4 jeringas de ácido grabador fosfórico al 35%, 2 Ionómeros de vidrio tipo III fotopolimerizable con con polvo de 4.5 gr y líquido de 2.75 ml. 120 discos para pulido y su mandril.",
+  "unidadDeMedida": "Estuche con 5 jeringas de 4 gr. cada una, 2 frascos de adhesivo de 3 gr. cada uno, 4 jeringas de 3ml cada una de gel grabador, 2 estuches de ionómero de vidrio fotopolimerizable."
+ },
+ {
+  "clave": "S\/C-063",
+  "descripcion": "Lentes de color ámbar para protección de luz halógena usados en la aplicación de resinas fotopolimerizables .",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-064",
+  "descripcion": "Líquido adhesivo fotopolimerizable",
+  "unidadDeMedida": "Envase de 4 a 6 gr."
+ },
+ {
+  "clave": "S\/C-065",
+  "descripcion": "Liquido fijador dental para Rayos X envase con 800 ml. (deberá ser de la misma marca que el líquido revelador dental).",
+  "unidadDeMedida": "Envase con 800 ml."
+ },
+ {
+  "clave": "S\/C-066",
+  "descripcion": "Liquido revelador dental para Rayos X.  Envase con 800 ml.  (deberá ser de la misma marca que el líquido fijador dental).",
+  "unidadDeMedida": "Envase con 800 ml."
+ },
+ {
+  "clave": "S\/C-071",
+  "descripcion": "Microcubeta para determinación de hemoglobina en sangre capilar venosa.Para determinación de hemoglobina en sangre capilar venosa formando un compuesto colorido llamado azidametahomoglobina el analizador realiza la lectura a 570 nm. para medir la hemoglobina y a 880nm. para compensar la turbidez debido a las concentraciones altas de lípidos y glóbulos blancos, (de acuerdo a la marca ofertada del hemoglobinómetro). Debe contar con 50 lancetas estériles, desechables para punción capilar, de un solo uso que permite obtener una gota de sangre capilar de la yema del dedo. Caja con 50 microcubetas debe contar con 50 lancetas estériles y desechables para punción capilar, 1 puncionador, por cada hemoglobinómetro. Se requiere equipos en comodato",
+  "unidadDeMedida": "Caja con 50 microcubetas"
+ },
+ {
+  "clave": "S\/C-073",
+  "descripcion": "Paracetamol. Solución 3.2 g\/100ml. Cada 5 ml contiene 160 mg de paracetamol.",
+  "unidadDeMedida": "Envase con frasco con 120 ml"
+ },
+ {
+  "clave": "S\/C-074",
+  "descripcion": "Pasta Alveolar antiséptica analgesica y hemostatica.",
+  "unidadDeMedida": "Envase 28 gr."
+ },
+ {
+  "clave": "S\/C-075",
+  "descripcion": "Pasta o crema dental con flúor.",
+  "unidadDeMedida": "Tubo con 22 ml."
+ },
+ {
+  "clave": "S\/C-076",
+  "descripcion": "Pasta para pulir amalgama",
+  "unidadDeMedida": "Tarro con 25 g"
+ },
+ {
+  "clave": "S\/C-077",
+  "descripcion": "Piedra de Arkansas Blanca en forma de flama para alta velocidad",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "S\/C-083",
+  "descripcion": "Sellador de fisuras fotopolimerizable, blanco, que libera fluoruro. La matriz de monómero se compone de Bis-GMA, dimetacrilato de uretano y trietilenglicoldimetacrilato (58.6% en peso). El material de relleno se compone de dióxido de silicio altamente disperso y vidrio de fluorosilicato (40.5% en peso). Además contiene dióxido de titanio, estabilizadores y catalizadores (< 1% en peso).",
+  "unidadDeMedida": "Envase de plástico rígido con 4 jeringas de 1.25 gramos, 2 jeringas de ácido grabador de 2 gramos con 160 pinceles."
+ },
+ {
+  "clave": "S\/C-085",
+  "descripcion": "Sonda foley de 3 vias calibre 16\"",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "S\/C-086",
+  "descripcion": "Termómetro uso oral digital flexible en color azul +- 0.1l +- 0.1 margen de error pantalla lcd de fácil lectura alarma acústica que le permite saber que la medida esta lista, resultado en menos de 1 minuto guarda la ultima lectura, mide temperatura de 3\"",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-087",
+  "descripcion": "Termómetro uso rectal digital flexible +- 0.1 margen de error pantalla lcd de fácil lectura alarma acústica que le permite saber que la medida esta lista, resultado en menos de 1 minuto guarda la ultima lectura, mide temperatura de 32 ° c a 42 °.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-088",
+  "descripcion": "Tipodonto de acrílico con bisagra metálica y cepillo dental tamaño Gigante.",
+  "unidadDeMedida": "Juego."
+ },
+ {
+  "clave": "S\/C-091",
+  "descripcion": "Vaso desechable de plástico. Capacidad de 5 onzas color azul.",
+  "unidadDeMedida": "Envase con 100 piezas."
+ },
+ {
+  "clave": "S\/C-092",
+  "descripcion": "Vasos De plástico desechable Capacidad: 30 ml. (1 onza).",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "S\/C-094",
+  "descripcion": "Tira reactiva. Con 6 electrodos de oro para la determinación cuantitativa de glucosa en sangre capilar venosa arterial y neonatal con rango de medición de 10-600 mg\/dl (0.6-33.3 mmol\/l ) volumen de muestra de 0.6 ml método de medición :principio electro químico, utiliza la encima glucosada-deshidrogenada, rango de hematocrito 10 al 705 con capacidad de redosificar dentro de los primeros 5 seg., codificación automática mediante chip, codificador incluido en el frasco de las tiras, la caducidad de las tiras reactivas, debe ser estable hasta la fecha impresa en la etiqueta del frasco.",
+  "unidadDeMedida": "Tubo con 50 tiras reactivas."
+ },
+ {
+  "clave": "S\/C-095",
+  "descripcion": "Lanceta automática - Lanceta estéril desechable para punción capilar de un solo uso que permite obtener una gota de sangre capilar de la yema del dedo, fabricada en acero inoxidable y el cuerpo de la lanceta en polietileno de baja densidad doblemente biselada, instrumento de punción que permite en forma fácil y prácticamente indolora la muestra de sangre necesaria y permite ajustar individualmente la profundidad de la punción, de 0.8 mm. hasta 2.3 mm., punta de 0.4 diamantada y recubierta con una capa de silicón con intervalos de 0.5 a 5.5 puntos: 1.5 para piel fina, 2.0-3.5 para piel normal y de 4.0-5.0 para piel gruesa.",
+  "unidadDeMedida": "Envase con 200 piezas."
+ },
+ {
+  "clave": "S\/C-103",
+  "descripcion": "Ivermectina tabletas. Cada tableta contiene: Ivermectina 6 mg",
+  "unidadDeMedida": "Caja con 4 tabletas "
+ },
+ {
+  "clave": "S\/C-104",
+  "descripcion": "Bolsa para Cadáver. Bolsa de Polietileno para Cadáver calibre: 600 Color: Verde carga máxima: 200 kg con cierre.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "S\/C-105",
+  "descripcion": "Googles Quirúrgicos desechable diseño cruzado para protección frontal y lateral de los ojos, resistente a empañarse, anti-estática de calidad óptica, ajustable cómodamente a la máscara quirúrgica y sobre los anteojos, no contiene látex.",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "S\/C-106",
+  "descripcion": "Jabón líquido para manos con despachador integrado.",
+  "unidadDeMedida": "Frasco con 500 ml."
+ },
+ {
+  "clave": "S\/C-107",
+  "descripcion": "Mascarilla N95, mascarilla quirúrgica y respirador particulado, para el cuidado de salud descartable color blanco 3M",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "S\/C-108",
+  "descripcion": "Overol 100% polietileno de alta densidad, tivek dupont, impermeable, desechable",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "S\/C-109",
+  "descripcion": "Termometro Infrarrojo caracteristicas: Conversión de 2 unidades de temperatura: Fahrenheit o Celsius. Medición de la Temperatura Corporal: A punta a una distancia de 1 a 3 temperatura rápida por infrarrojo. Puntero lasér integrado, medición precisa de infrarrojo sin contacto. Tecnologia de medición de temperatura infrarroja pasiva para evitar el contacto con la piel del bebé causando infecciones. Una máquina multiusos. ",
+  "unidadDeMedida": "Pieza"
+ },
+ {
+  "clave": "S\/C-110",
+  "descripcion": "Acido acetilsalicilico tabletas de liberación prolongada. Cada tableta contiene acido acetilsalicilico 100 mg ",
+  "unidadDeMedida": "Envase con 30 tabletas"
+ },
+ {
+  "clave": "S\/C-111",
+  "descripcion": "Glimepirida tableta. Cada tableta contiene glimepirida 4 mg ",
+  "unidadDeMedida": "Envase con 30 tabletas."
+ },
+ {
+  "clave": "S\/C-112",
+  "descripcion": "Mepivacaína Solución Inyectable al 3%. Cada cartucho contiene: Clorhidrato de mepivacaína al 3%",
+  "unidadDeMedida": "Envase con 50 cartuchos de vidrio con 1.8 ml"
+ },
+ {
+  "clave": "S\/C-113",
+  "descripcion": "Pasta gel o crema dental con ",
+  "unidadDeMedida": "Tubo con 50 ml"
+ },
+ {
+  "clave": "S\/C-114",
+  "descripcion": "Mascarilla nivel de protección ",
+  "unidadDeMedida": "Caja con 20 píezas"
+ },
+ {
+  "clave": "010.000.0502.00",
+  "descripcion": "Digoxina. Tableta. Cada tableta contiene: Digoxina 0.25 mg ",
+  "unidadDeMedida": "envase con 20 Tabletas"
+ },
+ {
+  "clave": "010.000.0621.00",
+  "descripcion": "Heparina. Solución Inyectable Cada frasco ámpula contiene: Heparina sódica equivalente a 10 000 UI de heparina. ",
+  "unidadDeMedida": "envase con 50 frascos ámpula con 10 ml (1000 UI\/ml)"
+ },
+ {
+  "clave": "010.000.0801.00",
+  "descripcion": "Baño coloide. Polvo. Cada gramo contiene: Harina de soya 965 mg (contenido proteico 45%) Polividona 20 mg ",
+  "unidadDeMedida": "envase con un sobre individual de 90 g."
+ },
+ {
+  "clave": "010.000.1006.00",
+  "descripcion": "Calcio. Comprimido Efervescente Cada comprimido contiene: Lactato gluconato de calcio 2.94 g. Carbonato de calcio 300 mg. equivalente a 500 mg de calcio ionizable. ",
+  "unidadDeMedida": "envase con 12 comprimidos."
+ },
+ {
+  "clave": "010.000.1210.00",
+  "descripcion": "Pinaverio. Tableta Cada Tableta contiene: Bromuro de pinaverio 100 mg ",
+  "unidadDeMedida": "envase con 14 Tabletas"
+ },
+ {
+  "clave": "010.000.1541.00",
+  "descripcion": "Carbetocina. Solución Inyectable Cada ampolleta o frasco ámpula contiene: Carbetocina 100 µg. ",
+  "unidadDeMedida": "envase con una ampolleta o frasco ámpula."
+ },
+ {
+  "clave": "010.000.1551.00",
+  "descripcion": "Orciprenalina. Solución Inyectable Cada ampolleta contiene: Sulfato de orciprenalina 0.5 mg ",
+  "unidadDeMedida": "envase con 3 ampolletas con 1 ml."
+ },
+ {
+  "clave": "010.000.1552.00",
+  "descripcion": "Orciprenalina. Tableta Cada Tableta contiene: Sulfato de orciprenalina 20 mg ",
+  "unidadDeMedida": "envase con 30 Tabletas."
+ },
+ {
+  "clave": "010.000.1937.00",
+  "descripcion": "Ceftriaxona. Solución Inyectable. Cada frasco ámpula con polvo contiene: Ceftriaxona sódica equivalente a 1 g de ceftriaxona. ",
+  "unidadDeMedida": "envase con un frasco ámpula y 10 ml de diluyente."
+ },
+ {
+  "clave": "010.000.2114.00",
+  "descripcion": "Felodipino. Tableta de Liberación Prolongada Cada Tableta contiene: Felodipino 5 mg ",
+  "unidadDeMedida": "envase con 10 Tabletas de Liberación Prolongada."
+ },
+ {
+  "clave": "010.000.2118.00",
+  "descripcion": "Aceite de almendras dulces. Crema Aceite de almendras dulces e hidróxido de calcio. ",
+  "unidadDeMedida": "envase con 240 ml."
+ },
+ {
+  "clave": "010.000.2126.00",
+  "descripcion": "Aciclovir. Comprimido o Tableta Cada Comprimido o Tableta contiene: Aciclovir 400 mg ",
+  "unidadDeMedida": "envase con 35 Comprimidos o Tabletas."
+ },
+ {
+  "clave": "010.000.2138.00",
+  "descripcion": "Pirantel. Tableta Cada Tableta contiene: Pamoato de pirantel 250 mg ",
+  "unidadDeMedida": "envase con 6 Tabletas."
+ },
+ {
+  "clave": "010.000.2141.00",
+  "descripcion": "Betametasona. Solución Inyectable Cada ampolleta o frasco ámpula contiene: Fosfato sódico de betametasona 5.3 mg equivalente a 4 mg de betametasona. ",
+  "unidadDeMedida": "envase con un frasco ámpula o una ampolleta con 1 ml."
+ },
+ {
+  "clave": "010.000.2147.00",
+  "descripcion": "Cisaprida. Tableta Cada Tableta contiene: Cisaprida 10 mg ",
+  "unidadDeMedida": "envase con 30 Tabletas."
+ },
+ {
+  "clave": "010.000.2188.00",
+  "descripcion": "Ipratropio-salbutamol. Solución Cada ampolleta contiene: Bromuro de ipratropio monohidratado equivalente a 0.500 mg de bromuro de ipratropio. Sulfato de salbutamol equivalente a 2.500 mg de salbutamol. ",
+  "unidadDeMedida": "envase con 10 ampolletas de 2.5 ml."
+ },
+ {
+  "clave": "010.000.2230.01",
+  "descripcion": "Amoxicilina acido clavulánico. Tableta Cada Tableta contiene: amoxicilina trihidratada equivalente a 500 mg de amoxilina. Clavulanato de potasio equivalente a 125 mg de ácido clavulánico. ",
+  "unidadDeMedida": "envase con 16 Tabletas."
+ },
+ {
+  "clave": "010.000.2249.00",
+  "descripcion": "Cinitaprida. Solución Oral Cada 100 ml contienen: Bitartrato de cinitaprida equivalente a 20 mg de cinitaprida. ",
+  "unidadDeMedida": "envase con 120 ml (1 mg\/5 ml) y cucharita dosificadora."
+ },
+ {
+  "clave": "010.000.2404.00",
+  "descripcion": "Isoniazida. Tableta Cada Tableta contiene: Isoniazida: 100 mg ",
+  "unidadDeMedida": "envase con 200 Tabletas."
+ },
+ {
+  "clave": "010.000.2405.00",
+  "descripcion": "Etambutol. Tableta Cada Tabletas contiene: Clorhidrato de etambutol 400 mg ",
+  "unidadDeMedida": "envase con 50 tabletas."
+ },
+ {
+  "clave": "010.000.2410.00",
+  "descripcion": "Rifampicina. Suspensión Oral Cada 5 ml contienen: Rifampicina 100 mg ",
+  "unidadDeMedida": "envase con 120 ml y dosificador."
+ },
+ {
+  "clave": "010.000.2519.00",
+  "descripcion": "Nitazoxanida. Tableta Cada Tableta contiene: Nitazoxanida 200 mg ",
+  "unidadDeMedida": "envase con 6 Tabletas."
+ },
+ {
+  "clave": "010.000.2524.00",
+  "descripcion": "Nitazoxanida. Suspensión Oral Cada 5 ml contienen Nitazoxanida 100 mg ",
+  "unidadDeMedida": "envase con 30 ml."
+ },
+ {
+  "clave": "010.000.2622.00",
+  "descripcion": "Valproato de magnesio. Tableta con cubierta o capa entérica o tableta de liberación retardada. Cada tableta contiene: Valproato de magnesio 200 mg equivalente a 185.6 mg de ácido valproico ó Valproato de magnesio 200 mg ",
+  "unidadDeMedida": "envase con 40 tabletas."
+ },
+ {
+  "clave": "010.000.2627.00",
+  "descripcion": "Oxcarbazepina. Gragea o Tableta Cada Gragea o Tableta contiene oxcarbazepina 600 mg ",
+  "unidadDeMedida": "envase con 20 Grageas o Tabletas."
+ },
+ {
+  "clave": "010.000.2715.00",
+  "descripcion": "Vitamina E. Gragea o Cápsula. Cada Gragea o Cápsula contiene: Vitamina E 400 mg. ",
+  "unidadDeMedida": "envase con 100 Grageas o Cápsulas."
+ },
+ {
+  "clave": "010.000.3830.01",
+  "descripcion": "L-ornitina L-aspartato. Granulado Cada sobre contiene: L-ornitina-L-aspartato 3 g ",
+  "unidadDeMedida": "envase con 30 sobres."
+ },
+ {
+  "clave": "010.000.4098.00",
+  "descripcion": "Irbesartán-hidroclorotiazida. Tableta Cada Tableta contiene: Irbesartán 300 mg Hidroclorotiazida 12.5 mg ",
+  "unidadDeMedida": "envase con 28 Tabletas."
+ },
+ {
+  "clave": "010.000.4149.00",
+  "descripcion": "Pioglitazona. Tableta Cada Tableta contiene: Clorhidrato de pioglitazona equivalente a 15 mg de pioglitazona. ",
+  "unidadDeMedida": "envase con 7 Tabletas."
+ },
+ {
+  "clave": "010.000.4152.01",
+  "descripcion": "Sitagliptina. Comprimido Cada Comprimido contiene: Fosfato de sitagliptina monohidratada equivalente a 100 mg de sitagliptina ",
+  "unidadDeMedida": "envase con 28 Comprimidos."
+ },
+ {
+  "clave": "010.000.4161.00",
+  "descripcion": "Ácido alendrónico. Tableta o Comprimido Cada Tableta o Comprimido contiene alendronato de sodio equivalente a 10 mg de ácido alendrónico. ",
+  "unidadDeMedida": "envase con 30 Tabletas o Comprimidos."
+ },
+ {
+  "clave": "010.000.4246.01",
+  "descripcion": "Clopidogrel. Gragea o tableta. Cada gragea o tableta contiene: Bisulfato de clopidogrel o Bisulfato de clopidogrel (Polimorfo forma 2) equivalente a 75 mg de clopidogrel. ",
+  "unidadDeMedida": "envase con 28 Grageas o Tabletas"
+ },
+ {
+  "clave": "010.000.4261.02",
+  "descripcion": "Ofloxacina. Tableta Cada Tableta contiene: ofloxacina 400 mg ",
+  "unidadDeMedida": "envase con 12 Tabletas."
+ },
+ {
+  "clave": "010.000.4264.00",
+  "descripcion": "Aciclovir. Solución Inyectable Cada frasco ámpula con liofilizado contiene: Aciclovir sódico equivalente a 250 mg de aciclovir. ",
+  "unidadDeMedida": "envase con 5 frascos ámpula."
+ },
+ {
+  "clave": "010.000.4356.01",
+  "descripcion": "Pregabalina. Cápsula Cada Cápsula contiene: Pregabalina 75 mg ",
+  "unidadDeMedida": "envase con 28 Cápsulas"
+ },
+ {
+  "clave": "010.000.4359.00",
+  "descripcion": "Gabapentina. Cápsula. Cada cápsula contiene: Gabapentina 300 mg ",
+  "unidadDeMedida": "envase con 15 Cápsulas."
+ },
+ {
+  "clave": "010.000.5256.00",
+  "descripcion": "Cefalotina. Solución Inyectable. Cada frasco ámpula con polvo contiene: Cefalotina sódica equivalente a 1 g de cefalotina. ",
+  "unidadDeMedida": "envase con un frasco ámpula y 5 ml de diluyente."
+ },
+ {
+  "clave": "010.000.5295.00",
+  "descripcion": "Cefepima. Solución Inyectable. Cada frasco ámpula contiene: Clorhidrato monohidratado de cefepima equivalente a 1 g de cefepima. ",
+  "unidadDeMedida": "envase con un frasco ámpula y ampolleta con 3 ml de diluyente."
+ },
+ {
+  "clave": "010.000.5363.00",
+  "descripcion": "Topiramato. TabletaCada Tableta contiene:Topiramato 100 mg",
+  "unidadDeMedida": "envase con 60 Tabletas."
+ },
+ {
+  "clave": "010.000.5384.00",
+  "descripcion": "Multivitaminas. Solución Inyectable. Adulto. Cada frasco ámpula con liofilizado contiene: Retinol (vitamina A) 3300.0 U. Colecalciferol (vitamina D3) 200.0 U. Acetato de Tocoferol (vitamina E) 10.0 U. Nicotinamida 40.0 mg. Riboflavina 3.6 mg. Clorhidrato de piridoxina equivalente a 4.0 mg de piridoxima. Dexpantenol equivalente a 15.0 mg de ácido pantoténico. Clorhidrato de tiamina equivalente a 3.0 mg de tiamina. Ácido ascórbico 100.0 mg. Biotina 0.060 mg. Cianocobalamina 0.005 mg. Ácido fólico 0.400 mg. ",
+  "unidadDeMedida": "envase con un frasco ámpula y diluyente de 5 ml"
+ },
+ {
+  "clave": "010.000.5485.01",
+  "descripcion": "Olanzapina. Tableta Cada Tableta contiene: olanzapina 5 mg ",
+  "unidadDeMedida": "envase con 28 Tabletas."
+ },
+ {
+  "clave": "010.000.5640.01",
+  "descripcion": "Efavirenz, emtricitabina, tenofovir disoproxilo. Tableta. Cada tableta contiene: Efavirenz 600 mg. Emtricitabina 200 mg. Tenofovir disoproxil succinato 300.6 mg equivalente a 245 mg. de Tenofovir disoproxil. ",
+  "unidadDeMedida": "envase con 30 Tabletas."
+ },
+ {
+  "clave": "010.000.6160.00",
+  "descripcion": "Levonorgestrel. Polvo. El dispositivo intrauterino con polvo contiene: Levonorgestrel 19.5 mg ",
+  "unidadDeMedida": "envase con un dispositivo intrauterino"
+ },
+ {
+  "clave": "040.000.2500.00",
+  "descripcion": "Alprazolam. Tableta Cada Tableta contiene: alprazolam 0.25 mg ",
+  "unidadDeMedida": "envase con 30 Tabletas."
+ },
+ {
+  "clave": "060.040.8058",
+  "descripcion": "Agujas. Dentales. Tipo: carpule. Desechables. Longitud: 25-42 mm. Calibre: 27 G. Tamaño: Larga. ",
+  "unidadDeMedida": "envase con 100 piezas."
+ },
+ {
+  "clave": "060.155.0015",
+  "descripcion": "Campos quirúrgicos. Campo quirúrgico de incisión sin iodopovidona. Compuesto de una película Impermeable; de poliéster o poliuretano  transparente  con  adhesivo  grado  médico autoadheribles hipoalergénico. Medidas 45 a 60 cm X 50 a 90 cm Se incluyen medidas intermedias Estériles y desechables En empaque individual. ",
+  "unidadDeMedida": "envase con 10 piezas. Las medidas las seleccionará la Unidad Médica de acuerdo a sus necesidades."
+ },
+ {
+  "clave": "060.155.0304",
+  "descripcion": "Campos quirúrgicos. Campo quirúrgico de incisión sin iodopovidona. Compuesto de una película Impermeable; de poliéster o poliuretano  transparente  con  adhesivo  grado  médico autoadheribles hipoalergénico. Medidas 25 a 35 cm x 35 a 45 cm Se incluyen medidas intermedias Estériles y desechables En empaque individual. ",
+  "unidadDeMedida": "envase con 10 piezas. Las medidas las seleccionará la Unidad Médica de acuerdo a sus necesidades."
+ },
+ {
+  "clave": "060.168.9631",
+  "descripcion": "Sondas. Para drenaje urinario. De látex con globo de autorretención de 5 ml con válvula para jeringa. Estéril y desechable. Tipo: foley de dos vías. Calibre: 16 Fr. Pieza.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.231.0674",
+  "descripcion": "Bata quirúrgica con puños ajustables y refuerzo en mangas y pecho. Tela no tejida de polipropileno impermeable a la penetración de líquidos y fluidos ; antiestática y resistente a la tensión. Estéril y desechable. Tamaño: Chico Pieza.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.456.0037",
+  "descripcion": "Guantes. Para exploración ambidiestro estériles. De polietileno desechables. Tamaños: Mediano. ",
+  "unidadDeMedida": "envase con 100 piezas."
+ },
+ {
+  "clave": "060.456.0318",
+  "descripcion": "Guantes. Para cirugía. De látex natural estériles y desechables. Tallas: 7  Par.",
+  "unidadDeMedida": "Par"
+ },
+ {
+  "clave": "060.456.0359",
+  "descripcion": "Guantes. Para cirugía. De látex natural estériles y desechables. Tallas: 8 Par.",
+  "unidadDeMedida": "Par"
+ },
+ {
+  "clave": "060.550.0685",
+  "descripcion": "Jeringas. Para extraer sangre o inyectar sustancias con pivote tipo luer lock de polipropileno volumen de 5 ml y aguja calibre 21 G y 32 mm de longitud. Estéril. ",
+  "unidadDeMedida": "envase con 100 piezas."
+ },
+ {
+  "clave": "060.550.1147",
+  "descripcion": "Jeringas. Para tuberculina con aguja. Plástico grado médico capacidad 1 ml escala graduada en  ml  con  divisiones  de  0.05  ml   y  subdivisiones de 0.01 ml con aguja longitud16 mm calibre 25 G. Estériles y desechables. ",
+  "unidadDeMedida": "envase con 200 piezas."
+ },
+ {
+  "clave": "060.550.2186",
+  "descripcion": "Jeringas. Jeringa para insulina de plástico grado médico; graduada de 0 a 100 unidades con capacidad de 1 ml. Con aguja de acero inoxidable longitud 13 mm calibre 27 G. Estéril y desechable. Pieza.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.550.2590",
+  "descripcion": "Jeringas. De plástico grado médico de 1 ml de capacidad escala graduada en ml con divisiones de 0.1 y subdivisiones de 0.01 ml y aguja de 22 G y 32 mm de longitud estéril y desechable. Pieza.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.550.2657",
+  "descripcion": "Jeringas. De plástico para aplicar BCG y antisarampión capacidad 0.5 ml Con dos agujas una calibre 20 x 32 mm para cargar la jeringa con el biológico y otra 27 x 13 mm para aplicar   la   vacuna   cada   jeringa   con   la   leyenda \"PROGRAMA DE ATENCIÓN A LA SALUD DEL NIÑO\" (según programa vigente). Estéril y desechable. Empaque protector individual y graduación. Caja contenedora con 100 piezas.",
+  "unidadDeMedida": "Caja contenedora con 100 piezas."
+ },
+ {
+  "clave": "060.550.2707",
+  "descripcion": "Jeringas. Jeringa  desechable  para  aplicar  0.25  ml  de  vacuna Antiinfluenza; capacidad de 0.5 ml graduada en décimas de ml (0.25 ml) con dos agujas: Una de calibre 20 x 32 mm para cargar la jeringa con el biológico y otra de calibre 23 x 25 mm para aplicar la vacuna; con émbolo que permita la inutilización de la misma después de su uso. Con la leyenda \"Vacunación Universal . Caja incinerable con 50 ó 100 Piezas.",
+  "unidadDeMedida": "Caja incinerable con 50 ó 100 Piezas."
+ },
+ {
+  "clave": "060.550.2715",
+  "descripcion": "Jeringas. Jeringa desechable para aplicar 0.5 ml de las vacunas: antiinfluenza en adultos; DPT + hepatitis B + hib; DPT y toxoide  tetánico;  capacidad  de  0.5  ml  graduada  en décimas de ml con dos agujas: Una de calibre 20 x 32 mm para cargar la jeringa con el biológico y otra de calibre 22 x 32 mm para aplicar la vacuna; con émbolo que permita la inutilización de la misma después de su uso. Con la leyenda \"Vacunación Universal . Caja incinerable con 50 ó 100 Piezas.",
+  "unidadDeMedida": "Caja incinerable con 50 ó 100 Piezas."
+ },
+ {
+  "clave": "060.623.0852",
+  "descripcion": "Espaciadores. De volumen de plástico de forma ovoide con aberturas en ambos extremos y que se ajuste a la entrada de los diferentes medicamentos en suspensión o aerosol para la terapéutica broncodilatadora. Con capacidad interior de 300 ml ± 10 ml y longitud de 19 cm ± 1 cm. Pieza.",
+  "unidadDeMedida": "Pieza."
+ },
+ {
+  "clave": "060.841.0551",
+  "descripcion": "Suturas. Catgut crómico con aguja. Longitud de la hebra: 68 a 75 cm. Calibre de la sutura: 2-0 Características de la aguja: 1",
+  "unidadDeMedida": "envase con 12 piezas."
+ },
+ {
+  "clave": "060.841.0569",
+  "descripcion": "Suturas. Catgut crómico con aguja. Longitud de la hebra: 68 a 75 cm Calibre de la sutura: 1 Características de la aguja: 1",
+  "unidadDeMedida": "envase con 12 piezas."
+ },
+ {
+  "clave": "060.841.2623",
+  "descripcion": "Suturas. Catgut crómico con aguja. Longitud de la hebra: 68 a 75 cm. Calibre de la sutura: 0 Características de la aguja: 1",
+  "unidadDeMedida": "envase con 12 piezas."
+ },
+ {
+  "clave": "080.025.0136",
+  "descripcion": "Adaptadores Para agujas. Toma múltiple. Bolsa con 10 piezas.",
+  "unidadDeMedida": "Bolsa con 10 piezas."
+ },
+ {
+  "clave": "080.784.0467",
+  "descripcion": "Pruebas Rápidas. Gonadotrofina coriónica fracción Beta. Prueba rápida cualitativa de un solo paso en membrana sólida para determinación en orina o suero en sobre individual Sensibilidad: 20 Mui\/ml. A 25 Mui\/ml. Equipo. Prueba en cartucho de plástico con pipeta desechable. Equipo con control positivo y negativo para múltiples pruebas. Equipo para múltiplos de 10 mínimo 10 máximo 100 pruebas. TATC.",
+  "unidadDeMedida": "Equipo para múltiplos de 10 mínimo 10 máximo 100 pruebas."
+ },
+ {
+  "clave": "080.829.4342",
+  "descripcion": "Reactivos Químicos Alcohol etílico con 96 ° GL. Técnico. ",
+  "unidadDeMedida": "envase con 18 litros. TA."
+ },
+ {
+  "clave": "080.889.2632",
+  "descripcion": "Tiras Reactivas Tira reactiva para la determinación semicuantitativa de microalbúmina en orina en un rango de 10 a 100 mg",
+  "unidadDeMedida": "Tubo con 25, 30 o 50 tiras reactivas. "
+ }
+]
