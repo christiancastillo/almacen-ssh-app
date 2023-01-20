@@ -1,9 +1,14 @@
 package mx.com.mundodafne.ssh.almacen.app.pojo;
+
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Clase para parsear Json
  * */
 public class Medicamento {
+    @SerializedName(value = "descripcion")
     private String descripcionMedicamento;
+    @SerializedName(value = "clave")
     private String claveMedicamento;
     private String unidadDeMedida;
 
