@@ -7,6 +7,7 @@ import mx.com.mundodafne.ssh.almacen.app.dto.BuscarMedicamentoDTO;
 import mx.com.mundodafne.ssh.almacen.app.pojo.Medicamento;
 import mx.com.mundodafne.ssh.almacen.app.utils.Utils;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -29,10 +30,16 @@ import java.util.Map;
 
 public class BuscarMedicamentoActivity extends AppCompatActivity {
     final String[] lista = {"Dafne", "Christian Yamil", "Aleida"};
+    List<Medicamento> temporal = new ArrayList();
+    List<Medicamento> medicamentos = new ArrayList();
     BuscarMedicamentoDTO buscarMedicamentoDTO = null;
-    List<BuscarMedicamentoDTO> listaBuscarMedicamentosDTO = null;
     Map<String, Object> hmMedicamentoSeleccionado = null;
-    String valorRecuperado = "";
+    ArrayAdapter<String> adapter = null;
+
+    protected List<Medicamento> obtieneListaMedicamento(List<Medicamento> lista){
+        temporal = lista;
+        return temporal;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,18 +49,19 @@ public class BuscarMedicamentoActivity extends AppCompatActivity {
         String json = Utils.parseJson(getApplicationContext(),R.raw.listado_medicamentos);
         Gson gson = new Gson();
         Type listMedicamentosType = new TypeToken<List<Medicamento>>() { }.getType();
-        List<Medicamento> medicamentos = new ArrayList();
         medicamentos = gson.fromJson(json, listMedicamentosType);
         List<Map<String, Object>> ltMedicamentosSeleccionados = new ArrayList();
         String[] descripcionMedicamentos = new String[medicamentos.size()];
         String rec;
         Button botonBuscarMedicamento = findViewById(R.id.obtener_medicamento_button);
         int i = 0;
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_item, descripcionMedicamentos);
+        adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_item, descripcionMedicamentos);
         AutoCompleteTextView actv = (AutoCompleteTextView) findViewById(R.id.actv_descripcion_medicamento);
         actv.setThreshold(1);//will start working from first character
         actv.setAdapter(adapter);//setting the adapter data into the AutoCompleteTextView
         buscarMedicamentoDTO = new BuscarMedicamentoDTO();
+        TextInputEditText textinputEtClaveBuscarMedicamento = (TextInputEditText) findViewById(R.id.textinput_et_clave_buscar_medicamento);
+        TextInputEditText textinputEtPresentacion = (TextInputEditText) findViewById(R.id.textinput_et_presentacion);
 
         for (Medicamento medicamento: medicamentos) {
             hmMedicamentoSeleccionado = new HashMap();
@@ -69,13 +77,22 @@ public class BuscarMedicamentoActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 final String temp = adapterView.getItemAtPosition(i).toString();
                 buscarMedicamentoDTO.setDescripcionMedicamento(temp);
+                for (Map<String, Object> mapa : ltMedicamentosSeleccionados) {
+                    if (mapa.containsValue(temp)) {
+                        buscarMedicamentoDTO.setClaveMedicamento((String)mapa.get("claveMedicamento"));
+                        buscarMedicamentoDTO.setUnidadDeMedida((String)mapa.get("unidadDeMedida"));
+                        break;
+                    }
+                }
+                textinputEtClaveBuscarMedicamento.setText(buscarMedicamentoDTO.getClaveMedicamento());
+                textinputEtPresentacion.setText(buscarMedicamentoDTO.getUnidadDeMedida());
             }
         });
 
-        TextInputEditText textinputEtClaveBuscarMedicamento = (TextInputEditText) findViewById(R.id.textinput_et_clave_buscar_medicamento);
-        textinputEtClaveBuscarMedicamento.setText(buscarMedicamentoDTO.getClaveMedicamento());
-        TextInputEditText textinputEtPresentacion = (TextInputEditText) findViewById(R.id.textinput_et_presentacion);
-        textinputEtPresentacion.setText(buscarMedicamentoDTO.getUnidadDeMedida());
-
+        botonBuscarMedicamento.setOnClickListener(view -> {
+            Intent switchActivity = new Intent(this, BusquedaMedicamentoActivity.class);
+            switchActivity.putExtra("medicamentoDTO",buscarMedicamentoDTO);
+            super.startActivity(switchActivity);
+        });
     }
 }

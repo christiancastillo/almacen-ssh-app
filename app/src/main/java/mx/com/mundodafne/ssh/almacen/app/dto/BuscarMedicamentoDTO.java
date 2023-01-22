@@ -1,8 +1,9 @@
 package mx.com.mundodafne.ssh.almacen.app.dto;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class BuscarMedicamentoDTO {
+public class BuscarMedicamentoDTO implements Serializable {
     private String descripcionMedicamento;
     private String claveMedicamento;
     private String unidadDeMedida;

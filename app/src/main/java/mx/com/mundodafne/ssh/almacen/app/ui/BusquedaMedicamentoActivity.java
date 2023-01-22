@@ -21,6 +21,8 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
     private BusquedaMedicamentoBusinessImpl busquedaMedicamentoBusiness = new BusquedaMedicamentoBusinessImpl();
     private BuscarMedicamentoDTO buscarMedicamentoDTO = null;
     private TextInputEditText cantidadEditText;
+    private TextInputEditText unidadDeMedidaEditText;
+    private TextInputEditText claveMedicamentoEditText;
 
     protected void switchActivity(){
         Intent cambiaActivity = new Intent(this, BuscarMedicamentoActivity.class);
@@ -37,7 +39,12 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_busqueda_medicamento);
+            claveMedicamentoEditText = (TextInputEditText) findViewById(R.id.textinput_et_clave);
 
+            if (getIntent().getSerializableExtra("medicamentoDTO") != null) {
+                buscarMedicamentoDTO = (BuscarMedicamentoDTO) getIntent().getSerializableExtra("medicamentoDTO");
+                claveMedicamentoEditText.setText(buscarMedicamentoDTO.getClaveMedicamento());
+            }
             buttonBusquedaMedicamento = (Button) findViewById(R.id.buscar_medicamento_button);
             setupGUI();
             buttonBusquedaMedicamento.setOnClickListener(new View.OnClickListener() {
