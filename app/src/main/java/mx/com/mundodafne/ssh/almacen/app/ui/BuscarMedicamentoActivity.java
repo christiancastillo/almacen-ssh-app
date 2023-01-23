@@ -28,18 +28,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static mx.com.mundodafne.ssh.almacen.app.utils.AlmSSHConstants.MEDICAMENTO_DTO_PARAM;
+
 public class BuscarMedicamentoActivity extends AppCompatActivity {
-    final String[] lista = {"Dafne", "Christian Yamil", "Aleida"};
     List<Medicamento> temporal = new ArrayList();
     List<Medicamento> medicamentos = new ArrayList();
     BuscarMedicamentoDTO buscarMedicamentoDTO = null;
     Map<String, Object> hmMedicamentoSeleccionado = null;
     ArrayAdapter<String> adapter = null;
-
-    protected List<Medicamento> obtieneListaMedicamento(List<Medicamento> lista){
-        temporal = lista;
-        return temporal;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,7 +87,7 @@ public class BuscarMedicamentoActivity extends AppCompatActivity {
 
         botonBuscarMedicamento.setOnClickListener(view -> {
             Intent switchActivity = new Intent(this, BusquedaMedicamentoActivity.class);
-            switchActivity.putExtra("medicamentoDTO",buscarMedicamentoDTO);
+            switchActivity.putExtra(MEDICAMENTO_DTO_PARAM,buscarMedicamentoDTO);
             super.startActivity(switchActivity);
         });
     }

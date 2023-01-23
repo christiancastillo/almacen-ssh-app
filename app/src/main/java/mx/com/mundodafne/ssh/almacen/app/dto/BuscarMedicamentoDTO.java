@@ -9,16 +9,10 @@ public class BuscarMedicamentoDTO implements Serializable {
     private String unidadDeMedida;
     private List<String> mensajes;
 
-    public BuscarMedicamentoDTO() {
-    }
-
-    public List<String> getMensajes() {
-        return mensajes;
-    }
-
-    public void setMensajes(String mensaje) {
+    public void agregaMensaje(String mensaje) {
         if (mensaje != null && !mensaje.equals("")) {
-            this.mensajes.add(mensaje);
+            mensajes.add(mensaje);
+            setMensajes(mensajes);
         }
     }
 
@@ -44,5 +38,13 @@ public class BuscarMedicamentoDTO implements Serializable {
 
     public void setUnidadDeMedida(String unidadDeMedida) {
         this.unidadDeMedida = unidadDeMedida;
+    }
+
+    public List<String> getMensajes() {
+        return mensajes;
+    }
+
+    public void setMensajes(List<String> mensajes) {
+        this.mensajes = mensajes;
     }
 }
