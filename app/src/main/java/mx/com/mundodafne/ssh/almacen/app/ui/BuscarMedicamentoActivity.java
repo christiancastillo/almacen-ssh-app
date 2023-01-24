@@ -49,7 +49,6 @@ public class BuscarMedicamentoActivity extends AppCompatActivity {
         String[] descripcionMedicamentos = new String[medicamentos.size()];
         Button botonBuscarMedicamento = findViewById(R.id.obtener_medicamento_button);
         int i = 0;
-
         for (Medicamento medicamento: medicamentos) {
             hmMedicamentoSeleccionado = new HashMap();
             descripcionMedicamentos[i] = medicamento.getDescripcionMedicamento();

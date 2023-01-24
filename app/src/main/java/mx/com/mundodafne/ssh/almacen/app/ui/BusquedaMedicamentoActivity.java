@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.text.method.DigitsKeyListener;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
@@ -71,13 +72,10 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
                 hmUnidadesSSH.put("municipio",unidadSSHAlmacen.getMunicipio());
                 hmUnidadesSSH.put("nombreCS",unidadSSHAlmacen.getNombreCS());
                 listaHmUnidadesSSH.add(hmUnidadesSSH);
-
             }
-
             claveMedicamentoEditText = (TextInputEditText) findViewById(R.id.textinput_et_clave);
             unidadDeMedidaEditText = (TextInputEditText) findViewById(R.id.textinput_et_presentacion);
             descripcionTextInputEditText = (TextInputEditText) findViewById(R.id.textinput_et_descripcion);
-
             if (getIntent().getSerializableExtra(MEDICAMENTO_DTO_PARAM) != null) {
                 buscarMedicamentoDTO = (BuscarMedicamentoDTO) getIntent().getSerializableExtra("medicamentoDTO");
                 claveMedicamentoEditText.setText(buscarMedicamentoDTO.getClaveMedicamento());
@@ -91,6 +89,12 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     Log.e("DEBUG_BUTTON","CLIC AL BOTON");
                     BusquedaMedicamentoActivity.this.startActivity(new Intent(BusquedaMedicamentoActivity.this, BuscarMedicamentoActivity.class));
+                }
+            });
+            actvUnidadesSSHAlmacen.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                    final String unidadSeleccionada = adapterView.getItemAtPosition(i).toString();
                 }
             });
     }
