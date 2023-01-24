@@ -1,0 +1,182 @@
+[
+ {
+  "id": 1,
+  "municipio": "Chapulhuacán",
+  "nombre_cs": "C.S. Chapulhuacan",
+  "CLUES": "HGSSA000984"
+ },
+ {
+  "id": 2,
+  "municipio": "Chapulhuacán",
+  "nombre_cs": "ESI 5 Chapulhuacan",
+  "CLUES": "HGSSA016133"
+ },
+ {
+  "id": 3,
+  "municipio": "Chapulhuacán",
+  "nombre_cs": "C.S. Miahuatla",
+  "CLUES": "HGSSA001001"
+ },
+ {
+  "id": 4,
+  "municipio": "Chapulhuacán",
+  "nombre_cs": "C.S. Soledad del Coyol",
+  "CLUES": "HGSSA001042"
+ },
+ {
+  "id": 5,
+  "municipio": "Chapulhuacán",
+  "nombre_cs": "C.S. Santa Ana",
+  "CLUES": "HGSSA001025"
+ },
+ {
+  "id": 6,
+  "municipio": "Chapulhuacán",
+  "nombre_cs": "C.S. Saucillo Agua Nueva",
+  "CLUES": "HGSSA001030"
+ },
+ {
+  "id": 7,
+  "municipio": "Chapulhuacán",
+  "nombre_cs": "ESI 1 Chapulhuacan",
+  "CLUES": "HGSSA016092"
+ },
+ {
+  "id": 8,
+  "municipio": "Chapulhuacán",
+  "nombre_cs": "C.S. Cahuazas",
+  "CLUES": "HGSSA000996"
+ },
+ {
+  "id": 9,
+  "municipio": "Chapulhuacán",
+  "nombre_cs": "C.S. San Rafael",
+  "CLUES": "HGSSA001013"
+ },
+ {
+  "id": 10,
+  "municipio": "Jacala",
+  "nombre_cs": "C.S. Jacala",
+  "CLUES": "HGSSA001800"
+ },
+ {
+  "id": 11,
+  "municipio": "Jacala",
+  "nombre_cs": "C.S. Coñecito",
+  "CLUES": "HGSSA001812"
+ },
+ {
+  "id": 12,
+  "municipio": "Jacala",
+  "nombre_cs": "C.S. Santo Domingo",
+  "CLUES": "HGSSA001836"
+ },
+ {
+  "id": 13,
+  "municipio": "Jacala",
+  "nombre_cs": "ESI 1 Jacala de Ledezma",
+  "CLUES": "HGSSA016150"
+ },
+ {
+  "id": 14,
+  "municipio": "Jacala",
+  "nombre_cs": "ESI 2 Jacala de Ledezma",
+  "CLUES": "HGSSA016062"
+ },
+ {
+  "id": 15,
+  "municipio": "Jacala",
+  "nombre_cs": "C.S. Quetzalapa",
+  "CLUES": "HGSSA001824"
+ },
+ {
+  "id": 16,
+  "municipio": "La Misión",
+  "nombre_cs": "ESI 2 La Misión",
+  "CLUES": "HGSSA016191"
+ },
+ {
+  "id": 17,
+  "municipio": "La Misión",
+  "nombre_cs": "C.S. Jacalilla",
+  "CLUES": "HGSSA002080"
+ },
+ {
+  "id": 18,
+  "municipio": "La Misión",
+  "nombre_cs": "C.S. La Misión",
+  "CLUES": "HGSSA002075"
+ },
+ {
+  "id": 19,
+  "municipio": "La Misión",
+  "nombre_cs": "PFAM 2 La Misión",
+  "CLUES": "HGSSA017335"
+ },
+ {
+  "id": 20,
+  "municipio": "La Misión",
+  "nombre_cs": "ESI 1 La Misión",
+  "CLUES": "HGSSA016186"
+ },
+ {
+  "id": 21,
+  "municipio": "La Misión",
+  "nombre_cs": "C.S. Puerto de Naranjos",
+  "CLUES": "HGSSA007671"
+ },
+ {
+  "id": 22,
+  "municipio": "Pisaflores",
+  "nombre_cs": "ESI 3 Pisaflores",
+  "CLUES": "HGSSA017480"
+ },
+ {
+  "id": 23,
+  "municipio": "Pisaflores",
+  "nombre_cs": "PFAM 3 Pisaflores",
+  "CLUES": "HGSSA017340"
+ },
+ {
+  "id": 24,
+  "municipio": "Pisaflores",
+  "nombre_cs": "C.S. Gargantilla",
+  "CLUES": "HGSSA002623"
+ },
+ {
+  "id": 25,
+  "municipio": "Pisaflores",
+  "nombre_cs": "C.S. Pisaflores",
+  "CLUES": "HGSSA002611"
+ },
+ {
+  "id": 26,
+  "municipio": "Pisaflores",
+  "nombre_cs": "ESI 1 Pisaflores",
+  "CLUES": "HGSSA016261"
+ },
+ {
+  "id": 27,
+  "municipio": "Pisaflores",
+  "nombre_cs": "C.S. Guayabos",
+  "CLUES": "HGSSA002635"
+ },
+ {
+  "id": 28,
+  "municipio": "Pisaflores",
+  "nombre_cs": "ESI 4 La Peña",
+  "CLUES": "HGSSA017492"
+ },
+ {
+  "id": 29,
+  "municipio": "Pisaflores",
+  "nombre_cs": "C.S. La Peña",
+  "CLUES": "HGSSA002640"
+ },
+ {
+  "id": 30,
+  "municipio": "Pisaflores",
+  "nombre_cs": "ESI 2 Pisaflores",
+  "CLUES": "HGSSA016273"
+ }
+]

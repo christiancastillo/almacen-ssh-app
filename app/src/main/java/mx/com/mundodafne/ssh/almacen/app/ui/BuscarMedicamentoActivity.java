@@ -31,7 +31,6 @@ import java.util.Map;
 import static mx.com.mundodafne.ssh.almacen.app.utils.AlmSSHConstants.MEDICAMENTO_DTO_PARAM;
 
 public class BuscarMedicamentoActivity extends AppCompatActivity {
-    List<Medicamento> temporal = new ArrayList();
     List<Medicamento> medicamentos = new ArrayList();
     BuscarMedicamentoDTO buscarMedicamentoDTO = null;
     Map<String, Object> hmMedicamentoSeleccionado = null;
@@ -48,16 +47,8 @@ public class BuscarMedicamentoActivity extends AppCompatActivity {
         medicamentos = gson.fromJson(json, listMedicamentosType);
         List<Map<String, Object>> ltMedicamentosSeleccionados = new ArrayList();
         String[] descripcionMedicamentos = new String[medicamentos.size()];
-        String rec;
         Button botonBuscarMedicamento = findViewById(R.id.obtener_medicamento_button);
         int i = 0;
-        adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_item, descripcionMedicamentos);
-        AutoCompleteTextView actv = (AutoCompleteTextView) findViewById(R.id.actv_descripcion_medicamento);
-        actv.setThreshold(1);//will start working from first character
-        actv.setAdapter(adapter);//setting the adapter data into the AutoCompleteTextView
-        buscarMedicamentoDTO = new BuscarMedicamentoDTO();
-        TextInputEditText textinputEtClaveBuscarMedicamento = (TextInputEditText) findViewById(R.id.textinput_et_clave_buscar_medicamento);
-        TextInputEditText textinputEtPresentacion = (TextInputEditText) findViewById(R.id.textinput_et_presentacion);
 
         for (Medicamento medicamento: medicamentos) {
             hmMedicamentoSeleccionado = new HashMap();
@@ -68,6 +59,13 @@ public class BuscarMedicamentoActivity extends AppCompatActivity {
             ltMedicamentosSeleccionados.add(hmMedicamentoSeleccionado);
             i++;
         }
+        adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_item, descripcionMedicamentos);
+        AutoCompleteTextView actv = (AutoCompleteTextView) findViewById(R.id.actv_descripcion_medicamento);
+        actv.setThreshold(1);//will start working from first character
+        actv.setAdapter(adapter);//setting the adapter data into the AutoCompleteTextView
+        buscarMedicamentoDTO = new BuscarMedicamentoDTO();
+        TextInputEditText textinputEtClaveBuscarMedicamento = (TextInputEditText) findViewById(R.id.textinput_et_clave_buscar_medicamento);
+        TextInputEditText textinputEtPresentacion = (TextInputEditText) findViewById(R.id.textinput_et_presentacion);
         actv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
