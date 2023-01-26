@@ -57,10 +57,11 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
             AutoCompleteTextView actvUnidadesSSHAlmacen = (AutoCompleteTextView) findViewById(R.id.actv_unidades_ssh_almacen);
             String json = Utils.parseJson(getApplicationContext(),R.raw.unidades_ssh_almacen_app);
             List<UnidadesSSHAlmacen> listaUnidadesJson = new ArrayList();
-            Type listUnidadesSSHAlmacenType = new TypeToken<List<Medicamento>>() { }.getType();
+            Type listUnidadesSSHAlmacenType = new TypeToken<List<UnidadesSSHAlmacen>>() { }.getType();
             listaUnidadesJson = new Gson().fromJson(json, listUnidadesSSHAlmacenType);
             String arrayUnidades [] = new String[listaUnidadesJson.size()];
             ArrayAdapter adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_item, arrayUnidades);
+            actvUnidadesSSHAlmacen.setHint("Escriba una unidad.");
             actvUnidadesSSHAlmacen.setThreshold(1);
             actvUnidadesSSHAlmacen.setAdapter(adapter);
             int i = 0;

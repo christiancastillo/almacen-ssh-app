@@ -60,6 +60,7 @@ public class BuscarMedicamentoActivity extends AppCompatActivity {
         }
         adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_item, descripcionMedicamentos);
         AutoCompleteTextView actv = (AutoCompleteTextView) findViewById(R.id.actv_descripcion_medicamento);
+        actv.setHint("Escriba algun medicamento aqui");
         actv.setThreshold(1);//will start working from first character
         actv.setAdapter(adapter);//setting the adapter data into the AutoCompleteTextView
         buscarMedicamentoDTO = new BuscarMedicamentoDTO();
