@@ -12,6 +12,15 @@ public class MedicamentoAgregarDTO extends BuscarMedicamentoDTO implements Seria
     private String recibe;
     private String entrega;
     private List<MedicamentoAgregarDTO> listaMedicamentosAgregar;
+    private UnidadesSSHAlmacenDTO unidadesAlmacenDTO;
+
+    public UnidadesSSHAlmacenDTO getUnidadesAlmacenDTO() {
+        return unidadesAlmacenDTO;
+    }
+
+    public void setUnidadesAlmacenDTO(UnidadesSSHAlmacenDTO unidadesAlmacenDTO) {
+        this.unidadesAlmacenDTO = unidadesAlmacenDTO;
+    }
 
     public void agregarMedicamentoALista(MedicamentoAgregarDTO objetoAgregado){
         if (objetoAgregado != null) {
