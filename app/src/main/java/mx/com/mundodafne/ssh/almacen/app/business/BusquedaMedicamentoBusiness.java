@@ -6,4 +6,5 @@ public interface BusquedaMedicamentoBusiness {
     void cargaBusquedaMedicamentoActivity(BusquedaMedicamentoActivity activity);
     void iniciaActividad(Object llama, Class clazz);
     void setupGUI();
+
 }

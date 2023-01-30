@@ -126,7 +126,7 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
     @Override
     protected void onSaveInstanceState(@NonNull Bundle outState) {
         super.onSaveInstanceState(outState);
-        if (descripcionTextInputEditText != null) {
+        if (buscarMedicamentoDTO != null && unidadesSSHAlmacenDTO != null) {
             outState.putString(STATE_DESCRIPCION_MEDICAMENTO,descripcionTextInputEditText.getText().toString());
         }
     }
