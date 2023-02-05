@@ -13,9 +13,27 @@ public class MedicamentoAgregarDTO extends BuscarMedicamentoDTO implements Seria
     private String entrega;
     private List<MedicamentoAgregarDTO> listaMedicamentosAgregar;
     private UnidadesSSHAlmacenDTO unidadesAlmacenDTO;
+    private String loteMedicamento;
+    private String fechaCaducidad;
 
     public UnidadesSSHAlmacenDTO getUnidadesAlmacenDTO() {
         return unidadesAlmacenDTO;
+    }
+
+    public String getLoteMedicamento() {
+        return loteMedicamento;
+    }
+
+    public void setLoteMedicamento(String loteMedicamento) {
+        this.loteMedicamento = loteMedicamento;
+    }
+
+    public String getFechaCaducidad() {
+        return fechaCaducidad;
+    }
+
+    public void setFechaCaducidad(String fechaCaducidad) {
+        this.fechaCaducidad = fechaCaducidad;
     }
 
     public void setUnidadesAlmacenDTO(UnidadesSSHAlmacenDTO unidadesAlmacenDTO) {

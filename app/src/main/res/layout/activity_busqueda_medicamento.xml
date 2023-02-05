@@ -47,20 +47,20 @@
             android:textSize="16sp"
             android:layout_marginTop="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textinput_desc_clave"
+            app:layout_constraintStart_toEndOf="@+id/textinput_desc_presentacion"
             app:layout_constraintTop_toBottomOf="@+id/buscar_medicamento_button"
             app:layout_constraintVertical_bias="0.0" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textinput_desc_clave"
-            android:layout_width="match_parent"
+            android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="32dp"
-            android:layout_marginEnd="126dp"
+            android:layout_marginEnd="16dp"
             android:hint="Clave de medicamento"
-            app:layout_constraintEnd_toStartOf="buscar_medicamento_button"
+
+            app:layout_constraintEnd_toStartOf="@+id/buscar_medicamento_button"
             app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textView"
@@ -68,7 +68,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/textinput_et_clave"
-                android:layout_width="match_parent"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="36dp"
                 android:background="#ffffff"
@@ -134,18 +134,18 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textinput_destino"
+            android:id="@+id/textinput_folio_vale"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:hint="Destino"
+            android:hint="Folio"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textinput_cantidad"
             >
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/textinput_et_destino"
+                android:id="@+id/textinput_et_folio_vale"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#ffffff"
@@ -161,7 +161,7 @@
             android:layout_marginEnd="16dp"
             android:hint="Recibe"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textinput_destino"
+            app:layout_constraintTop_toBottomOf="@+id/textinput_folio_vale"
             app:layout_constraintEnd_toEndOf="parent">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/textinput_et_recibe"
@@ -198,7 +198,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="16dp"
             android:ems="10"
-            android:text=""
+            android:hint="Ingrese Centro de Salud"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -237,6 +237,42 @@
             app:layout_constraintTop_toBottomOf="@+id/textinput_clues">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/textinput_et_municipio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:textSize="12sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinput_lote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Lote"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textinput_municipio">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textinput_et_lote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:textSize="12sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinput_fecha_caducidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Fecha Caducidad (DD/MM/YYYY)"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textinput_lote">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textinput_et_fecha_caducidad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#ffffff"

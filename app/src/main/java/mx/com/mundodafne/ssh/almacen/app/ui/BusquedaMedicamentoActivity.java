@@ -4,22 +4,30 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import static mx.com.mundodafne.ssh.almacen.app.utils.AlmSSHConstants.MEDICAMENTO_DTO_PARAM;
+
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.DigitsKeyListener;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.DatePicker;
 
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -35,10 +43,11 @@ import mx.com.mundodafne.ssh.almacen.app.utils.Utils;
 import static mx.com.mundodafne.ssh.almacen.app.utils.AlmSSHConstants.STATE_CENTRO_SALUD;
 import static mx.com.mundodafne.ssh.almacen.app.utils.AlmSSHConstants.STATE_CENTRO_SALUD_STORE;
 import static mx.com.mundodafne.ssh.almacen.app.utils.AlmSSHConstants.STATE_DESCRIPCION_MEDICAMENTO;
+import static mx.com.mundodafne.ssh.almacen.app.utils.AlmSSHConstants.FORMATO_FECHA;
 
 
 
-public class BusquedaMedicamentoActivity extends AppCompatActivity {
+public class BusquedaMedicamentoActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
 
     private Button buttonBusquedaMedicamento;
     private BusquedaMedicamentoBusinessImpl busquedaMedicamentoBusiness = new BusquedaMedicamentoBusinessImpl();
@@ -49,6 +58,8 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
     private TextInputEditText descripcionTextInputEditText;
     private TextInputEditText textinputEtCLUES;
     private TextInputEditText textinputEtMunicipio;
+    private TextInputEditText textInputETFechaCaducidad;
+    private AutoCompleteTextView actvUnidadesSSHAlmacen;
     private Map<String, Object> hmUnidadesSSH = null;
     private List<Map<String,Object>> listaHmUnidadesSSH = null;
     private UnidadesSSHAlmacenDTO unidadesSSHAlmacenDTO = null;
@@ -56,28 +67,51 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
     protected void setupGUI(){
         cantidadEditText = (TextInputEditText) findViewById(R.id.textinput_et_cantidad);
         DigitsKeyListener dkll = DigitsKeyListener.getInstance("0123456789");
+        DigitsKeyListener dkd = DigitsKeyListener.getInstance("0123456789/");
         cantidadEditText.setKeyListener(dkll);
+        textInputETFechaCaducidad.setKeyListener(dkd);
+    }
+
+    protected void inicializarObjetos(){
+        String fechaHoy = new SimpleDateFormat(FORMATO_FECHA).format(new Date());
+        textinputEtCLUES =  findViewById(R.id.textinput_et_clues);
+        textinputEtMunicipio = findViewById(R.id.textinput_et_municipio);
+        claveMedicamentoEditText = findViewById(R.id.textinput_et_clave);
+        unidadDeMedidaEditText = findViewById(R.id.textinput_et_presentacion);
+        descripcionTextInputEditText = findViewById(R.id.textinput_et_descripcion);
+        textInputETFechaCaducidad = findViewById(R.id.textinput_et_fecha_caducidad);
+        actvUnidadesSSHAlmacen = findViewById(R.id.actv_unidades_ssh_almacen);
+        buttonBusquedaMedicamento = findViewById(R.id.buscar_medicamento_button);
+        textInputETFechaCaducidad.setText(fechaHoy);
+    }
+
+    @Override
+    public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
+        Calendar mCalendar = Calendar.getInstance();
+        mCalendar.set(Calendar.YEAR,i);
+        mCalendar.set(Calendar.MONTH,i1);
+        mCalendar.set(Calendar.DAY_OF_MONTH,i2);
+        String fecha = new SimpleDateFormat(FORMATO_FECHA).format(mCalendar.getTime());
+        textInputETFechaCaducidad.setText(fecha);
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_busqueda_medicamento);
-            AutoCompleteTextView actvUnidadesSSHAlmacen = (AutoCompleteTextView) findViewById(R.id.actv_unidades_ssh_almacen);
-
+            inicializarObjetos();
+            setupGUI();
             String json = Utils.parseJson(getApplicationContext(),R.raw.unidades_ssh_almacen_app);
             List<UnidadesSSHAlmacen> listaUnidadesJson = new ArrayList();
             Type listUnidadesSSHAlmacenType = new TypeToken<List<UnidadesSSHAlmacen>>() { }.getType();
             listaUnidadesJson = new Gson().fromJson(json, listUnidadesSSHAlmacenType);
             String arrayUnidades [] = new String[listaUnidadesJson.size()];
             ArrayAdapter adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_item, arrayUnidades);
-            textinputEtCLUES = (TextInputEditText) findViewById(R.id.textinput_et_clues);
-            textinputEtMunicipio = (TextInputEditText) findViewById(R.id.textinput_et_municipio);
+
             actvUnidadesSSHAlmacen.setHint("Escriba una unidad.");
             actvUnidadesSSHAlmacen.setThreshold(1);
             actvUnidadesSSHAlmacen.setAdapter(adapter);
             UnidadesSSHAlmacenDTO unidadesDTO = new UnidadesSSHAlmacenDTO();
-            Map<String, String> mapaUnidades = new HashMap();
             int i = 0;
             listaHmUnidadesSSH = new ArrayList();
             for (UnidadesSSHAlmacen unidadSSHAlmacen : listaUnidadesJson) {
@@ -88,17 +122,13 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
                 hmUnidadesSSH.put("nombreCS",unidadSSHAlmacen.getNombreCS());
                 listaHmUnidadesSSH.add(hmUnidadesSSH);
             }
-            claveMedicamentoEditText = (TextInputEditText) findViewById(R.id.textinput_et_clave);
-            unidadDeMedidaEditText = (TextInputEditText) findViewById(R.id.textinput_et_presentacion);
-            descripcionTextInputEditText = (TextInputEditText) findViewById(R.id.textinput_et_descripcion);
+
             if (getIntent().getSerializableExtra(MEDICAMENTO_DTO_PARAM) != null) {
                 buscarMedicamentoDTO = (BuscarMedicamentoDTO) getIntent().getSerializableExtra("medicamentoDTO");
                 claveMedicamentoEditText.setText(buscarMedicamentoDTO.getClaveMedicamento());
                 unidadDeMedidaEditText.setText(buscarMedicamentoDTO.getUnidadDeMedida());
                 descripcionTextInputEditText.setText(buscarMedicamentoDTO.getDescripcionMedicamento());
             }
-            buttonBusquedaMedicamento = (Button) findViewById(R.id.buscar_medicamento_button);
-            setupGUI();
             buttonBusquedaMedicamento.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -119,6 +149,14 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity {
                     }
                     textinputEtCLUES.setText(unidadesDTO.getClaveCLUES());
                     textinputEtMunicipio.setText(unidadesDTO.getMunicipio());
+                }
+            });
+            textInputETFechaCaducidad.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    mx.com.mundodafne.ssh.almacen.app.ui.components.DatePicker datePickerFragment;
+                    datePickerFragment = new mx.com.mundodafne.ssh.almacen.app.ui.components.DatePicker();
+                    datePickerFragment.show(getSupportFragmentManager(), "datePicker");
                 }
             });
     }

@@ -15,5 +15,6 @@ public class AlmSSHConstants {
     public final static String STATE_CLAVE_CLUES_STORE = "STATE_CLAVE_CLUES_STORED";
     public final static String STATE_CLAVE_MEDICAMENTO_STORE = "STATE_CLAVE_MEDICAMENTO_STORED";
     public final static String STATE_CENTRO_SALUD_STORE = "STATE_CENTRO_SALUD_STORED";
+    public final static String FORMATO_FECHA = "dd/MM/yyyy";
 
 }
