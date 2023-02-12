@@ -2,6 +2,8 @@ package mx.com.mundodafne.ssh.almacen.app.ui;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import static mx.com.mundodafne.ssh.almacen.app.utils.AlmSSHConstants.MEDICAMENTO_DTO_PARAM;
 
@@ -26,6 +28,7 @@ import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -36,9 +39,11 @@ import java.util.stream.Collectors;
 import mx.com.mundodafne.ssh.almacen.app.R;
 import mx.com.mundodafne.ssh.almacen.app.business.BusquedaMedicamentoBusinessImpl;
 import mx.com.mundodafne.ssh.almacen.app.dto.BuscarMedicamentoDTO;
+import mx.com.mundodafne.ssh.almacen.app.dto.MedicamentoAgregarDTO;
 import mx.com.mundodafne.ssh.almacen.app.dto.UnidadesSSHAlmacenDTO;
 import mx.com.mundodafne.ssh.almacen.app.pojo.Medicamento;
 import mx.com.mundodafne.ssh.almacen.app.pojo.UnidadesSSHAlmacen;
+import mx.com.mundodafne.ssh.almacen.app.ui.components.TableViewAdapter;
 import mx.com.mundodafne.ssh.almacen.app.utils.Utils;
 import static mx.com.mundodafne.ssh.almacen.app.utils.AlmSSHConstants.STATE_CENTRO_SALUD;
 import static mx.com.mundodafne.ssh.almacen.app.utils.AlmSSHConstants.STATE_CENTRO_SALUD_STORE;
@@ -50,6 +55,7 @@ import static mx.com.mundodafne.ssh.almacen.app.utils.AlmSSHConstants.FORMATO_FE
 public class BusquedaMedicamentoActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
 
     private Button buttonBusquedaMedicamento;
+    private Button buttonAgregarMedicamento;
     private BusquedaMedicamentoBusinessImpl busquedaMedicamentoBusiness = new BusquedaMedicamentoBusinessImpl();
     private BuscarMedicamentoDTO buscarMedicamentoDTO = null;
     private TextInputEditText cantidadEditText;
@@ -60,12 +66,15 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity implements Da
     private TextInputEditText textinputEtMunicipio;
     private TextInputEditText textInputETFechaCaducidad;
     private AutoCompleteTextView actvUnidadesSSHAlmacen;
+    private RecyclerView recyclerViewLstaMedicamentos;
     private Map<String, Object> hmUnidadesSSH = null;
     private List<Map<String,Object>> listaHmUnidadesSSH = null;
     private UnidadesSSHAlmacenDTO unidadesSSHAlmacenDTO = null;
+    private MedicamentoAgregarDTO obj = null;
+
 
     protected void setupGUI(){
-        cantidadEditText = (TextInputEditText) findViewById(R.id.textinput_et_cantidad);
+        cantidadEditText = findViewById(R.id.textinput_et_cantidad);
         DigitsKeyListener dkll = DigitsKeyListener.getInstance("0123456789");
         DigitsKeyListener dkd = DigitsKeyListener.getInstance("0123456789/");
         cantidadEditText.setKeyListener(dkll);
@@ -82,6 +91,8 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity implements Da
         textInputETFechaCaducidad = findViewById(R.id.textinput_et_fecha_caducidad);
         actvUnidadesSSHAlmacen = findViewById(R.id.actv_unidades_ssh_almacen);
         buttonBusquedaMedicamento = findViewById(R.id.buscar_medicamento_button);
+        buttonAgregarMedicamento = findViewById(R.id.agregar_medicamento_button);
+        recyclerViewLstaMedicamentos = findViewById(R.id.recyclerViewMovieList);
         textInputETFechaCaducidad.setText(fechaHoy);
     }
 
@@ -103,6 +114,8 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity implements Da
             setupGUI();
             String json = Utils.parseJson(getApplicationContext(),R.raw.unidades_ssh_almacen_app);
             List<UnidadesSSHAlmacen> listaUnidadesJson = new ArrayList();
+            List<MedicamentoAgregarDTO> ltReporteAgregados = new ArrayList();
+            List<MedicamentoAgregarDTO> listaMedicamentosAgregar = new ArrayList();
             Type listUnidadesSSHAlmacenType = new TypeToken<List<UnidadesSSHAlmacen>>() { }.getType();
             listaUnidadesJson = new Gson().fromJson(json, listUnidadesSSHAlmacenType);
             String arrayUnidades [] = new String[listaUnidadesJson.size()];
@@ -159,6 +172,20 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity implements Da
                     datePickerFragment.show(getSupportFragmentManager(), "datePicker");
                 }
             });
+        buttonAgregarMedicamento.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    obj = new MedicamentoAgregarDTO();
+                    obj.setClaveMedicamento(claveMedicamentoEditText.getText().toString());
+                } finally {
+                    ltReporteAgregados.add(obj);
+                }
+            }
+        });
+        ltReporteAgregados.add(new MedicamentoAgregarDTO());
+        recyclerViewLstaMedicamentos.setLayoutManager(new LinearLayoutManager(this));
+        recyclerViewLstaMedicamentos.setAdapter(new TableViewAdapter(ltReporteAgregados));
     }
 
     @Override

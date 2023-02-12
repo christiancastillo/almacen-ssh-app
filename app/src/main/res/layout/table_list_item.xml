@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayoutRecyclerView">
+    <TextView
+        android:id="@+id/txtRVNumId"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:hint="NumId"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtRVQty"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:hint="Cantidad"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtRVClaveMedicamento"
+        android:layout_width="156dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:hint="Clave medicamento"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtRVDescripcion"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:hint="Descripcion medicamento"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtRVPresentacion"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:hint="Presentacion medicamento"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtRVLote"
+        android:layout_width="124dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:text="Lote"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtRVDestino"
+        android:layout_width="124dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:text="Destino"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtRVEntrega"
+        android:layout_width="156dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:hint="Entrega"
+        android:gravity="top"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtRVRemision"
+        android:layout_width="156dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:hint="Remision"
+        android:gravity="top"
+        android:textSize="18sp" />
+</LinearLayout>
