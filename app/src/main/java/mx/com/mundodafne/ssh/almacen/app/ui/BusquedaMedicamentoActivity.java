@@ -172,20 +172,29 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity implements Da
                     datePickerFragment.show(getSupportFragmentManager(), "datePicker");
                 }
             });
+        recyclerViewLstaMedicamentos.setLayoutManager(new LinearLayoutManager(this));
         buttonAgregarMedicamento.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try {
-                    obj = new MedicamentoAgregarDTO();
-                    obj.setClaveMedicamento(claveMedicamentoEditText.getText().toString());
+                    if (!ltReporteAgregados.isEmpty()) {
+                        obj = new MedicamentoAgregarDTO();
+                        UnidadesSSHAlmacenDTO unidadesSSHAlmacenDTO = new UnidadesSSHAlmacenDTO();
+                        unidadesSSHAlmacenDTO.setMunicipio(textinputEtMunicipio.getText().toString());
+                        unidadesSSHAlmacenDTO.setClaveCLUES(textinputEtCLUES.getText().toString());
+                        unidadesSSHAlmacenDTO.setNombreCS(actvUnidadesSSHAlmacen.getText().toString());
+                        obj.setClaveMedicamento(claveMedicamentoEditText.getText().toString());
+                        obj.setUnidadesAlmacenDTO(unidadesSSHAlmacenDTO);
+                        obj.setCantidad(Integer.valueOf(cantidadEditText.getText().toString()));
+                        ltReporteAgregados.add(obj);
+                        recyclerViewLstaMedicamentos.setAdapter(new TableViewAdapter(ltReporteAgregados));
+                    }
                 } finally {
-                    ltReporteAgregados.add(obj);
+                    obj = null;
+                    unidadesSSHAlmacenDTO = null;
                 }
             }
         });
-        ltReporteAgregados.add(new MedicamentoAgregarDTO());
-        recyclerViewLstaMedicamentos.setLayoutManager(new LinearLayoutManager(this));
-        recyclerViewLstaMedicamentos.setAdapter(new TableViewAdapter(ltReporteAgregados));
     }
 
     @Override

@@ -24,8 +24,7 @@ public class TableViewAdapter extends RecyclerView.Adapter<TableViewAdapter.View
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater li = LayoutInflater.from(parent.getContext());
         View listItem = li.inflate(R.layout.table_list_item,parent,false);
-        ViewHolder holder = new ViewHolder(listItem);
-        return holder;
+        return new ViewHolder(listItem);
     }
 
     @Override
