@@ -19,6 +19,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
@@ -188,10 +189,11 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity implements Da
                         obj.setCantidad(Integer.valueOf(cantidadEditText.getText().toString()));
                         ltReporteAgregados.add(obj);
                         recyclerViewLstaMedicamentos.setAdapter(new TableViewAdapter(ltReporteAgregados));
+                    } else {
+                        Toast.makeText(BusquedaMedicamentoActivity.this, "Elementos vacios...", Toast.LENGTH_SHORT).show();
                     }
                 } finally {
                     obj = null;
-                    unidadesSSHAlmacenDTO = null;
                 }
             }
         });
