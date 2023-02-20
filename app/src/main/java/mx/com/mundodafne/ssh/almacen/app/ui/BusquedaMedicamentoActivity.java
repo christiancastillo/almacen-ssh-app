@@ -109,14 +109,13 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity implements Da
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_busqueda_medicamento);
             inicializarObjetos();
             setupGUI();
             String json = Utils.parseJson(getApplicationContext(),R.raw.unidades_ssh_almacen_app);
             List<UnidadesSSHAlmacen> listaUnidadesJson = new ArrayList();
             List<MedicamentoAgregarDTO> ltReporteAgregados = new ArrayList();
-            List<MedicamentoAgregarDTO> listaMedicamentosAgregar = new ArrayList();
             Type listUnidadesSSHAlmacenType = new TypeToken<List<UnidadesSSHAlmacen>>() { }.getType();
             listaUnidadesJson = new Gson().fromJson(json, listUnidadesSSHAlmacenType);
             String arrayUnidades [] = new String[listaUnidadesJson.size()];
@@ -173,28 +172,14 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity implements Da
                     datePickerFragment.show(getSupportFragmentManager(), "datePicker");
                 }
             });
-        recyclerViewLstaMedicamentos.setLayoutManager(new LinearLayoutManager(this));
         buttonAgregarMedicamento.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                try {
-                    if (!ltReporteAgregados.isEmpty()) {
-                        obj = new MedicamentoAgregarDTO();
-                        UnidadesSSHAlmacenDTO unidadesSSHAlmacenDTO = new UnidadesSSHAlmacenDTO();
-                        unidadesSSHAlmacenDTO.setMunicipio(textinputEtMunicipio.getText().toString());
-                        unidadesSSHAlmacenDTO.setClaveCLUES(textinputEtCLUES.getText().toString());
-                        unidadesSSHAlmacenDTO.setNombreCS(actvUnidadesSSHAlmacen.getText().toString());
-                        obj.setClaveMedicamento(claveMedicamentoEditText.getText().toString());
-                        obj.setUnidadesAlmacenDTO(unidadesSSHAlmacenDTO);
-                        obj.setCantidad(Integer.valueOf(cantidadEditText.getText().toString()));
-                        ltReporteAgregados.add(obj);
-                        recyclerViewLstaMedicamentos.setAdapter(new TableViewAdapter(ltReporteAgregados));
-                    } else {
-                        Toast.makeText(BusquedaMedicamentoActivity.this, "Elementos vacios...", Toast.LENGTH_SHORT).show();
-                    }
-                } finally {
-                    obj = null;
-                }
+//                MedicamentoAgregarDTO obj = new MedicamentoAgregarDTO();
+                ltReporteAgregados.add(new MedicamentoAgregarDTO(100,"cs"));
+                recyclerViewLstaMedicamentos.setHasFixedSize(true);
+                recyclerViewLstaMedicamentos.setLayoutManager(new LinearLayoutManager(view.getContext()));
+                recyclerViewLstaMedicamentos.setAdapter(new TableViewAdapter(ltReporteAgregados));
             }
         });
     }
