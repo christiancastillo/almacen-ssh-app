@@ -95,4 +95,18 @@ public class MedicamentoAgregarDTO extends BuscarMedicamentoDTO implements Seria
     public void setEntrega(String entrega) {
         this.entrega = entrega;
     }
+
+    @Override
+    public String toString() {
+        return "MedicamentoAgregarDTO{" +
+                "cantidad=" + cantidad +
+                ", destino='" + destino + '\'' +
+                ", recibe='" + recibe + '\'' +
+                ", entrega='" + entrega + '\'' +
+                ", listaMedicamentosAgregar=" + listaMedicamentosAgregar +
+                ", unidadesAlmacenDTO=" + unidadesAlmacenDTO +
+                ", loteMedicamento='" + loteMedicamento + '\'' +
+                ", fechaCaducidad='" + fechaCaducidad + '\'' +
+                '}';
+    }
 }

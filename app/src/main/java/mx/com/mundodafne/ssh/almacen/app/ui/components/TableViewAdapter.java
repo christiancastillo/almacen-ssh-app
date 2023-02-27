@@ -30,24 +30,25 @@ public class TableViewAdapter extends RecyclerView.Adapter<TableViewAdapter.View
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        MedicamentoAgregarDTO medicamentoAgregarDTO = this.ltMedicamentos.get(position);
         int rowPos = holder.getAdapterPosition();
         if (rowPos == 0) {
-            holder.txtViewClaveMedicamento.setText("");
-            holder.txtViewPresentacion.setText("");
-            holder.txtViewDescripcion.setText("");
-            holder.txtViewLoteMedicamento.setText("");
-            holder.txtViewCantidad.setText("");
+            holder.txtViewClaveMedicamento.setText("CLAVE");
+            holder.txtViewPresentacion.setText("PRESENTACION");
+            holder.txtViewDescripcion.setText("DESC");
+            holder.txtViewLoteMedicamento.setText("LOTE");
+            holder.txtViewCantidad.setText("QTY");
         } else {
-            MedicamentoAgregarDTO medicamentoAgregarDTO = ltMedicamentos.get(position);
-            holder.txtViewClaveMedicamento.setText(ltMedicamentos.get(position).getClaveMedicamento());
-            holder.txtViewPresentacion.setText(ltMedicamentos.get(position).getUnidadDeMedida());
-            holder.txtViewDescripcion.setText(ltMedicamentos.get(position).getDescripcionMedicamento());
-            holder.txtViewLoteMedicamento.setText(ltMedicamentos.get(position).getLoteMedicamento());
-            holder.txtViewCantidad.setText(String.valueOf(ltMedicamentos.get(position).getCantidad()));
+            holder.txtViewClaveMedicamento.setText(medicamentoAgregarDTO.getClaveMedicamento());
+            holder.txtViewPresentacion.setText(medicamentoAgregarDTO.getUnidadDeMedida());
+            holder.txtViewDescripcion.setMaxWidth(500);
+            holder.txtViewDescripcion.setText(medicamentoAgregarDTO.getDescripcionMedicamento());
+            holder.txtViewLoteMedicamento.setText(medicamentoAgregarDTO.getLoteMedicamento());
+            holder.txtViewCantidad.setText(String.valueOf(medicamentoAgregarDTO.getCantidad()));
             holder.linearLayout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Toast.makeText(view.getContext(),"click on item: "+medicamentoAgregarDTO.getCantidad(), Toast.LENGTH_LONG).show();
+
                 }
             });
         }

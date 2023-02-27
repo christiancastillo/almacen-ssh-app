@@ -19,6 +19,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
@@ -116,6 +117,7 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity implements Da
             String json = Utils.parseJson(getApplicationContext(),R.raw.unidades_ssh_almacen_app);
             List<UnidadesSSHAlmacen> listaUnidadesJson = new ArrayList();
             List<MedicamentoAgregarDTO> ltReporteAgregados = new ArrayList();
+        List<MedicamentoAgregarDTO> ltReporteMedicamentos = new ArrayList();
             Type listUnidadesSSHAlmacenType = new TypeToken<List<UnidadesSSHAlmacen>>() { }.getType();
             listaUnidadesJson = new Gson().fromJson(json, listUnidadesSSHAlmacenType);
             String arrayUnidades [] = new String[listaUnidadesJson.size()];
@@ -175,13 +177,19 @@ public class BusquedaMedicamentoActivity extends AppCompatActivity implements Da
         buttonAgregarMedicamento.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                MedicamentoAgregarDTO obj = new MedicamentoAgregarDTO();
-                ltReporteAgregados.add(new MedicamentoAgregarDTO(100,"cs"));
-                recyclerViewLstaMedicamentos.setHasFixedSize(true);
+                obj = new MedicamentoAgregarDTO();
+                obj.setDescripcionMedicamento(descripcionTextInputEditText.getText().toString());
+                obj.setClaveMedicamento(claveMedicamentoEditText.getText().toString());
+                obj.setLoteMedicamento("XYZ");
+                ltReporteAgregados.add(obj);
+                recyclerViewLstaMedicamentos.setHasFixedSize(false);
                 recyclerViewLstaMedicamentos.setLayoutManager(new LinearLayoutManager(view.getContext()));
+                TableViewAdapter adapter = new TableViewAdapter(ltReporteAgregados);
                 recyclerViewLstaMedicamentos.setAdapter(new TableViewAdapter(ltReporteAgregados));
+                adapter.notifyItemInserted(0);
             }
         });
+        //recyclerViewLstaMedicamentos.getLayoutManager().findViewByPosition()
     }
 
     @Override
